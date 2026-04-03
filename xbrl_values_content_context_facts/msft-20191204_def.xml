@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!-- DFIN - https://www.dfinsolutions.com/ -->
+<!-- CTU Version: 63.0.1 -->
+<!-- Creation date: 12/5/2019 2:29:51 PM Eastern Time -->
+<!-- Copyright (c) 2019 Donnelley Financial Solutions, Inc. All Rights Reserved. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" />
+  <link:roleRef roleURI="http://www.microsoft.com//20191204/taxonomy/role/DocumentDocumentAndEntityInformation" xlink:href="msft-20191204.xsd#Role_DocumentDocumentAndEntityInformation" xlink:type="simple" />
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.microsoft.com//20191204/taxonomy/role/DocumentDocumentAndEntityInformation">
+    <link:loc xlink:href="msft-20191204.xsd#msft_DocumentAndEntityInformationTable" xlink:type="locator" xlink:label="msft_DocumentAndEntityInformationTable" />
+    <link:loc xlink:href="msft-20191204.xsd#msft_DocumentAndEntityInformationLineItems" xlink:type="locator" xlink:label="msft_DocumentAndEntityInformationLineItems" />
+    <link:loc xlink:href="http://xbrl.fasb.org/us-gaap/2019/elts/us-gaap-2019-01-31.xsd#us-gaap_StatementClassOfStockAxis" xlink:type="locator" xlink:label="us-gaap_StatementClassOfStockAxis" />
+    <link:loc xlink:href="http://xbrl.fasb.org/us-gaap/2019/elts/us-gaap-2019-01-31.xsd#us-gaap_ClassOfStockDomain" xlink:type="locator" xlink:label="us-gaap_ClassOfStockDomain" />
+    <link:loc xlink:href="http://xbrl.fasb.org/us-gaap/2019/elts/us-gaap-2019-01-31.xsd#us-gaap_ClassOfStockDomain" xlink:type="locator" xlink:label="us-gaap_ClassOfStockDomain_2" />
+    <link:loc xlink:href="msft-20191204.xsd#msft_CommonStock0.00000625ParValuePerShareMember" xlink:type="locator" xlink:label="msft_CommonStock0.00000625ParValuePerShareMember" />
+    <link:loc xlink:href="msft-20191204.xsd#msft_M2.125PercentNotesDue2021Member" xlink:type="locator" xlink:label="msft_M2.125PercentNotesDue2021Member" />
+    <link:loc xlink:href="msft-20191204.xsd#msft_M3.125PercentNotesDue2028Member" xlink:type="locator" xlink:label="msft_M3.125PercentNotesDue2028Member" />
+    <link:loc xlink:href="http://xbrl.fasb.org/us-gaap/2019/elts/us-gaap-2019-01-31.xsd#us-gaap_CommonStockIncludingAdditionalPaidInCapitalMember" xlink:type="locator" xlink:label="us-gaap_CommonStockIncludingAdditionalPaidInCapitalMember" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_AmendmentFlag" xlink:type="locator" xlink:label="dei_AmendmentFlag" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityCentralIndexKey" xlink:type="locator" xlink:label="dei_EntityCentralIndexKey" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_DocumentType" xlink:type="locator" xlink:label="dei_DocumentType" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_DocumentPeriodEndDate" xlink:type="locator" xlink:label="dei_DocumentPeriodEndDate" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityRegistrantName" xlink:type="locator" xlink:label="dei_EntityRegistrantName" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityIncorporationStateCountryCode" xlink:type="locator" xlink:label="dei_EntityIncorporationStateCountryCode" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityFileNumber" xlink:type="locator" xlink:label="dei_EntityFileNumber" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityTaxIdentificationNumber" xlink:type="locator" xlink:label="dei_EntityTaxIdentificationNumber" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityAddressAddressLine1" xlink:type="locator" xlink:label="dei_EntityAddressAddressLine1" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityAddressCityOrTown" xlink:type="locator" xlink:label="dei_EntityAddressCityOrTown" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityAddressStateOrProvince" xlink:type="locator" xlink:label="dei_EntityAddressStateOrProvince" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityAddressPostalZipCode" xlink:type="locator" xlink:label="dei_EntityAddressPostalZipCode" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_CityAreaCode" xlink:type="locator" xlink:label="dei_CityAreaCode" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_LocalPhoneNumber" xlink:type="locator" xlink:label="dei_LocalPhoneNumber" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_WrittenCommunications" xlink:type="locator" xlink:label="dei_WrittenCommunications" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_SolicitingMaterial" xlink:type="locator" xlink:label="dei_SolicitingMaterial" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_PreCommencementTenderOffer" xlink:type="locator" xlink:label="dei_PreCommencementTenderOffer" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_PreCommencementIssuerTenderOffer" xlink:type="locator" xlink:label="dei_PreCommencementIssuerTenderOffer" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_Security12bTitle" xlink:type="locator" xlink:label="dei_Security12bTitle" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_TradingSymbol" xlink:type="locator" xlink:label="dei_TradingSymbol" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_SecurityExchangeName" xlink:type="locator" xlink:label="dei_SecurityExchangeName" />
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_EntityEmergingGrowthCompany" xlink:type="locator" xlink:label="dei_EntityEmergingGrowthCompany" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="msft_DocumentAndEntityInformationTable" order="1" priority="2" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="msft_DocumentAndEntityInformationTable" xlink:to="us-gaap_StatementClassOfStockAxis" order="1" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="us-gaap_StatementClassOfStockAxis" xlink:to="us-gaap_ClassOfStockDomain" order="23" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="us-gaap_StatementClassOfStockAxis" xlink:to="us-gaap_ClassOfStockDomain_2" order="23.0001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ClassOfStockDomain" xlink:to="msft_CommonStock0.00000625ParValuePerShareMember" order="24" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ClassOfStockDomain" xlink:to="msft_M2.125PercentNotesDue2021Member" order="25" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ClassOfStockDomain" xlink:to="msft_M3.125PercentNotesDue2028Member" order="26" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ClassOfStockDomain" xlink:to="us-gaap_CommonStockIncludingAdditionalPaidInCapitalMember" order="27" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_AmendmentFlag" order="27.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityCentralIndexKey" order="28.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_DocumentType" order="31.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_DocumentPeriodEndDate" order="32.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityRegistrantName" order="33.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityIncorporationStateCountryCode" order="34.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityFileNumber" order="35.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityTaxIdentificationNumber" order="36.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityAddressAddressLine1" order="37.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityAddressCityOrTown" order="38.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityAddressStateOrProvince" order="39.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityAddressPostalZipCode" order="40.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_CityAreaCode" order="41.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_LocalPhoneNumber" order="42.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_WrittenCommunications" order="43.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_SolicitingMaterial" order="44.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_PreCommencementTenderOffer" order="45.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_PreCommencementIssuerTenderOffer" order="46.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_Security12bTitle" order="47.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_TradingSymbol" order="48.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_SecurityExchangeName" order="49.001" priority="2" use="optional" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="msft_DocumentAndEntityInformationLineItems" xlink:to="dei_EntityEmergingGrowthCompany" order="50.001" priority="2" use="optional" />
+  </link:definitionLink>
+</link:linkbase>

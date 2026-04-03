@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:aapl="http://apple.com/20260224"
+  xmlns:dei="http://xbrl.sec.gov/dei/2025"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:us-gaap="http://fasb.org/us-gaap/2025"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:schemaRef xlink:href="aapl-20260224.xsd" xlink:type="simple"/>
+    <context id="c20260224to20260224">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+        </entity>
+        <period>
+            <startDate>2026-02-24</startDate>
+            <endDate>2026-02-24</endDate>
+        </period>
+    </context>
+    <context id="c20260224to20260224_StatementClassOfStockAxis_Zero500NotesDue2031Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aapl:Zero500NotesDue2031Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-02-24</startDate>
+            <endDate>2026-02-24</endDate>
+        </period>
+    </context>
+    <context id="c20260224to20260224_StatementClassOfStockAxis_One375NotesDue2029Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aapl:One375NotesDue2029Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-02-24</startDate>
+            <endDate>2026-02-24</endDate>
+        </period>
+    </context>
+    <context id="c20260224to20260224_StatementClassOfStockAxis_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-02-24</startDate>
+            <endDate>2026-02-24</endDate>
+        </period>
+    </context>
+    <context id="c20260224to20260224_StatementClassOfStockAxis_Three600NotesDue2042Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aapl:Three600NotesDue2042Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-02-24</startDate>
+            <endDate>2026-02-24</endDate>
+        </period>
+    </context>
+    <context id="c20260224to20260224_StatementClassOfStockAxis_Three050NotesDue2029Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aapl:Three050NotesDue2029Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-02-24</startDate>
+            <endDate>2026-02-24</endDate>
+        </period>
+    </context>
+    <context id="c20260224to20260224_StatementClassOfStockAxis_Two000NotesDue2027Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aapl:Two000NotesDue2027Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-02-24</startDate>
+            <endDate>2026-02-24</endDate>
+        </period>
+    </context>
+    <context id="c20260224to20260224_StatementClassOfStockAxis_One625NotesDue2026Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aapl:One625NotesDue2026Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-02-24</startDate>
+            <endDate>2026-02-24</endDate>
+        </period>
+    </context>
+    <dei:NoTradingSymbolFlag
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Zero500NotesDue2031Member"
+      id="Fact_b13589ae1da5408a9247e262c91fe184">true</dei:NoTradingSymbolFlag>
+    <dei:NoTradingSymbolFlag
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Three600NotesDue2042Member"
+      id="Fact_8d67cb29749c45dfb93dc04139cc8be5">true</dei:NoTradingSymbolFlag>
+    <dei:NoTradingSymbolFlag
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_One625NotesDue2026Member"
+      id="Fact_e850f21ee21f457e98654297f552f63a">true</dei:NoTradingSymbolFlag>
+    <dei:NoTradingSymbolFlag
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Three050NotesDue2029Member"
+      id="Fact_cfc60b8f2bd143ecacaec22a3bfc02d1">true</dei:NoTradingSymbolFlag>
+    <dei:NoTradingSymbolFlag
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_One375NotesDue2029Member"
+      id="Fact_91a8da68688b46258f9da51dcdc9eb67">true</dei:NoTradingSymbolFlag>
+    <dei:NoTradingSymbolFlag
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Two000NotesDue2027Member"
+      id="Fact_a963ee19986d4eb39714253cbce77e70">true</dei:NoTradingSymbolFlag>
+    <dei:SecurityExchangeName
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Two000NotesDue2027Member"
+      id="Fact_a8e61892945c492298cf4d77cb06bfa5">NASDAQ</dei:SecurityExchangeName>
+    <dei:SecurityExchangeName
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Three600NotesDue2042Member"
+      id="Fact_cf4b3dfeeef74d6091ced0e3eca5ece7">NASDAQ</dei:SecurityExchangeName>
+    <dei:SecurityExchangeName
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_CommonStockMember"
+      id="Fact_00fd4e58a4334968aff232485f05899b">NASDAQ</dei:SecurityExchangeName>
+    <dei:SecurityExchangeName
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Three050NotesDue2029Member"
+      id="Fact_648d72abfed047a1aa572acf63d45a04">NASDAQ</dei:SecurityExchangeName>
+    <dei:SecurityExchangeName
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_One375NotesDue2029Member"
+      id="Fact_0cdcc089c54e4054b9bcc666b51b8f80">NASDAQ</dei:SecurityExchangeName>
+    <dei:SecurityExchangeName
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Zero500NotesDue2031Member"
+      id="Fact_580b617a21c1441b8729ac18253838c7">NASDAQ</dei:SecurityExchangeName>
+    <dei:SecurityExchangeName
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_One625NotesDue2026Member"
+      id="Fact_dacd6ae45aa346a9b4af13f0eda0dad5">NASDAQ</dei:SecurityExchangeName>
+    <dei:AmendmentFlag
+      contextRef="c20260224to20260224"
+      id="Fact_71c21af90c0c4f4bbe47825088337844">false</dei:AmendmentFlag>
+    <dei:EntityCentralIndexKey
+      contextRef="c20260224to20260224"
+      id="Fact_a3902d44b48f4783a41a8686c962d223">0000320193</dei:EntityCentralIndexKey>
+    <dei:DocumentType
+      contextRef="c20260224to20260224"
+      id="Fact_4abcc3ca8b4d416e8b0fe07cb5e35477">8-K</dei:DocumentType>
+    <dei:DocumentPeriodEndDate
+      contextRef="c20260224to20260224"
+      id="Fact_4910291c2fd24dc5bd7df5428ac95295">2026-02-24</dei:DocumentPeriodEndDate>
+    <dei:EntityRegistrantName
+      contextRef="c20260224to20260224"
+      id="Fact_ae827261ce82406389fde339274f33de">Apple Inc.</dei:EntityRegistrantName>
+    <dei:EntityIncorporationStateCountryCode
+      contextRef="c20260224to20260224"
+      id="Fact_16955e5a40e34ec5af9b8ce34b2fa6d1">CA</dei:EntityIncorporationStateCountryCode>
+    <dei:EntityFileNumber
+      contextRef="c20260224to20260224"
+      id="Fact_ef0154345e804233a5ebc59cbf4484a5">001-36743</dei:EntityFileNumber>
+    <dei:EntityTaxIdentificationNumber
+      contextRef="c20260224to20260224"
+      id="Fact_989fb4ef05af405fa8f55536ecd55c66">94-2404110</dei:EntityTaxIdentificationNumber>
+    <dei:EntityAddressAddressLine1
+      contextRef="c20260224to20260224"
+      id="Fact_2ab4870f6ba042d398ced3ee1acca955">One Apple Park Way</dei:EntityAddressAddressLine1>
+    <dei:EntityAddressCityOrTown
+      contextRef="c20260224to20260224"
+      id="Fact_b5b48a0c6a74412fbcf7859ae23e7874">Cupertino</dei:EntityAddressCityOrTown>
+    <dei:EntityAddressStateOrProvince
+      contextRef="c20260224to20260224"
+      id="Fact_d6f774047c8749dc8bf3889f8a35261d">CA</dei:EntityAddressStateOrProvince>
+    <dei:EntityAddressPostalZipCode
+      contextRef="c20260224to20260224"
+      id="Fact_126e839c655643ccbbca1d635cff4f70">95014</dei:EntityAddressPostalZipCode>
+    <dei:CityAreaCode
+      contextRef="c20260224to20260224"
+      id="Fact_f77b48e93fa048208e29388b1e2ff7f7">408</dei:CityAreaCode>
+    <dei:LocalPhoneNumber
+      contextRef="c20260224to20260224"
+      id="Fact_4a9d85441653415bab6044a2ea81f113">996-1010</dei:LocalPhoneNumber>
+    <dei:WrittenCommunications
+      contextRef="c20260224to20260224"
+      id="Fact_93d9ea8380fa47c8978df332ad0eed47">false</dei:WrittenCommunications>
+    <dei:SolicitingMaterial
+      contextRef="c20260224to20260224"
+      id="Fact_25aa0557484441369a5581c48dc23ff7">false</dei:SolicitingMaterial>
+    <dei:PreCommencementTenderOffer
+      contextRef="c20260224to20260224"
+      id="Fact_6b47bb45dcae4aecb239d7e41e7ec44a">false</dei:PreCommencementTenderOffer>
+    <dei:PreCommencementIssuerTenderOffer
+      contextRef="c20260224to20260224"
+      id="Fact_5269ed8c014043888acb57732226c8f2">false</dei:PreCommencementIssuerTenderOffer>
+    <dei:Security12bTitle
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_CommonStockMember"
+      id="Fact_f1947ac2c6024f9e96ebfdb8f5e7a6e2">Common Stock, $0.00001 par value per share</dei:Security12bTitle>
+    <dei:TradingSymbol
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_CommonStockMember"
+      id="Fact_616a9dffc2c1439991f51a97add5474c">AAPL</dei:TradingSymbol>
+    <dei:Security12bTitle
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_One625NotesDue2026Member"
+      id="Fact_34cc5250f12e4e028ef2d39b02657759">1.625% Notes due 2026</dei:Security12bTitle>
+    <dei:Security12bTitle
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Two000NotesDue2027Member"
+      id="Fact_eb3c19334a194cb4b113ceddfd3171a6">2.000% Notes due 2027</dei:Security12bTitle>
+    <dei:Security12bTitle
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_One375NotesDue2029Member"
+      id="Fact_c1f6f082e0e04d35bc7a99b5809f2e88">1.375% Notes due 2029</dei:Security12bTitle>
+    <dei:Security12bTitle
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Three050NotesDue2029Member"
+      id="Fact_1cfac83198384c0d8df95c0831f98465">3.050% Notes due 2029</dei:Security12bTitle>
+    <dei:Security12bTitle
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Zero500NotesDue2031Member"
+      id="Fact_c217b37d42824110ad3a4485bc19c63e">0.500% Notes due 2031</dei:Security12bTitle>
+    <dei:Security12bTitle
+      contextRef="c20260224to20260224_StatementClassOfStockAxis_Three600NotesDue2042Member"
+      id="Fact_8c8aefbbe78e4b558452f3dd79abbd84">3.600% Notes due 2042</dei:Security12bTitle>
+    <dei:EntityEmergingGrowthCompany
+      contextRef="c20260224to20260224"
+      id="Fact_bf5e3a499dea4391a0d97abe4a9810c6">false</dei:EntityEmergingGrowthCompany>
+</xbrl>

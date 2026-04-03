@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:dei="http://xbrl.sec.gov/dei/2025"
+  xmlns:ffd="http://xbrl.sec.gov/ffd/2025"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <link:schemaRef
+      xlink:href="https://xbrl.sec.gov/ffd/2025/ffd-2025.xsd"
+      xlink:type="simple"/>
+    <context id="c_offering_1">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001326801</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>1</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-01-27</startDate>
+            <endDate>2026-01-27</endDate>
+        </period>
+    </context>
+    <context id="c_report">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001326801</identifier>
+        </entity>
+        <period>
+            <startDate>2026-01-27</startDate>
+            <endDate>2026-01-27</endDate>
+        </period>
+    </context>
+    <unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+    <unit id="pure">
+        <measure>pure</measure>
+    </unit>
+    <unit id="shares">
+        <measure>shares</measure>
+    </unit>
+    <ffd:SubmissnTp contextRef="c_report" id="fee_001">S-8</ffd:SubmissnTp>
+    <ffd:FeeExhibitTp contextRef="c_report" id="fee_002">EX-FILING FEES</ffd:FeeExhibitTp>
+    <dei:EntityCentralIndexKey contextRef="c_report" id="fee_003">0001326801</dei:EntityCentralIndexKey>
+    <ffd:PrevslyPdFlg contextRef="c_offering_1" id="fee_004">false</ffd:PrevslyPdFlg>
+    <ffd:OfferingTableNa contextRef="c_report" id="fee_005" xsi:nil="true"/>
+    <ffd:OffsetTableNa contextRef="c_report" id="fee_006">N/A</ffd:OffsetTableNa>
+    <ffd:FormTp contextRef="c_report" id="fee_007">S-8</ffd:FormTp>
+    <dei:EntityRegistrantName contextRef="c_report" id="fee_008">Meta Platforms, Inc.</dei:EntityRegistrantName>
+    <ffd:OfferingSctyTp contextRef="c_offering_1" id="fee_009">Equity</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="c_offering_1" id="fee_010">Class A common stock, $0.000006 par value per share</ffd:OfferingSctyTitl>
+    <ffd:FeesOthrRuleFlg contextRef="c_offering_1" id="fee_011">true</ffd:FeesOthrRuleFlg>
+    <ffd:AmtSctiesRegd
+      contextRef="c_offering_1"
+      decimals="0"
+      id="fee_012"
+      unitRef="shares">54678984</ffd:AmtSctiesRegd>
+    <ffd:MaxOfferingPricPerScty
+      contextRef="c_offering_1"
+      decimals="INF"
+      id="fee_013"
+      unitRef="USD">643.56</ffd:MaxOfferingPricPerScty>
+    <ffd:MaxAggtOfferingPric
+      contextRef="c_offering_1"
+      decimals="INF"
+      id="fee_014"
+      unitRef="USD">35189206943.04</ffd:MaxAggtOfferingPric>
+    <ffd:FeeRate
+      contextRef="c_offering_1"
+      decimals="INF"
+      id="fee_015"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:FeeAmt
+      contextRef="c_offering_1"
+      decimals="INF"
+      id="fee_016"
+      unitRef="USD">4859629.48</ffd:FeeAmt>
+    <ffd:TtlOfferingAmt
+      contextRef="c_report"
+      decimals="INF"
+      id="fee_017"
+      unitRef="USD">35189206943.04</ffd:TtlOfferingAmt>
+    <ffd:TtlFeeAmt
+      contextRef="c_report"
+      decimals="INF"
+      id="fee_018"
+      unitRef="USD">4859629.48</ffd:TtlFeeAmt>
+    <ffd:TtlOffsetAmt
+      contextRef="c_report"
+      decimals="INF"
+      id="fee_019"
+      unitRef="USD">0.00</ffd:TtlOffsetAmt>
+    <ffd:NetFeeAmt
+      contextRef="c_report"
+      decimals="INF"
+      id="fee_020"
+      unitRef="USD">4859629.48</ffd:NetFeeAmt>
+    <ffd:OfferingNote contextRef="c_offering_1" id="fee_021">Pursuant to Rule 416(a) under the Securities Act of 1933, as amended (&#x201c;Securities Act&#x201d;), this Registration Statement shall also cover any additional shares of the Registrant&#x2019;s Class A common stock that become issuable in respect of the securities identified in the above table by reason of any stock dividend, stock split, recapitalization or other similar transaction effected without the Registrant&#x2019;s receipt of consideration that results in an increase in the number of the outstanding shares of the Registrant&#x2019;s Class A common stock.&lt;br/&gt;&lt;br/&gt;Represents additional shares of the Registrant&#x2019;s Class A common stock reserved for issuance under the Registrant&#x2019;s 2025 Equity Incentive Plan (the &#x201c;2025 Plan&#x201d;) pursuant to the provisions of the 2025 Plan that provide for an automatic annual increase in the number of shares reserved for issuance under the 2025 Plan.&lt;br/&gt;&lt;br/&gt;Estimated in accordance with Rules 457(c) and (h) of the Securities Act solely for the purpose of calculating the registration fee based on the average of the high and low prices of the Registrant&#x2019;s Class A common stock as reported on the Nasdaq Global Select Market on January 22, 2026.</ffd:OfferingNote>
+</xbrl>

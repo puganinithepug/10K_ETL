@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:dei="http://xbrl.sec.gov/dei/2025"
+  xmlns:ffd="http://xbrl.sec.gov/ffd/2025q4"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <link:schemaRef
+      xlink:href="https://xbrl.sec.gov/ffd/2025q4/ffd-2025q4.xsd"
+      xlink:type="simple"/>
+    <context id="rc">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001321655</identifier>
+        </entity>
+        <period>
+            <startDate>2026-02-13</startDate>
+            <endDate>2026-02-13</endDate>
+        </period>
+    </context>
+    <context id="offrl_1">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001321655</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>1</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-02-13</startDate>
+            <endDate>2026-02-13</endDate>
+        </period>
+    </context>
+    <unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+    <unit id="pure">
+        <measure>pure</measure>
+    </unit>
+    <unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+    <ffd:FormTp contextRef="rc" id="ixv-168">S-8</ffd:FormTp>
+    <ffd:SubmissnTp contextRef="rc" id="ixv-169">S-8</ffd:SubmissnTp>
+    <ffd:FeeExhibitTp contextRef="rc" id="ixv-170">EX-FILING FEES</ffd:FeeExhibitTp>
+    <dei:EntityCentralIndexKey contextRef="rc" id="ixv-171">0001321655</dei:EntityCentralIndexKey>
+    <dei:EntityRegistrantName contextRef="rc" id="ixv-172">Palantir Technologies Inc.</dei:EntityRegistrantName>
+    <ffd:OfferingTableNa contextRef="rc" id="hiddenrcOfferingTableNa" xsi:nil="true"/>
+    <ffd:OffsetTableNa contextRef="rc" id="hiddenrcOffsetTableNa">N/A</ffd:OffsetTableNa>
+    <ffd:PrevslyPdFlg contextRef="offrl_1" id="ixv-175">false</ffd:PrevslyPdFlg>
+    <ffd:FormTp contextRef="rc" id="ixv-200">S-8</ffd:FormTp>
+    <dei:EntityRegistrantName contextRef="rc" id="ixv-201">Palantir Technologies Inc.</dei:EntityRegistrantName>
+    <ffd:OfferingSctyTp contextRef="offrl_1" id="ixv-202">Equity</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="offrl_1" id="ixv-203">Class A common stock, $0.001 par value per share, available for issuance pursuant to the 2020 Equity Incentive Plan</ffd:OfferingSctyTitl>
+    <ffd:FeesOthrRuleFlg contextRef="offrl_1" id="ixv-204">true</ffd:FeesOthrRuleFlg>
+    <ffd:AmtSctiesRegd
+      contextRef="offrl_1"
+      decimals="0"
+      id="ixv-205"
+      unitRef="Shares">119559591</ffd:AmtSctiesRegd>
+    <ffd:MaxOfferingPricPerScty
+      contextRef="offrl_1"
+      decimals="2"
+      id="ixv-206"
+      unitRef="USD">131.23</ffd:MaxOfferingPricPerScty>
+    <ffd:MaxAggtOfferingPric
+      contextRef="offrl_1"
+      decimals="2"
+      id="ixv-207"
+      unitRef="USD">15689805126.93</ffd:MaxAggtOfferingPric>
+    <ffd:FeeRate
+      contextRef="offrl_1"
+      decimals="7"
+      id="ixv-208"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:FeeAmt
+      contextRef="offrl_1"
+      decimals="2"
+      id="ixv-209"
+      unitRef="USD">2166762.09</ffd:FeeAmt>
+    <ffd:TtlOfferingAmt contextRef="rc" decimals="2" id="ixv-210" unitRef="USD">15689805126.93</ffd:TtlOfferingAmt>
+    <ffd:TtlFeeAmt contextRef="rc" decimals="2" id="ixv-211" unitRef="USD">2166762.09</ffd:TtlFeeAmt>
+    <ffd:TtlOffsetAmt contextRef="rc" decimals="2" id="ixv-212" unitRef="USD">0.00</ffd:TtlOffsetAmt>
+    <ffd:NetFeeAmt contextRef="rc" decimals="2" id="ixv-213" unitRef="USD">2166762.09</ffd:NetFeeAmt>
+    <ffd:OfferingNote contextRef="offrl_1" id="ixv-214">Pursuant to Rule 416(a) under the Securities Act of 1933, as amended (the "Securities Act"), this registration statement shall cover any additional shares of the Class A common stock ("Class A common stock") that become issuable pursuant to the Registrant's 2020 Equity Incentive Plan (the "2020 Plan") by reason of any dividend or other distribution (whether in cash, shares of the Registrant's Class A common stock, other securities, or other property), recapitalization, stock split, reverse stock split, reorganization, merger, consolidation, split-up, spin-off, combination, reclassification, repurchase, or exchange of shares of the Registrant's Class A common stock or other securities of the Registrant, or other change in the corporate structure of the Registrant affecting the shares of the Registrant's Class A common stock.
+
+Amount Registered represents an automatic annual increase on January 1, 2026 to the number of shares of the Registrant's Class A common stock available for issuance under the 2020 Plan, which annual increase is provided for in the 2020 Plan.
+
+Proposed Maximum Offering Price per Unit estimated in accordance with Rules 457(c) and (h) of the Securities Act solely for the purpose of calculating the registration fee on the basis of $131.23 per share, which is the average of the high and low prices of the Registrant's Class A common stock as reported on the Nasdaq Global Select Market on February 12, 2026.
+
+The Registrant does not have any fee offsets.</ffd:OfferingNote>
+</xbrl>

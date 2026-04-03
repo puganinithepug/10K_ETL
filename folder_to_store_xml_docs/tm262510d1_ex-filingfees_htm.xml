@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:dei="http://xbrl.sec.gov/dei/2025"
+  xmlns:ffd="http://xbrl.sec.gov/ffd/2025q4"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <link:schemaRef
+      xlink:href="https://xbrl.sec.gov/ffd/2025q4/ffd-2025q4.xsd"
+      xlink:type="simple"/>
+    <context id="rc">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001018724</identifier>
+        </entity>
+        <period>
+            <startDate>2026-01-12</startDate>
+            <endDate>2026-01-12</endDate>
+        </period>
+    </context>
+    <context id="offrl_1">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001018724</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>1</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-01-12</startDate>
+            <endDate>2026-01-12</endDate>
+        </period>
+    </context>
+    <context id="offrl_2">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001018724</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>2</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-01-12</startDate>
+            <endDate>2026-01-12</endDate>
+        </period>
+    </context>
+    <context id="offrl_3">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001018724</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>3</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-01-12</startDate>
+            <endDate>2026-01-12</endDate>
+        </period>
+    </context>
+    <context id="offrl_4">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001018724</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>4</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-01-12</startDate>
+            <endDate>2026-01-12</endDate>
+        </period>
+    </context>
+    <context id="offrl_5">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001018724</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>5</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-01-12</startDate>
+            <endDate>2026-01-12</endDate>
+        </period>
+    </context>
+    <context id="offrl_6">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001018724</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>6</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-01-12</startDate>
+            <endDate>2026-01-12</endDate>
+        </period>
+    </context>
+    <context id="offrl_7">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001018724</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ffd:OfferingAxis">
+                    <dei:lineNo>7</dei:lineNo>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2026-01-12</startDate>
+            <endDate>2026-01-12</endDate>
+        </period>
+    </context>
+    <unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+    <unit id="pure">
+        <measure>pure</measure>
+    </unit>
+    <ffd:FormTp contextRef="rc" id="ixv-466">S-3</ffd:FormTp>
+    <ffd:SubmissnTp contextRef="rc" id="ixv-467">S-3ASR</ffd:SubmissnTp>
+    <ffd:FeeExhibitTp contextRef="rc" id="ixv-468">EX-FILING FEES</ffd:FeeExhibitTp>
+    <dei:EntityCentralIndexKey contextRef="rc" id="ixv-469">0001018724</dei:EntityCentralIndexKey>
+    <dei:EntityRegistrantName contextRef="rc" id="ixv-470">AMAZON COM INC</dei:EntityRegistrantName>
+    <ffd:OfferingTableNa contextRef="rc" id="hiddenrcOfferingTableNa" xsi:nil="true"/>
+    <ffd:OffsetTableNa contextRef="rc" id="hiddenrcOffsetTableNa">N/A</ffd:OffsetTableNa>
+    <ffd:CombinedProspectusTableNa contextRef="rc" id="hiddenrcCombinedProspectusTableNa">N/A</ffd:CombinedProspectusTableNa>
+    <ffd:FormTp contextRef="rc" id="ixv-552">S-3</ffd:FormTp>
+    <dei:EntityRegistrantName contextRef="rc" id="ixv-553">AMAZON COM INC</dei:EntityRegistrantName>
+    <ffd:PrevslyPdFlg contextRef="offrl_1" id="ixv-554">false</ffd:PrevslyPdFlg>
+    <ffd:OfferingSctyTp contextRef="offrl_1" id="ixv-555">Debt</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="offrl_1" id="ixv-556">Debt Securities </ffd:OfferingSctyTitl>
+    <ffd:Rule457rFlg contextRef="offrl_1" id="ixv-557">true</ffd:Rule457rFlg>
+    <ffd:FeeRate
+      contextRef="offrl_1"
+      decimals="7"
+      id="ixv-558"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:PrevslyPdFlg contextRef="offrl_2" id="ixv-559">false</ffd:PrevslyPdFlg>
+    <ffd:OfferingSctyTp contextRef="offrl_2" id="ixv-560">Equity</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="offrl_2" id="ixv-561">Common Stock, par value $0.01 per share </ffd:OfferingSctyTitl>
+    <ffd:Rule457rFlg contextRef="offrl_2" id="ixv-562">true</ffd:Rule457rFlg>
+    <ffd:FeeRate
+      contextRef="offrl_2"
+      decimals="7"
+      id="ixv-563"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:PrevslyPdFlg contextRef="offrl_3" id="ixv-564">false</ffd:PrevslyPdFlg>
+    <ffd:OfferingSctyTp contextRef="offrl_3" id="ixv-565">Equity</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="offrl_3" id="ixv-566">Preferred Stock, par value $0.01 per share </ffd:OfferingSctyTitl>
+    <ffd:Rule457rFlg contextRef="offrl_3" id="ixv-567">true</ffd:Rule457rFlg>
+    <ffd:FeeRate
+      contextRef="offrl_3"
+      decimals="7"
+      id="ixv-568"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:PrevslyPdFlg contextRef="offrl_4" id="ixv-569">false</ffd:PrevslyPdFlg>
+    <ffd:OfferingSctyTp contextRef="offrl_4" id="ixv-570">Other</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="offrl_4" id="ixv-571">Warrants</ffd:OfferingSctyTitl>
+    <ffd:Rule457rFlg contextRef="offrl_4" id="ixv-572">true</ffd:Rule457rFlg>
+    <ffd:FeeRate
+      contextRef="offrl_4"
+      decimals="7"
+      id="ixv-573"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:PrevslyPdFlg contextRef="offrl_5" id="ixv-574">false</ffd:PrevslyPdFlg>
+    <ffd:OfferingSctyTp contextRef="offrl_5" id="ixv-575">Other</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="offrl_5" id="ixv-576">Depositary Shares </ffd:OfferingSctyTitl>
+    <ffd:Rule457rFlg contextRef="offrl_5" id="ixv-577">true</ffd:Rule457rFlg>
+    <ffd:FeeRate
+      contextRef="offrl_5"
+      decimals="7"
+      id="ixv-578"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:PrevslyPdFlg contextRef="offrl_6" id="ixv-579">false</ffd:PrevslyPdFlg>
+    <ffd:OfferingSctyTp contextRef="offrl_6" id="ixv-580">Other</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="offrl_6" id="ixv-581">Purchase Contracts </ffd:OfferingSctyTitl>
+    <ffd:Rule457rFlg contextRef="offrl_6" id="ixv-582">true</ffd:Rule457rFlg>
+    <ffd:FeeRate
+      contextRef="offrl_6"
+      decimals="7"
+      id="ixv-583"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:PrevslyPdFlg contextRef="offrl_7" id="ixv-584">false</ffd:PrevslyPdFlg>
+    <ffd:OfferingSctyTp contextRef="offrl_7" id="ixv-585">Other</ffd:OfferingSctyTp>
+    <ffd:OfferingSctyTitl contextRef="offrl_7" id="ixv-586">Units</ffd:OfferingSctyTitl>
+    <ffd:Rule457rFlg contextRef="offrl_7" id="ixv-587">true</ffd:Rule457rFlg>
+    <ffd:FeeRate
+      contextRef="offrl_7"
+      decimals="7"
+      id="ixv-588"
+      unitRef="pure">0.0001381</ffd:FeeRate>
+    <ffd:TtlOfferingAmt contextRef="rc" decimals="2" id="ixv-589" unitRef="USD">0.00</ffd:TtlOfferingAmt>
+    <ffd:TtlFeeAmt contextRef="rc" decimals="2" id="ixv-590" unitRef="USD">0.00</ffd:TtlFeeAmt>
+    <ffd:TtlPrevslyPdAmt contextRef="rc" decimals="2" id="ixv-591" unitRef="USD">0.00</ffd:TtlPrevslyPdAmt>
+    <ffd:TtlOffsetAmt contextRef="rc" decimals="2" id="ixv-592" unitRef="USD">0.00</ffd:TtlOffsetAmt>
+    <ffd:NetFeeAmt contextRef="rc" decimals="2" id="ixv-593" unitRef="USD">0.00</ffd:NetFeeAmt>
+    <ffd:OfferingNote contextRef="offrl_1" id="ixv-594">Any securities registered hereunder may be sold separately or as units with other securities registered hereunder.  Separate consideration may or may not be received for securities that are issuable on exercise, conversion, or exchange of other securities.
+
+In accordance with Rules 456(b) and 457(r) under the Securities Act of 1933, as amended, the registrant is deferring payment of all of the registration fee.  In connection with the securities offered hereby, the registrant will pay "pay-as-you-go registration fees" in accordance with Rule 456(b).  The registrant will calculate the registration fee applicable to an offer of securities pursuant to this registration statement based on the fee payment rate in effect on the date of such fee payment.
+
+An indeterminate aggregate offering price or number of securities of each identified class is being registered as may from time to time be offered at indeterminate prices.
+
+</ffd:OfferingNote>
+    <ffd:OfferingNote contextRef="offrl_2" id="ixv-595">See Offering Note 1</ffd:OfferingNote>
+    <ffd:OfferingNote contextRef="offrl_3" id="ixv-596">See Offering Note 1</ffd:OfferingNote>
+    <ffd:OfferingNote contextRef="offrl_4" id="ixv-597">See Offering Note 1</ffd:OfferingNote>
+    <ffd:OfferingNote contextRef="offrl_5" id="ixv-598">See Offering Note 1
+
+Each depositary share will be issued under a deposit agreement and will be evidenced by a depositary receipt.</ffd:OfferingNote>
+    <ffd:OfferingNote contextRef="offrl_6" id="ixv-599">See Offering Note 1</ffd:OfferingNote>
+    <ffd:OfferingNote contextRef="offrl_7" id="ixv-600">See Offering Note 1</ffd:OfferingNote>
+</xbrl>
