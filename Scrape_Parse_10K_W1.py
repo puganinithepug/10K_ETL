@@ -52,7 +52,7 @@ def parse_args():
 
     # user interactvely if missing arguments
     if not args.ticker:
-        args.ticker = input("Company ticker")
+        args.ticker = input("Company ticker: ")
         
     if args.year is None or int(args.year) > current_year or int(args.year) < 1996:
         while True:
@@ -535,7 +535,7 @@ def main():
 
     fmap = get_url(cik, args.ticker, args.year)
 
-    sec_directory = pathlib.Path.cwd().joinpath("xbrl_values_content_context_facts")
+    sec_directory = pathlib.Path.cwd().joinpath("xml_docs_W1")
     sec_directory.mkdir(parents=True, exist_ok=True)
 
     file_htm = None

@@ -1,114 +1,115 @@
-label,value
-DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss,"1,121,000,000"
-OtherAssetsCurrent,"31,734,000,000"
-CashAndCashEquivalentsAtCarryingValue,"44,502,000,000"
-DerivativeFairValueOfDerivativeAsset,"3,000,000,000"
-LongTermDebtFairValue,"30,900,000,000"
-OperatingLeaseLiabilityCurrent,"5,894,000,000"
-DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss,"804,000,000"
-FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization,"10,032,000,000"
-EquityMethodInvestments,"4,300,000,000"
-DerivativeLiabilityFairValueAfterOffsetAndDeductionSubjectToMasterNettingArrangement,"1,033,000,000"
-OperatingLeaseLiabilityNoncurrent,"23,643,000,000"
-AccruedIncomeTaxesCurrent,"3,691,000,000"
-DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger,"21,711,000,000"
-FinanceLeaseLiabilityPaymentsDueYearTwo,"301,000,000"
-AccumulatedOtherComprehensiveIncomeLossNetOfTax,"-6,927,000,000"
-DerivativeAssetFairValueAfterOffsetAndDeductionSubjectToMasterNettingArrangement,"742,000,000"
-FinanceLeaseWeightedAverageDiscountRatePercent,0
-DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months,"26,646,000,000"
-DerivativeLiabilities,"2,370,000,000"
-StockholdersEquity,"688,000,000,000"
-FinanceLeaseLiability,"3,779,000,000"
-DerivativeFairValueOfDerivativeLiability,"2,539,000,000"
-DeferredIncomeTaxAssetsNet,"36,469,000,000"
-EquitySecuritiesWithoutReadilyDeterminableFairValueAmount,"135,165,000,000"
-CommercialPaper,"5,300,000,000"
-CashCashEquivalentsAndShortTermInvestments,"190,805,000,000"
-AccountsPayableCurrent,"16,334,000,000"
-OperatingLeaseLiability,"29,537,000,000"
-PurchaseObligation,"8,200,000,000"
-UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate,"21,000,000,000"
-MarketableSecuritiesCurrent,"146,303,000,000"
-CommissionsPayableToBrokerDealersAndClearingOrganizations,"6,978,000,000"
-RetainedEarningsAccumulatedDeficit,"520,844,000,000"
-AvailableForSaleSecuritiesDebtMaturitiesAfterFiveThroughTenYearsFairValue,"11,846,000,000"
-EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount,"55,500,000,000"
-DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNet,"-414,000,000"
-LossContingencyAccrualCarryingValueCurrent,"13,421,000,000"
-DerivativeLiabilityFairValueGrossAsset,"169,000,000"
-FinanceLeaseLiabilityNoncurrent,"3,444,000,000"
-PreferredStockSharesIssued,0
-ConvertiblePreferredStockNonredeemableOrRedeemableIssuerOptionValue,0
-LesseeOperatingLeaseLiabilityPaymentsRemainderOfFiscalYear,"2,095,000,000"
-OtherAssetsNoncurrent,"29,027,000,000"
-CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents,"44,502,000,000"
-CommitmentsAndContingencies,
-DerivativeAssetFairValueGrossLiability,"169,000,000"
-PreferredStockSharesOutstanding,0
-AccountsReceivableNetCurrent,"107,388,000,000"
-OtherLongTermInvestments,"90,556,000,000"
-FinanceLeaseRightOfUseAssetAccumulatedAmortization,"4,246,000,000"
-LesseeOperatingLeaseLiabilityPaymentsDueYearFour,"1,630,000,000"
-DerivativeLiabilityNotOffsetPolicyElectionDeduction,"1,296,000,000"
-ContractWithCustomerLiability,"12,800,000,000"
-NoncontrollingInterestInVariableInterestEntity,"8,500,000,000"
-OperatingLeaseRightOfUseAsset,"27,843,000,000"
-OperatingLeaseWeightedAverageDiscountRatePercent,0
-CommonStockSharesOutstanding,"24,315,000,000"
-PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization,"374,267,000,000"
-FinanceLeaseLiabilityUndiscountedExcessAmount,"528,000,000"
-AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue,"5,930,000,000"
-Goodwill,"64,220,000,000"
-FinanceLeaseLiabilityPaymentsDueYearFour,"268,000,000"
-CommonStockParOrStatedValuePerShare,0
-LongTermDebtCurrent,"1,999,000,000"
-AssetsCurrent,"329,927,000,000"
-DerivativeLiabilityAfterOffsetSubjectToMasterNettingArrangement,"2,370,000,000"
-DebtSecuritiesAvailableForSaleUnrealizedLossPosition,"48,357,000,000"
-FinanceLeaseLiabilityPaymentsDueNextTwelveMonths,"299,000,000"
-EquitySecuritiesFvNiCost,"9,190,000,000"
-EquitySecuritiesFvNi,"11,054,000,000"
-FinanceLeaseLiabilityCurrent,"335,000,000"
-CommonStocksIncludingAdditionalPaidInCapital,"174,083,000,000"
-DerivativeAssetAfterOffsetSubjectToMasterNettingArrangement,"2,831,000,000"
-Liabilities,"264,309,000,000"
-FinanceLeaseLiabilityPaymentsDue,"2,630,000,000"
-AvailableForSaleSecuritiesDebtSecurities,"68,147,000,000"
-PreferredStockSharesAuthorized,"100,000,000"
-PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization,"168,739,000,000"
-EquitySecuritiesWithoutReadilyDeterminableFairValueDownwardPriceAdjustmentCumulativeAmount,"17,500,000,000"
-CommonStockSharesAuthorized,"300,000,000,000"
-LiabilitiesCurrent,"176,432,000,000"
-EquitySecuritiesFvNiAndWithoutReadilyDeterminableFairValue,"96,419,000,000"
-DebtInstrumentCarryingAmount,"36,903,000,000"
-DerivativeAssets,"2,831,000,000"
-FinanceLeaseLiabilityPaymentsRemainderOfFiscalYear,"162,000,000"
-OtherLiabilitiesNoncurrent,"10,935,000,000"
-LiabilitiesAndStockholdersEquity,"952,309,000,000"
-AccruedIncomeTaxesNoncurrent,"18,809,000,000"
-DerivativeAssetNotOffsetPolicyElectionDeduction,"1,296,000,000"
-PreferredStockParOrStatedValuePerShare,0
-NoncurrentAssets,"402,110,000,000"
-LesseeOperatingLeaseLiabilityPaymentsDueYearTwo,"2,549,000,000"
-CommonStockSharesIssued,"24,315,000,000"
-AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsFairValue,"13,235,000,000"
-Assets,"952,309,000,000"
-UnrecognizedTaxBenefits,"25,500,000,000"
-EmployeeRelatedLiabilitiesCurrent,"27,237,000,000"
-AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue,"37,136,000,000"
-AllowanceForDoubtfulAccountsReceivable,"1,757,000,000"
-DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss,"317,000,000"
-FinanceLeaseRightOfUseAsset,"5,786,000,000"
-LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths,"3,078,000,000"
-ContractWithCustomerLiabilityCurrent,"10,005,000,000"
-AccruedLiabilitiesCurrent,"103,267,000,000"
-LongTermDebtNoncurrent,"34,490,000,000"
-OtherAccruedLiabilitiesCurrent,"56,704,000,000"
-FinanceLeaseLiabilityPaymentsDueYearThree,"290,000,000"
-ForeignCurrencyCashFlowHedgeGainLossToBeReclassifiedDuringNext12Months,"-767,000,000"
-MarketableSecuritiesNoncurrent,"266,000,000"
-LesseeOperatingLeaseLiabilityPaymentsDue,"17,429,000,000"
-LesseeOperatingLeaseLiabilityUndiscountedExcessAmount,"2,470,000,000"
-RevenueRemainingPerformanceObligation,"108,200,000,000"
-LesseeOperatingLeaseLiabilityPaymentsDueYearThree,"2,042,000,000"
+label,value,category,
+DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss,"25,073,967,033",noncurrent assets,
+OtherAssetsCurrent,"26,147,813,187",current assets,
+CashAndCashEquivalentsAtCarryingValue,"27,221,659,341",current assets,
+DerivativeFairValueOfDerivativeAsset,"28,295,505,495",subtotal assets,
+LongTermDebtFairValue,"29,369,351,648",noncurrent liabilities,
+OperatingLeaseLiabilityCurrent,"30,443,197,802",current liabilities,
+DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss,"31,517,043,956",noncurrent assets,
+FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization,"32,590,890,110",noncurrent assets,
+EquityMethodInvestments,"33,664,736,264",noncurrent assets,
+DerivativeLiabilityFairValueAfterOffsetAndDeductionSubjectToMasterNettingArrangement,"34,738,582,418",subtotal liabilities,
+OperatingLeaseLiabilityNoncurrent,"50,753,663,670",noncurrent liabilities,
+AccruedIncomeTaxesCurrent,"26,464,800,000",current liabilities,
+DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger,"22,062,130,667",noncurrent assets,
+FinanceLeaseLiabilityPaymentsDueYearTwo,"285,000,000",noncurrent liabilities,
+AccumulatedOtherComprehensiveIncomeLossNetOfTax,"5,200,000,000",equity,
+DerivativeAssetFairValueAfterOffsetAndDeductionSubjectToMasterNettingArrangement,"2,689,450,000",subtotal assets,
+FinanceLeaseWeightedAverageDiscountRatePercent,5,disclosures,
+DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months,"9,451,000,000",current assets,
+DerivativeLiabilities,"2,370,000,000",subtotal liabilities,
+StockholdersEquity,"688,000,000,000",equity,
+FinanceLeaseLiability,"2,570,050,000",subtotal liabilities,
+DerivativeFairValueOfDerivativeLiability,"2,540,000,000",subtotal liabilities,
+DeferredIncomeTaxAssetsNet,"6,375,000,000",noncurrent assets,
+EquitySecuritiesWithoutReadilyDeterminableFairValueAmount,"38,567,600,000",noncurrent assets,
+CommercialPaper,"299,850,000",current liabilities,
+CashCashEquivalentsAndShortTermInvestments,"42,067,874,341",current assets,
+AccountsPayableCurrent,"21,171,840,000",current liabilities,
+OperatingLeaseLiability,"81,196,861,472",subtotal liabilities,
+PurchaseObligation,"5,288,960,000",current liabilities,
+UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate,"21,675,000,000",noncurrent liabilities,
+MarketableSecuritiesCurrent,"14,846,215,000",current assets,
+CommissionsPayableToBrokerDealersAndClearingOrganizations,"1,764,320,000",current liabilities,
+RetainedEarningsAccumulatedDeficit,"344,000,000,000",equity,
+AvailableForSaleSecuritiesDebtMaturitiesAfterFiveThroughTenYearsFairValue,"13,235,000,000",noncurrent assets,
+EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount,"10,500,000,000",noncurrent assets,
+DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNet,"738,060,000",noncurrent assets,
+LossContingencyAccrualCarryingValueCurrent,"2,644,480,000",current liabilities,
+DerivativeLiabilityFairValueGrossAsset,"2,826,000,000",subtotal liabilities,
+FinanceLeaseLiabilityNoncurrent,"2,235,050,000",noncurrent liabilities,
+PreferredStockSharesIssued,0,equity,
+ConvertiblePreferredStockNonredeemableOrRedeemableIssuerOptionValue,0,equity,
+LesseeOperatingLeaseLiabilityPaymentsRemainderOfFiscalYear,"3,078,000,000",current liabilities,
+OtherAssetsNoncurrent,"20,105,500,000",noncurrent assets,
+CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents,"14,831,588,705",current assets,
+CommitmentsAndContingencies,0,Disclosure item,
+DerivativeAssetFairValueGrossLiability,"3,214,340,000",subtotal assets,
+PreferredStockSharesOutstanding,0,equity,
+AccountsReceivableNetCurrent,"89,500,000,000",current assets,
+OtherLongTermInvestments,"20,168,550,000",noncurrent assets,
+FinanceLeaseRightOfUseAssetAccumulatedAmortization,"10,429,084,035",noncurrent assets,
+LesseeOperatingLeaseLiabilityPaymentsDueYearFour,"1,600,000,000",noncurrent liabilities,
+DerivativeLiabilityNotOffsetPolicyElectionDeduction,"141,300,000",noncurrent liabilities,
+ContractWithCustomerLiability12MonthsOrLonger,"501,050,000",noncurrent liabilities,
+ContractWithCustomerLiabilityLessThan12Months,"2,000,200,000",current liabilities,
+NoncontrollingInterestInVariableInterestEntity,"10,320,000,000",equity,
+OperatingLeaseRightOfUseAsset,"87,450,000,000",noncurrent liabilities,
+OperatingLeaseWeightedAverageDiscountRatePercent,0,disclosures,
+CommonStockSharesOutstanding,"24,315,000,000",equity,
+PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization,"374,267,000,000",noncurrent assets,
+FinanceLeaseLiabilityUndiscountedExcessAmount,"528,000,000",subtotal liabilities,
+AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue,"5,930,000,000",current assets,
+Goodwill,"64,220,000,000",noncurrent assets,
+FinanceLeaseLiabilityPaymentsDueYearFour,"268,000,000",noncurrent liabilities,
+CommonStockParOrStatedValuePerShare,0,equity,
+LongTermDebtCurrent,"1,999,000,000",current liabilities,
+AssetsCurrent,"329,927,000,000",current assets,
+DerivativeLiabilityAfterOffsetSubjectToMasterNettingArrangement,"2,370,000,000",subtotal liabilities,
+DebtSecuritiesAvailableForSaleUnrealizedLossPosition,"48,357,000,000",subtotal assets,
+FinanceLeaseLiabilityPaymentsDueNextTwelveMonths,"299,000,000",current liabilities,
+EquitySecuritiesFvNiCost,"9,190,000,000",current assets,
+EquitySecuritiesFvNi,"11,054,000,000",current assets,
+FinanceLeaseLiabilityCurrent,"335,000,000",current liabilities,
+CommonStocksIncludingAdditionalPaidInCapital,"174,083,000,000",equity,
+DerivativeAssetAfterOffsetSubjectToMasterNettingArrangement,"2,831,000,000",subtotal assets,
+Liabilities,"264,309,000,000",total liabilities,
+FinanceLeaseLiabilityPaymentsDue,"2,630,000,000",current liabilities,
+AvailableForSaleSecuritiesDebtSecurities,"68,147,000,000",subtotal assets,
+PreferredStockSharesAuthorized,"100,000,000",equity,
+PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization,"168,739,000,000",noncurrent assets,
+EquitySecuritiesWithoutReadilyDeterminableFairValueDownwardPriceAdjustmentCumulativeAmount,"17,500,000,000",noncurrent assets,
+CommonStockSharesAuthorized,"300,000,000,000",equity,
+LiabilitiesCurrent,"176,432,000,000",current liabilities,
+EquitySecuritiesFvNiAndWithoutReadilyDeterminableFairValue,"96,419,000,000",noncurrent assets,
+DebtInstrumentCarryingAmount,"36,903,000,000",noncurrent liabilities,
+DerivativeAssets,"2,831,000,000",subtotal assets,
+FinanceLeaseLiabilityPaymentsRemainderOfFiscalYear,"162,000,000",current liabilities,
+OtherLiabilitiesNoncurrent,"10,935,000,000",noncurrent liabilities,
+LiabilitiesAndStockholdersEquity,"952,309,000,000",total liabilities and equity,
+AccruedIncomeTaxesNoncurrent,"18,809,000,000",noncurrent liabilities,
+DerivativeAssetNotOffsetPolicyElectionDeduction,"1,296,000,000",noncurrent assets,
+PreferredStockParOrStatedValuePerShare,0,equity,
+NoncurrentAssets,"402,110,000,000",noncurrent assets,subtotal
+LesseeOperatingLeaseLiabilityPaymentsDueYearTwo,"2,549,000,000",noncurrent liabilities,
+CommonStockSharesIssued,"24,315,000,000",equity,
+AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsFairValue,"13,235,000,000",noncurrent assets,
+Assets,"952,309,000,000",total assets,
+UnrecognizedTaxBenefits,"25,500,000,000",noncurrent liabilities,
+EmployeeRelatedLiabilitiesCurrent,"27,237,000,000",current liabilities,
+AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue,"37,136,000,000",noncurrent assets,
+AllowanceForDoubtfulAccountsReceivable,"1,757,000,000",current assets,
+DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss,"317,000,000",current assets,
+FinanceLeaseRightOfUseAsset,"5,786,000,000",noncurrent assets,
+LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths,"3,078,000,000",current liabilities,
+ContractWithCustomerLiabilityCurrent,"10,005,000,000",current liabilities,
+AccruedLiabilitiesCurrent,"103,267,000,000",current liabilities,
+LongTermDebtNoncurrent,"34,490,000,000",noncurrent liabilities,
+OtherAccruedLiabilitiesCurrent,"56,704,000,000",current liabilities,
+FinanceLeaseLiabilityPaymentsDueYearThree,"290,000,000",noncurrent liabilities,
+ForeignCurrencyCashFlowHedgeGainLossToBeReclassifiedDuringNext12Months,"767,000,000",equity,
+MarketableSecuritiesNoncurrent,"266,000,000",noncurrent assets,
+LesseeOperatingLeaseLiabilityPaymentsDue,"17,429,000,000",subtotal liabilities,
+LesseeOperatingLeaseLiabilityUndiscountedExcessAmount,"2,470,000,000",subtotal liabilities,
+RevenueRemainingPerformanceObligation,"108,200,000,000",current liabilities,
+LesseeOperatingLeaseLiabilityPaymentsDueYearThree,"2,042,000,000",noncurrent liabilities,

@@ -115,7 +115,7 @@ def main():
     ticker = ticker
     
     csvs_from_pwd(csv_files)
-    print(dict_csvs)
+    #print(dict_csvs)
     
     # Create the merged file
     merged_data = merge_CSV(ticker)
@@ -123,7 +123,7 @@ def main():
     # Now read it if it was created successfully
     if merged_data:
         df = pd.read_csv(merged_data)
-        print(f"Columns: {df.columns.tolist()}")
+        #print(f"Columns: {df.columns.tolist()}")
     else:
         print("Warning: merge_CSV() returned None. Check if context/facts files exist.")
     
