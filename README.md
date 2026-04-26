@@ -129,12 +129,14 @@ eg. *nlp_bal_sheet_aapl_data.csv, nlp_cf_aapl.csv, nlp_inc_cf_aapl.csv, nlp_inc_
 
 **Run ETL**
 
-_Prerequisites - Dockerized_
+Clone repo:
+
+
+
+**Run ETL With Docker**
 
 Before running this project with Docker, make sure you have:
 - **Docker installed** on your machine: https://docs.docker.com/engine/install/
-- Download all of the ETL modules to the same directory: *10K_ETL_main.py, Scrape_Parse_10K_W1.py, Merge_Filing_Data_W2.py, Sort_10K_by_Context_W3.py, NLP_Sort_10K_W4.py*
-- In the same directory as the modules download the reference datasets *bal_sheet_example.csv* and *income_&_cashflow_example.csv*, these can be replaced with your own datasets as long as the format is consistent with the ones provided in this repo
 
 - _Docker daemon running_
   - On macOS/Windows: Open Docker Desktop
@@ -167,8 +169,6 @@ Before running this project with Docker, make sure you have:
 
  _Prerequisites - No Docker_
 - Make sure you have all required modules installed (as specified in requirements.txt doc)
-- Download all of the ETL modules to the same directory: *10K_ETL_main.py, Scrape_Parse_10K_W1.py, Merge_Filing_Data_W2.py, Sort_10K_by_Context_W3.py, NLP_Sort_10K_W4.py*
-- In the same directory as the modules download the reference datasets *bal_sheet_example.csv* and *income_&_cashflow_example.csv*, these can be replaced with your own datasets as long as the format is consistent with the ones provided in this repo
 
 1. Run the pipeline:
 
