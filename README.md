@@ -133,8 +133,10 @@ _Prerequisites_
 
 Before running this project with Docker, make sure you have:
 - **Docker installed** on your machine: https://docs.docker.com/engine/install/
+- Download all of the ETL modules to the same directory: *10K_ETL_main.py, Scrape_Parse_10K_W1.py, Merge_Filing_Data_W2.py, Sort_10K_by_Context_W3.py, NLP_Sort_10K_W4.py*
+- In the same directory as the modules download the reference datasets *bal_sheet_example.csv* and *income_&_cashflow_example.csv*, these can be replaced with your own datasets as long as the format is consistent with the ones provided in this repo
 
-- **Docker daemon running**
+- _Docker daemon running_
   - On macOS/Windows: Open Docker Desktop
   - On Debian Linux: Run `sudo dockerd` or `sudo systemctl start docker`
 
@@ -148,32 +150,31 @@ Before running this project with Docker, make sure you have:
    docker run -it my-etl-app
   ```
 
-**Alternatively Run ETL Without Docker**
-
-_Prerequisites:_
-- Make sure you have all required modules installed (as specified in requirements.txt doc)
-
-1) Download all of the modules in the ETL to the same directory: *10K_ETL_main.py, Scrape_Parse_10K_W1.py, Merge_Filing_Data_W2.py, Sort_10K_by_Context_W3.py, NLP_Sort_10K_W4.py*
-2) In the same directory as the modules download the reference datasets *bal_sheet_example.csv* and *income_&_cashflow_example.csv*, these can be replaced with your own datasets as long as the format is consistent with the ones provided in this repo
-3) Run the pipeline:
-
-   └─$ python3 10K_ETL_main.py
-4) Enter the filing details when prompted:
+3. Enter the filing details when prompted:
    
    Company ticker: eg. AAPL
    
    Year: eg. 2020
    
    The console will display notifications about the progression of the workflow through modules W1 to W3.
-6) Once the data has been stored and sorted, reaching the end of W3, before W4 begins the user will be prompted to enter the confidence threshold:
+4. Once the data has been stored and sorted, reaching the end of W3, before W4 begins the user will be prompted to enter the confidence threshold:
 
    Confidence threshold (0.0-1.0): eg. 0.5
 
-   Throughout the progression of the W4 module, the user will recieve notifications about the progress.
    The data requiring manual review will be printed in the console in addition to being saved to its corresponding directory.
-7) Before the termination of the of the ETL, the files generated are moved into proper directories based on which module generated them and their purpose in the ETL.
-   Note that the directories (xml_docs_W1, parsed_xbrl_data_W1, merged_data_W2, sorted_inc&cf_bal_data_W3, nlp_classified_inc_cf_bal_data_W4) are automatically created inside of the current working directory
 
+**Alternatively Run ETL Without Docker**
+
+_Prerequisites:_
+- Make sure you have all required modules installed (as specified in requirements.txt doc)
+- Download all of the ETL modules to the same directory: *10K_ETL_main.py, Scrape_Parse_10K_W1.py, Merge_Filing_Data_W2.py, Sort_10K_by_Context_W3.py, NLP_Sort_10K_W4.py*
+- In the same directory as the modules download the reference datasets *bal_sheet_example.csv* and *income_&_cashflow_example.csv*, these can be replaced with your own datasets as long as the format is consistent with the ones provided in this repo
+
+1. Run the pipeline:
+
+   └─$ python3 10K_ETL_main.py
+   
+Follow steps 3 and 4 from _Run Dockerized ETL_
 
 See ETL_Example_Run file to see an example of what to expect after running python3 10K_ETL_main.py. Alternatively see 10K_ETL_main.ipynb for another example.
 
