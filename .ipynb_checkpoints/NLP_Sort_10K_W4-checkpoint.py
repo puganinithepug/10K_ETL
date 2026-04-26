@@ -372,7 +372,7 @@ def main():
     income_cashflow_test = pd.read_csv(f'inc_cf_{ticker}_data.csv')
 
     # classify statement type
-    statement_results = classify_income_cashflow_bal_category(income_cashflow_train, income_cashflow_test)
+    statement_results = classify_income_cashflow_statement_type(income_cashflow_train, income_cashflow_test)
     income_cashflow_test['statement'] = statement_results['predictions']
     income_cashflow_test['statement_confidence'] = statement_results['probabilities'].max(axis=1)
 

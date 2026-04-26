@@ -1,291 +1,116 @@
 label,value,statement,statement_confidence,category,category_confidence
-StandardProductWarrantyAccrualWarrantiesIssued,"12,162,000,000",operating activities,0.11122722984093367,operating activities,0.11122722984093367
-Revenues,"-8,000,000",Operating Expenses,0.11154392935185387,Operating Expenses,0.11154392935185387
-InvestmentIncomeInterestAndDividend,"15,848,000,000",financing activities,0.11275218548873846,financing activities,0.11275218548873846
-CommonStockDividendsPerShareDeclared,2,financing activities,0.11544422888407681,financing activities,0.11544422888407681
-CommonStockDividendsPerShareDeclared,8,financing activities,0.11544422888407681,financing activities,0.11544422888407681
-CommonStockDividendsPerShareDeclared,2,financing activities,0.11544422888407681,financing activities,0.11544422888407681
-DeferredForeignIncomeTaxExpenseBenefit,"1,620,000,000",Operating Expenses,0.11586583839569005,Operating Expenses,0.11586583839569005
-DeferredForeignIncomeTaxExpenseBenefit,"1,620,000,000",Operating Expenses,0.11586583839569005,Operating Expenses,0.11586583839569005
-DeferredForeignIncomeTaxExpenseBenefit,"3,831,000,000",Operating Expenses,0.11586583839569005,Operating Expenses,0.11586583839569005
-EffectiveIncomeTaxRateContinuingOperations,0,comprehensive income,0.11612768694614978,comprehensive income,0.11612768694614978
-EffectiveIncomeTaxRateContinuingOperations,0,comprehensive income,0.11612768694614978,comprehensive income,0.11612768694614978
-EffectiveIncomeTaxRateContinuingOperations,0,comprehensive income,0.11612768694614978,comprehensive income,0.11612768694614978
-AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount,"15,500,000",comprehensive income,0.11640856888286172,comprehensive income,0.11640856888286172
-IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest,"201,540,000,000",comprehensive income,0.11652249126052117,comprehensive income,0.11652249126052117
-IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest,"369,950,000,000",comprehensive income,0.11652249126052117,comprehensive income,0.11652249126052117
-IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest,"369,950,000,000",comprehensive income,0.11652249126052117,comprehensive income,0.11652249126052117
-DeferredIncomeTaxExpenseBenefit,"-26,964,000,000",Operating Expenses,0.11673842407161697,Operating Expenses,0.11673842407161697
-RevenueFromContractWithCustomerExcludingAssessedTax,"5,457,990,000,000",operating activities,0.11682321985540595,operating activities,0.11682321985540595
-RevenueFromContractWithCustomerExcludingAssessedTax,"5,457,990,000,000",operating activities,0.11682321985540595,operating activities,0.11682321985540595
-RevenueFromContractWithCustomerExcludingAssessedTax,"4,041,661,000,000",operating activities,0.11682321985540595,operating activities,0.11682321985540595
-ForeignIncomeTaxExpenseBenefitContinuingOperations,"13,450,000,000",Operating Expenses,0.11723577545487013,Operating Expenses,0.11723577545487013
-ForeignIncomeTaxExpenseBenefitContinuingOperations,"44,744,000,000",Operating Expenses,0.11723577545487013,Operating Expenses,0.11723577545487013
-ForeignIncomeTaxExpenseBenefitContinuingOperations,"44,744,000,000",Operating Expenses,0.11723577545487013,Operating Expenses,0.11723577545487013
-InterestPaidNet,"8,537,000,000",Operating Expenses,0.11725533927893173,Operating Expenses,0.11725533927893173
-IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate,"54,126,000,000",comprehensive income,0.11749123444578714,comprehensive income,0.11749123444578714
-IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate,"77,690,000,000",comprehensive income,0.11749123444578714,comprehensive income,0.11749123444578714
-IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate,"77,690,000,000",comprehensive income,0.11749123444578714,comprehensive income,0.11749123444578714
-CurrentIncomeTaxExpenseBenefit,"10,200,000,000",Operating Expenses,0.11751155365781828,Operating Expenses,0.11751155365781828
-CurrentIncomeTaxExpenseBenefit,"10,200,000,000",Operating Expenses,0.11751155365781828,Operating Expenses,0.11751155365781828
-DeferredFederalIncomeTaxExpenseBenefit,"-8,528,000,000",Operating Expenses,0.11925549144458199,Operating Expenses,0.11925549144458199
-DeferredFederalIncomeTaxExpenseBenefit,"-8,528,000,000",Operating Expenses,0.11925549144458199,Operating Expenses,0.11925549144458199
-DeferredFederalIncomeTaxExpenseBenefit,"-30,778,000,000",Operating Expenses,0.11925549144458199,Operating Expenses,0.11925549144458199
-DeferredStateAndLocalIncomeTaxExpenseBenefit,"-17,000,000",Operating Expenses,0.11956424432324232,Operating Expenses,0.11956424432324232
-DeferredStateAndLocalIncomeTaxExpenseBenefit,"-486,000,000",Operating Expenses,0.11956424432324232,Operating Expenses,0.11956424432324232
-DeferredStateAndLocalIncomeTaxExpenseBenefit,"-486,000,000",Operating Expenses,0.11956424432324232,Operating Expenses,0.11956424432324232
-StateAndLocalIncomeTaxExpenseBenefitContinuingOperations,"4,490,000,000",Operating Expenses,0.11978989133324351,Operating Expenses,0.11978989133324351
-StateAndLocalIncomeTaxExpenseBenefitContinuingOperations,"4,490,000,000",Operating Expenses,0.11978989133324351,Operating Expenses,0.11978989133324351
-StateAndLocalIncomeTaxExpenseBenefitContinuingOperations,"1,268,000,000",Operating Expenses,0.11978989133324351,Operating Expenses,0.11978989133324351
-FederalIncomeTaxExpenseBenefitContinuingOperations,"24,873,000,000",Operating Expenses,0.11986151210131277,Operating Expenses,0.11986151210131277
-FederalIncomeTaxExpenseBenefitContinuingOperations,"17,975,000,000",Operating Expenses,0.11986151210131277,Operating Expenses,0.11986151210131277
-FederalIncomeTaxExpenseBenefitContinuingOperations,"17,975,000,000",Operating Expenses,0.11986151210131277,Operating Expenses,0.11986151210131277
-GrossProfit,"488,648,000,000",comprehensive income,0.12076414836959996,comprehensive income,0.12076414836959996
-GrossProfit,"545,032,000,000",comprehensive income,0.12076414836959996,comprehensive income,0.12076414836959996
-GrossProfit,"545,032,000,000",comprehensive income,0.12076414836959996,comprehensive income,0.12076414836959996
-CostOfGoodsAndServicesSold,"1,936,347,000,000",Operating Expenses,0.12181183726050072,Operating Expenses,0.12181183726050072
-CostOfGoodsAndServicesSold,"1,936,347,000,000",Operating Expenses,0.12181183726050072,Operating Expenses,0.12181183726050072
-CostOfGoodsAndServicesSold,"932,620,000,000",Operating Expenses,0.12181183726050072,Operating Expenses,0.12181183726050072
-ContractWithCustomerLiabilityRevenueRecognized,"24,126,000,000",Revenue,0.12188172609707013,Revenue,0.12188172609707013
-ContractWithCustomerLiabilityRevenueRecognized,"24,126,000,000",Revenue,0.12188172609707013,Revenue,0.12188172609707013
-ContractWithCustomerLiabilityRevenueRecognized,"18,000,000,000",Revenue,0.12188172609707013,Revenue,0.12188172609707013
-IncomeTaxExpenseBenefit,"39,591,000,000",Operating Expenses,0.12204649031175592,Operating Expenses,0.12204649031175592
-IncomeTaxExpenseBenefit,"67,209,000,000",Operating Expenses,0.12204649031175592,Operating Expenses,0.12204649031175592
-IncomeTaxExpenseBenefit,"67,209,000,000",Operating Expenses,0.12204649031175592,Operating Expenses,0.12204649031175592
-DefinedContributionPlanMaximumAnnualContributionsPerEmployeeAmount,"19,000",comprehensive income,0.12257741366808009,comprehensive income,0.12257741366808009
-IncomeTaxReconciliationTaxCreditsResearch,"3,658,000,000",comprehensive income,0.12460976270474136,comprehensive income,0.12460976270474136
-IncomeTaxReconciliationTaxCreditsResearch,"1,786,000,000",comprehensive income,0.12460976270474136,comprehensive income,0.12460976270474136
-IncomeTaxReconciliationTaxCreditsResearch,"3,658,000,000",comprehensive income,0.12460976270474136,comprehensive income,0.12460976270474136
-UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities,"4,851,000,000",operating activities,0.12477081330037944,operating activities,0.12477081330037944
-UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities,"4,851,000,000",operating activities,0.12477081330037944,operating activities,0.12477081330037944
-UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities,"2,147,000,000",operating activities,0.12477081330037944,operating activities,0.12477081330037944
-IncomeTaxesPaidNet,"37,271,000,000",comprehensive income,0.12526032366793413,comprehensive income,0.12526032366793413
-IncomeTaxesPaidNet,"88,150,000,000",comprehensive income,0.12526032366793413,comprehensive income,0.12526032366793413
-IncomeTaxesPaidNet,"88,150,000,000",comprehensive income,0.12526032366793413,comprehensive income,0.12526032366793413
-UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions,"1,920,000,000",comprehensive income,0.12568032699993606,comprehensive income,0.12568032699993606
-UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions,"3,850,000,000",comprehensive income,0.12568032699993606,comprehensive income,0.12568032699993606
-UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions,"1,920,000,000",comprehensive income,0.12568032699993606,comprehensive income,0.12568032699993606
-CurrentForeignTaxExpenseBenefit,"58,924,000,000",Operating Expenses,0.1262972667812116,Operating Expenses,0.1262972667812116
-CurrentForeignTaxExpenseBenefit,"9,619,000,000",Operating Expenses,0.1262972667812116,Operating Expenses,0.1262972667812116
-CurrentForeignTaxExpenseBenefit,"58,924,000,000",Operating Expenses,0.1262972667812116,Operating Expenses,0.1262972667812116
-UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions,"5,742,000,000",comprehensive income,0.12792591622392205,comprehensive income,0.12792591622392205
-UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions,"5,742,000,000",comprehensive income,0.12792591622392205,comprehensive income,0.12792591622392205
-UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions,"8,609,000,000",comprehensive income,0.12792591622392205,comprehensive income,0.12792591622392205
-UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations,"2,275,000,000",comprehensive income,0.128938294209956,comprehensive income,0.128938294209956
-UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations,"2,275,000,000",comprehensive income,0.128938294209956,comprehensive income,0.128938294209956
-UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations,"118,000,000",comprehensive income,0.128938294209956,comprehensive income,0.128938294209956
-CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect,"29,740,000,000",operating activities,0.12942287997449956,operating activities,0.12942287997449956
-CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect,"10,957,000,000",operating activities,0.12942287997449956,operating activities,0.12942287997449956
-CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect,"10,957,000,000",operating activities,0.12942287997449956,operating activities,0.12942287997449956
-CurrentStateAndLocalTaxExpenseBenefit,"4,976,000,000",Operating Expenses,0.13049855436229352,Operating Expenses,0.13049855436229352
-CurrentStateAndLocalTaxExpenseBenefit,"1,285,000,000",Operating Expenses,0.13049855436229352,Operating Expenses,0.13049855436229352
-CurrentStateAndLocalTaxExpenseBenefit,"4,976,000,000",Operating Expenses,0.13049855436229352,Operating Expenses,0.13049855436229352
-CurrentFederalTaxExpenseBenefit,"55,651,000,000",Operating Expenses,0.13099234907531582,Operating Expenses,0.13099234907531582
-CurrentFederalTaxExpenseBenefit,"21,703,000,000",Operating Expenses,0.13099234907531582,Operating Expenses,0.13099234907531582
-CurrentFederalTaxExpenseBenefit,"21,703,000,000",Operating Expenses,0.13099234907531582,Operating Expenses,0.13099234907531582
-IncomeTaxReconciliationStateAndLocalIncomeTaxes,"879,000,000",comprehensive income,0.13243573860238006,comprehensive income,0.13243573860238006
-IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance,"2,091,000,000",comprehensive income,0.13255722005485862,comprehensive income,0.13255722005485862
-IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance,"2,091,000,000",comprehensive income,0.13255722005485862,comprehensive income,0.13255722005485862
-EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate,0,comprehensive income,0.1326334565093846,comprehensive income,0.1326334565093846
-EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate,0,comprehensive income,0.1326334565093846,comprehensive income,0.1326334565093846
-EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate,0,comprehensive income,0.1326334565093846,comprehensive income,0.1326334565093846
-IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign,"137,000,000,000",comprehensive income,0.1327919423625986,comprehensive income,0.1327919423625986
-IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign,"232,200,000,000",comprehensive income,0.1327919423625986,comprehensive income,0.1327919423625986
-IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign,"232,200,000,000",comprehensive income,0.1327919423625986,comprehensive income,0.1327919423625986
-IncomeTaxReconciliationForeignIncomeTaxRateDifferential,"-19,175,000,000",comprehensive income,0.13382287108105162,comprehensive income,0.13382287108105162
-IncomeTaxReconciliationForeignIncomeTaxRateDifferential,"-14,366,000,000",comprehensive income,0.13382287108105162,comprehensive income,0.13382287108105162
-IncomeTaxReconciliationForeignIncomeTaxRateDifferential,"-19,175,000,000",comprehensive income,0.13382287108105162,comprehensive income,0.13382287108105162
-PaymentsToAcquireAvailableForSaleSecuritiesDebt,"102,576,000,000",comprehensive income,0.137153977012639,comprehensive income,0.137153977012639
-PaymentsToAcquireAvailableForSaleSecuritiesDebt,"102,576,000,000",comprehensive income,0.137153977012639,comprehensive income,0.137153977012639
-PaymentsToAcquireAvailableForSaleSecuritiesDebt,"270,472,000,000",comprehensive income,0.137153977012639,comprehensive income,0.137153977012639
-ProceedsFromShortTermDebtMaturingInMoreThanThreeMonths,"46,361,000,000",financing activities,0.13785530576955893,financing activities,0.13785530576955893
-ProceedsFromShortTermDebtMaturingInMoreThanThreeMonths,"5,836,000,000",financing activities,0.13785530576955893,financing activities,0.13785530576955893
-ProceedsFromShortTermDebtMaturingInMoreThanThreeMonths,"5,836,000,000",financing activities,0.13785530576955893,financing activities,0.13785530576955893
-OperatingIncomeLoss,"741,134,000,000",nonoperating expenses,0.13975614164012304,nonoperating expenses,0.13975614164012304
-OperatingIncomeLoss,"741,134,000,000",nonoperating expenses,0.13975614164012304,nonoperating expenses,0.13975614164012304
-OperatingIncomeLoss,"703,818,000,000",nonoperating expenses,0.13975614164012304,nonoperating expenses,0.13975614164012304
-EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017Amount,"1,515,000,000",comprehensive income,0.13985759734883077,comprehensive income,0.13985759734883077
-ProceedsFromSaleOfAvailableForSaleSecuritiesDebt,"199,390,000,000",comprehensive income,0.14108406654715316,comprehensive income,0.14108406654715316
-ProceedsFromSaleOfAvailableForSaleSecuritiesDebt,"29,853,000,000",comprehensive income,0.14108406654715316,comprehensive income,0.14108406654715316
-ProceedsFromSaleOfAvailableForSaleSecuritiesDebt,"29,853,000,000",comprehensive income,0.14108406654715316,comprehensive income,0.14108406654715316
-ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities,"131,804,000,000",comprehensive income,0.141567771239122,comprehensive income,0.141567771239122
-ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities,"131,804,000,000",comprehensive income,0.141567771239122,comprehensive income,0.141567771239122
-ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities,"127,758,000,000",comprehensive income,0.141567771239122,comprehensive income,0.141567771239122
-UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense,"800,000,000",Operating Expenses,0.14167810496605188,Operating Expenses,0.14167810496605188
-Dividends,"45,627,000,000",financing activities,0.14175225956487214,financing activities,0.14175225956487214
-Dividends,"40,667,000,000",financing activities,0.14175225956487214,financing activities,0.14175225956487214
-Dividends,"45,627,000,000",financing activities,0.14175225956487214,financing activities,0.14175225956487214
-UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions,"8,965,000,000",comprehensive income,0.14369721711439434,comprehensive income,0.14369721711439434
-UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions,"5,401,000,000",comprehensive income,0.14369721711439434,comprehensive income,0.14369721711439434
-UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions,"8,965,000,000",comprehensive income,0.14369721711439434,comprehensive income,0.14369721711439434
-StandardProductWarrantyAccrualPayments,"12,294,000,000",financing activities,0.1441095485435302,financing activities,0.1441095485435302
-InterestCostsIncurred,"8,400,000,000",nonoperating expenses,0.14661442609452555,nonoperating expenses,0.14661442609452555
-GainLossFromComponentsExcludedFromAssessmentOfFairValueHedgeEffectivenessNet,"777,000,000",comprehensive income,0.14861571904986356,comprehensive income,0.14861571904986356
-StockIssuedDuringPeriodValueNewIssues,"2,005,000,000",financing activities,0.14959845972885957,financing activities,0.14959845972885957
-StockIssuedDuringPeriodValueNewIssues,"4,267,000,000",financing activities,0.14959845972885957,financing activities,0.14959845972885957
-StockIssuedDuringPeriodValueNewIssues,"4,267,000,000",financing activities,0.14959845972885957,financing activities,0.14959845972885957
-WeightedAverageNumberDilutedSharesOutstandingAdjustment,"110,261,000",earnings per share,0.14996728401401357,earnings per share,0.14996728401401357
-RepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths,"44,537,000,000",financing activities,0.1509142958173725,financing activities,0.1509142958173725
-RepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths,"4,693,000,000",financing activities,0.1509142958173725,financing activities,0.1509142958173725
-RepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths,"4,693,000,000",financing activities,0.1509142958173725,financing activities,0.1509142958173725
-IncomeTaxReconciliationOtherAdjustments,"501,000,000",comprehensive income,0.15794048143889639,comprehensive income,0.15794048143889639
-IncomeTaxReconciliationOtherAdjustments,"501,000,000",comprehensive income,0.15794048143889639,comprehensive income,0.15794048143889639
-IncomeTaxReconciliationOtherAdjustments,"537,000,000",comprehensive income,0.15794048143889639,comprehensive income,0.15794048143889639
-NetCashProvidedByUsedInInvestingActivities,"21,835,000,000",investing activities,0.1604218746925804,investing activities,0.1604218746925804
-NetCashProvidedByUsedInInvestingActivities,"21,835,000,000",investing activities,0.1604218746925804,investing activities,0.1604218746925804
-NetCashProvidedByUsedInInvestingActivities,"15,516,000,000",investing activities,0.1604218746925804,investing activities,0.1604218746925804
-PaymentsToAcquireBusinessesNetOfCashAcquired,"1,674,000,000",operating activities,0.16430565695442642,operating activities,0.16430565695442642
-EarningsPerShareBasic,57,earnings per share,0.16676022866264442,earnings per share,0.16676022866264442
-EarningsPerShareBasic,19,earnings per share,0.16676022866264442,earnings per share,0.16676022866264442
-EarningsPerShareBasic,19,earnings per share,0.16676022866264442,earnings per share,0.16676022866264442
-NetIncomeLoss,"277,925,000,000",net income,0.16692075216175264,net income,0.16692075216175264
-NetIncomeLoss,"302,741,000,000",net income,0.16692075216175264,net income,0.16692075216175264
-NetIncomeLoss,"302,741,000,000",net income,0.16692075216175264,net income,0.16692075216175264
-EarningsPerShareDiluted,56,earnings per share,0.17223880983531492,earnings per share,0.17223880983531492
-EarningsPerShareDiluted,19,earnings per share,0.17223880983531492,earnings per share,0.17223880983531492
-EarningsPerShareDiluted,19,earnings per share,0.17223880983531492,earnings per share,0.17223880983531492
-WeightedAverageNumberOfSharesOutstandingBasic,"46,036,514,000",earnings per share,0.17395196367549282,earnings per share,0.17395196367549282
-WeightedAverageNumberOfSharesOutstandingBasic,"14,790,453,000",earnings per share,0.17395196367549282,earnings per share,0.17395196367549282
-WeightedAverageNumberOfSharesOutstandingBasic,"46,036,514,000",earnings per share,0.17395196367549282,earnings per share,0.17395196367549282
-ProceedsFromIssuanceOfLongTermDebt,"9,709,000,000",financing activities,0.17551744771235525,financing activities,0.17551744771235525
-ProceedsFromIssuanceOfLongTermDebt,"9,709,000,000",financing activities,0.17551744771235525,financing activities,0.17551744771235525
-ProceedsFromIssuanceOfLongTermDebt,"42,594,000,000",financing activities,0.17551744771235525,financing activities,0.17551744771235525
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue,551,Operating Expenses,0.17630879272382521,Operating Expenses,0.17630879272382521
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue,551,Operating Expenses,0.17630879272382521,Operating Expenses,0.17630879272382521
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue,500,Operating Expenses,0.17630879272382521,Operating Expenses,0.17630879272382521
-WeightedAverageNumberOfDilutedSharesOutstanding,"46,225,339,000",earnings per share,0.17642133716293817,earnings per share,0.17642133716293817
-WeightedAverageNumberOfDilutedSharesOutstanding,"46,225,339,000",earnings per share,0.17642133716293817,earnings per share,0.17642133716293817
-WeightedAverageNumberOfDilutedSharesOutstanding,"14,900,714,000",earnings per share,0.17642133716293817,earnings per share,0.17642133716293817
-OciBeforeReclassificationsBeforeTaxAttributableToParent,"-1,862,000,000",comprehensive income,0.1768328808970632,comprehensive income,0.1768328808970632
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue,159,Operating Expenses,0.17734855564899124,Operating Expenses,0.17734855564899124
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue,159,Operating Expenses,0.17734855564899124,Operating Expenses,0.17734855564899124
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue,341,Operating Expenses,0.17734855564899124,Operating Expenses,0.17734855564899124
-RepaymentsOfLongTermDebt,"32,041,000,000",financing activities,0.1777297896768516,financing activities,0.1777297896768516
-RepaymentsOfLongTermDebt,"18,805,000,000",financing activities,0.1777297896768516,financing activities,0.1777297896768516
-RepaymentsOfLongTermDebt,"32,041,000,000",financing activities,0.1777297896768516,financing activities,0.1777297896768516
-ProceedsFromRepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths,"1,824,000,000",financing activities,0.1784471968376849,financing activities,0.1784471968376849
-ProceedsFromRepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths,"1,143,000,000",financing activities,0.1784471968376849,financing activities,0.1784471968376849
-ProceedsFromRepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths,"1,143,000,000",financing activities,0.1784471968376849,financing activities,0.1784471968376849
-TaxCutsAndJobsActOf2017ReclassificationFromAociToRetainedEarningsTaxEffect,"-556,000,000",comprehensive income,0.17980669769222699,comprehensive income,0.17980669769222699
-IncrementalCommonSharesAttributableToShareBasedPaymentArrangements,"188,825,000",disclosures,0.18011858641112638,disclosures,0.18011858641112638
-IncrementalCommonSharesAttributableToShareBasedPaymentArrangements,"188,825,000",disclosures,0.18011858641112638,disclosures,0.18011858641112638
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeituresWeightedAverageGrantDateFairValue,397,Operating Expenses,0.18031135195375106,Operating Expenses,0.18031135195375106
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeituresWeightedAverageGrantDateFairValue,183,Operating Expenses,0.18031135195375106,Operating Expenses,0.18031135195375106
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeituresWeightedAverageGrantDateFairValue,183,Operating Expenses,0.18031135195375106,Operating Expenses,0.18031135195375106
-NetCashProvidedByUsedInOperatingActivities,"211,050,000,000",operating activities,0.18115850845984352,operating activities,0.18115850845984352
-NetCashProvidedByUsedInOperatingActivities,"340,279,000,000",operating activities,0.18115850845984352,operating activities,0.18115850845984352
-NetCashProvidedByUsedInOperatingActivities,"340,279,000,000",operating activities,0.18115850845984352,operating activities,0.18115850845984352
-ProceedsFromRepaymentsOfShortTermDebtMaturingInThreeMonthsOrLess,"-3,193,000,000",financing activities,0.18230521419620999,financing activities,0.18230521419620999
-ProceedsFromRepaymentsOfShortTermDebtMaturingInThreeMonthsOrLess,"-3,193,000,000",financing activities,0.18230521419620999,financing activities,0.18230521419620999
-ProceedsFromRepaymentsOfShortTermDebtMaturingInThreeMonthsOrLess,"-3,986,000,000",financing activities,0.18230521419620999,financing activities,0.18230521419620999
-PaymentsToAcquireOtherInvestments,"3,393,000,000",investing activities,0.18268360385720026,investing activities,0.18268360385720026
-OperatingLeasePayments,"4,000,000,000",comprehensive income,0.18527378383117374,comprehensive income,0.18527378383117374
-OperatingLeasePayments,"4,000,000,000",comprehensive income,0.18527378383117374,comprehensive income,0.18527378383117374
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue,"22,300,000,000",Operating Expenses,0.187963978041092,Operating Expenses,0.187963978041092
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue,"48,800,000,000",Operating Expenses,0.187963978041092,Operating Expenses,0.187963978041092
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue,"48,800,000,000",Operating Expenses,0.187963978041092,Operating Expenses,0.187963978041092
-OperatingExpenses,"174,465,000,000",Operating Expenses,0.1891878560640059,Operating Expenses,0.1891878560640059
-OperatingExpenses,"92,245,000,000",Operating Expenses,0.1891878560640059,Operating Expenses,0.1891878560640059
-OperatingExpenses,"174,465,000,000",Operating Expenses,0.1891878560640059,Operating Expenses,0.1891878560640059
-NetCashProvidedByUsedInFinancingActivities,"-196,826,000,000",financing activities,0.1896638628110091,financing activities,0.1896638628110091
-NetCashProvidedByUsedInFinancingActivities,"-351,157,000,000",financing activities,0.1896638628110091,financing activities,0.1896638628110091
-NetCashProvidedByUsedInFinancingActivities,"-351,157,000,000",financing activities,0.1896638628110091,financing activities,0.1896638628110091
-ProceedsFromIssuanceOfCommonStock,"2,005,000,000",financing activities,0.19080095264539212,financing activities,0.19080095264539212
-InterestExpense,"9,139,000,000",Operating Expenses,0.19107633129387044,Operating Expenses,0.19107633129387044
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod,"8,373,000",Operating Expenses,0.1917123064522532,Operating Expenses,0.1917123064522532
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod,"8,373,000",Operating Expenses,0.1917123064522532,Operating Expenses,0.1917123064522532
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod,"17,346,000",Operating Expenses,0.1917123064522532,Operating Expenses,0.1917123064522532
-OtherNoncashIncomeExpense,"4,582,000,000",operating activities,0.19217214527014384,operating activities,0.19217214527014384
-OtherNoncashIncomeExpense,"1,262,000,000",operating activities,0.19217214527014384,operating activities,0.19217214527014384
-OtherNoncashIncomeExpense,"4,582,000,000",operating activities,0.19217214527014384,operating activities,0.19217214527014384
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod,"73,466,000",Operating Expenses,0.19306134664961172,Operating Expenses,0.19306134664961172
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod,"73,466,000",Operating Expenses,0.19306134664961172,Operating Expenses,0.19306134664961172
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod,"132,315,000",Operating Expenses,0.19306134664961172,Operating Expenses,0.19306134664961172
-ProceedsFromPaymentsForOtherFinancingActivities,"-1,053,000,000",financing activities,0.19440432997568466,financing activities,0.19440432997568466
-ProceedsFromPaymentsForOtherFinancingActivities,"-105,000,000",financing activities,0.19440432997568466,financing activities,0.19440432997568466
-ProceedsFromPaymentsForOtherFinancingActivities,"-1,053,000,000",financing activities,0.19440432997568466,financing activities,0.19440432997568466
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod,"76,845,000",Operating Expenses,0.1945046176261326,Operating Expenses,0.1945046176261326
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod,"132,541,000",Operating Expenses,0.1945046176261326,Operating Expenses,0.1945046176261326
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod,"76,845,000",Operating Expenses,0.1945046176261326,Operating Expenses,0.1945046176261326
-OperatingLeasesRentExpenseNet,"3,600,000,000",Operating Expenses,0.20109445923188682,Operating Expenses,0.20109445923188682
-EffectiveIncomeTaxRateReconciliationShareBasedCompensationExcessTaxBenefitAmount,"-1,314,000,000",Operating Expenses,0.20202000163917194,Operating Expenses,0.20202000163917194
-StockRepurchasedAndRetiredDuringPeriodShares,"1,404,450,000",financing activities,0.20404343040605114,financing activities,0.20404343040605114
-StockRepurchasedAndRetiredDuringPeriodShares,"1,774,463,000",financing activities,0.20404343040605114,financing activities,0.20404343040605114
-StockRepurchasedAndRetiredDuringPeriodShares,"1,774,463,000",financing activities,0.20404343040605114,financing activities,0.20404343040605114
-ProceedsFromRepaymentsOfCommercialPaper,"-2,050,000,000",financing activities,0.20738366348820997,financing activities,0.20738366348820997
-ProceedsFromRepaymentsOfCommercialPaper,"-2,162,000,000",financing activities,0.20738366348820997,financing activities,0.20738366348820997
-ProceedsFromRepaymentsOfCommercialPaper,"-2,050,000,000",financing activities,0.20738366348820997,financing activities,0.20738366348820997
-PaymentsForProceedsFromOtherInvestingActivities,"1,947,000,000",investing activities,0.21627792802058218,investing activities,0.21627792802058218
-PaymentsForProceedsFromOtherInvestingActivities,"4,125,000,000",investing activities,0.21627792802058218,investing activities,0.21627792802058218
-PaymentsForProceedsFromOtherInvestingActivities,"4,125,000,000",investing activities,0.21627792802058218,investing activities,0.21627792802058218
-StockRepurchasedAndRetiredDuringPeriodValue,"352,244,000,000",financing activities,0.21668414524191504,financing activities,0.21668414524191504
-StockRepurchasedAndRetiredDuringPeriodValue,"352,244,000,000",financing activities,0.21668414524191504,financing activities,0.21668414524191504
-StockRepurchasedAndRetiredDuringPeriodValue,"240,258,000,000",financing activities,0.21668414524191504,financing activities,0.21668414524191504
-AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue,"36,418,000,000",disclosures,0.2227437258761299,disclosures,0.2227437258761299
-AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue,"36,418,000,000",disclosures,0.2227437258761299,disclosures,0.2227437258761299
-AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue,"16,546,000,000",disclosures,0.2227437258761299,disclosures,0.2227437258761299
-PaymentsToAcquirePropertyPlantAndEquipment,"36,259,000,000",operating activities,0.22458725915117592,operating activities,0.22458725915117592
-PaymentsToAcquirePropertyPlantAndEquipment,"33,121,000,000",operating activities,0.22458725915117592,operating activities,0.22458725915117592
-PaymentsToAcquirePropertyPlantAndEquipment,"33,121,000,000",operating activities,0.22458725915117592,operating activities,0.22458725915117592
-DepreciationDepletionAndAmortization,"34,662,000,000",Operating Expenses,0.22756340042742335,Operating Expenses,0.22756340042742335
-DepreciationDepletionAndAmortization,"33,607,000,000",Operating Expenses,0.22756340042742335,Operating Expenses,0.22756340042742335
-DepreciationDepletionAndAmortization,"34,662,000,000",Operating Expenses,0.22756340042742335,Operating Expenses,0.22756340042742335
-AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation,"17,332,000,000",Operating Expenses,0.2330932531531972,Operating Expenses,0.2330932531531972
-AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation,"17,332,000,000",Operating Expenses,0.2330932531531972,Operating Expenses,0.2330932531531972
-AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation,"7,806,000,000",Operating Expenses,0.2330932531531972,Operating Expenses,0.2330932531531972
-PaymentsForRepurchaseOfCommonStock,"172,535,000,000",financing activities,0.23336988351954735,financing activities,0.23336988351954735
-PaymentsForRepurchaseOfCommonStock,"263,210,000,000",financing activities,0.23336988351954735,financing activities,0.23336988351954735
-PaymentsForRepurchaseOfCommonStock,"263,210,000,000",financing activities,0.23336988351954735,financing activities,0.23336988351954735
-PaymentsRelatedToTaxWithholdingForShareBasedCompensation,"28,532,000,000",Operating Expenses,0.23853247866745864,Operating Expenses,0.23853247866745864
-PaymentsRelatedToTaxWithholdingForShareBasedCompensation,"28,532,000,000",Operating Expenses,0.23853247866745864,Operating Expenses,0.23853247866745864
-PaymentsRelatedToTaxWithholdingForShareBasedCompensation,"14,918,000,000",Operating Expenses,0.23853247866745864,Operating Expenses,0.23853247866745864
-ReclassificationFromAociCurrentPeriodBeforeTaxAttributableToParent,"-1,200,000,000",comprehensive income,0.23974576549997803,comprehensive income,0.23974576549997803
-PaymentsOfDividends,"45,680,000,000",financing activities,0.24328224850171865,financing activities,0.24328224850171865
-PaymentsOfDividends,"45,680,000,000",financing activities,0.24328224850171865,financing activities,0.24328224850171865
-PaymentsOfDividends,"40,600,000,000",financing activities,0.24328224850171865,financing activities,0.24328224850171865
-SharesPaidForTaxWithholdingForShareBasedCompensation,"46,200,000",Operating Expenses,0.24359018777455274,Operating Expenses,0.24359018777455274
-Depreciation,"24,700,000,000",Operating Expenses,0.2470102394418577,Operating Expenses,0.2470102394418577
-Depreciation,"28,800,000,000",Operating Expenses,0.2470102394418577,Operating Expenses,0.2470102394418577
-Depreciation,"24,700,000,000",Operating Expenses,0.2470102394418577,Operating Expenses,0.2470102394418577
-GeneralAndAdministrativeExpense,"22,207,000,000",Operating Expenses,0.2553025809403223,Operating Expenses,0.2553025809403223
-GeneralAndAdministrativeExpense,"22,207,000,000",Operating Expenses,0.2553025809403223,Operating Expenses,0.2553025809403223
-SellingAndMarketingExpense,"112,846,000,000",Operating Expenses,0.2555037090410694,Operating Expenses,0.2555037090410694
-SellingAndMarketingExpense,"112,846,000,000",Operating Expenses,0.2555037090410694,Operating Expenses,0.2555037090410694
-SellingGeneralAndAdministrativeExpense,"78,630,000,000",Operating Expenses,0.25783847998988696,Operating Expenses,0.25783847998988696
-SellingGeneralAndAdministrativeExpense,"50,211,000,000",Operating Expenses,0.25783847998988696,Operating Expenses,0.25783847998988696
-SellingGeneralAndAdministrativeExpense,"78,630,000,000",Operating Expenses,0.25783847998988696,Operating Expenses,0.25783847998988696
-ResearchAndDevelopmentExpense,"95,835,000,000",Operating Expenses,0.2588834394659908,Operating Expenses,0.2588834394659908
-ResearchAndDevelopmentExpense,"42,034,000,000",Operating Expenses,0.2588834394659908,Operating Expenses,0.2588834394659908
-ResearchAndDevelopmentExpense,"95,835,000,000",Operating Expenses,0.2588834394659908,Operating Expenses,0.2588834394659908
-ProceedsFromSaleAndMaturityOfOtherInvestments,"2,113,000,000",investing activities,0.2640479063816323,investing activities,0.2640479063816323
-EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense,"10,373,000,000",Operating Expenses,0.2767168517347109,Operating Expenses,0.2767168517347109
-EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense,"5,492,000,000",Operating Expenses,0.2767168517347109,Operating Expenses,0.2767168517347109
-EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense,"10,373,000,000",Operating Expenses,0.2767168517347109,Operating Expenses,0.2767168517347109
-NonoperatingIncomeExpense,"5,413,000,000",nonoperating expenses,0.2933321321716178,nonoperating expenses,0.2933321321716178
-NonoperatingIncomeExpense,"-617,000,000",nonoperating expenses,0.2933321321716178,nonoperating expenses,0.2933321321716178
-NonoperatingIncomeExpense,"-617,000,000",nonoperating expenses,0.2933321321716178,nonoperating expenses,0.2933321321716178
-OtherNonoperatingIncomeExpense,"-152,000,000",nonoperating expenses,0.29439573106320327,nonoperating expenses,0.29439573106320327
-OperatingLeaseCost,"4,100,000,000",Operating Expenses,0.3013211235451843,Operating Expenses,0.3013211235451843
-OperatingLeaseCost,"4,100,000,000",Operating Expenses,0.3013211235451843,Operating Expenses,0.3013211235451843
-ShareBasedCompensation,"35,384,000,000",Operating Expenses,0.3154267800350759,Operating Expenses,0.3154267800350759
-ShareBasedCompensation,"16,248,000,000",Operating Expenses,0.3154267800350759,Operating Expenses,0.3154267800350759
-ShareBasedCompensation,"35,384,000,000",Operating Expenses,0.3154267800350759,Operating Expenses,0.3154267800350759
-IncreaseDecreaseInContractWithCustomerLiability,"-1,221,000,000",operating activities,0.3192640957773534,operating activities,0.3192640957773534
-VariableLeaseCost,"43,800,000,000",Operating Expenses,0.32421805455988284,Operating Expenses,0.32421805455988284
-VariableLeaseCost,"43,800,000,000",Operating Expenses,0.32421805455988284,Operating Expenses,0.32421805455988284
-AllocatedShareBasedCompensationExpense,"16,248,000,000",Operating Expenses,0.32742104249434123,Operating Expenses,0.32742104249434123
-AllocatedShareBasedCompensationExpense,"35,384,000,000",Operating Expenses,0.32742104249434123,Operating Expenses,0.32742104249434123
-AllocatedShareBasedCompensationExpense,"35,384,000,000",Operating Expenses,0.32742104249434123,Operating Expenses,0.32742104249434123
-IncreaseDecreaseInOtherOperatingLiabilities,"7,507,000,000",operating activities,0.3473903596976956,operating activities,0.3473903596976956
-IncreaseDecreaseInOtherOperatingLiabilities,"34,841,000,000",operating activities,0.3473903596976956,operating activities,0.3473903596976956
-IncreaseDecreaseInOtherOperatingLiabilities,"7,507,000,000",operating activities,0.3473903596976956,operating activities,0.3473903596976956
-IncreaseDecreaseInOtherOperatingAssets,"4,868,000,000",operating activities,0.3532430548842059,operating activities,0.3532430548842059
-IncreaseDecreaseInOtherOperatingAssets,"26,612,000,000",operating activities,0.3532430548842059,operating activities,0.3532430548842059
-IncreaseDecreaseInOtherOperatingAssets,"26,612,000,000",operating activities,0.3532430548842059,operating activities,0.3532430548842059
-OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax,"1,177,000,000",comprehensive income,0.35909578206410553,comprehensive income,0.35909578206410553
-OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax,"8,230,000,000",comprehensive income,0.3644753301286466,comprehensive income,0.3644753301286466
-OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax,"-387,000,000",comprehensive income,0.3644753301286466,comprehensive income,0.3644753301286466
-OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax,"8,230,000,000",comprehensive income,0.3644753301286466,comprehensive income,0.3644753301286466
-IncreaseDecreaseInOtherReceivables,"9,333,000,000",operating activities,0.3672308914850494,operating activities,0.3672308914850494
-IncreaseDecreaseInOtherReceivables,"432,000,000",operating activities,0.3672308914850494,operating activities,0.3672308914850494
-IncreaseDecreaseInOtherReceivables,"432,000,000",operating activities,0.3672308914850494,operating activities,0.3672308914850494
+StandardProductWarrantyAccrualWarrantiesIssued,"10,448,000,000",income,0.5724762844408744,operating activities,0.11122722984093367
+Revenues,"571,000,000",income,0.7252099183944728,Operating Expenses,0.11154392935185387
+InvestmentIncomeInterestAndDividend,"14,410,000,000",income,0.6233382974519378,financing activities,0.11275218548873846
+CommonStockDividendsPerShareDeclared,2,income,0.6821352822182375,financing activities,0.11544422888407681
+DeferredForeignIncomeTaxExpenseBenefit,"7,230,000,000",income,0.7253836372731138,Operating Expenses,0.11586583839569005
+EffectiveIncomeTaxRateContinuingOperations,0,income,0.7274458841479491,comprehensive income,0.11612768694614978
+AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount,"62,000,000",income,0.7045449487046285,comprehensive income,0.11640856888286172
+IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest,"208,666,000,000",income,0.7472576358269774,comprehensive income,0.11652249126052117
+DeferredIncomeTaxExpenseBenefit,"-33,145,000,000",income,0.7272584105466895,Operating Expenses,0.11673842407161697
+RevenueFromContractWithCustomerExcludingAssessedTax,"4,260,374,000,000",income,0.674781084679153,operating activities,0.11682321985540595
+ForeignIncomeTaxExpenseBenefitContinuingOperations,"18,312,000,000",income,0.7436141318745849,Operating Expenses,0.11723577545487013
+InterestPaidNet,"9,447,000,000",income,0.6419867385559531,Operating Expenses,0.11725533927893173
+IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate,"45,784,000,000",income,0.7324454403159137,comprehensive income,0.11749123444578714
+DeferredFederalIncomeTaxExpenseBenefit,"-40,377,000,000",income,0.725444118271596,Operating Expenses,0.11925549144458199
+DeferredStateAndLocalIncomeTaxExpenseBenefit,"2,000,000",income,0.722692430624344,Operating Expenses,0.11956424432324232
+StateAndLocalIncomeTaxExpenseBenefitContinuingOperations,"1,483,000,000",income,0.7406169554813493,Operating Expenses,0.11978989133324351
+FederalIncomeTaxExpenseBenefitContinuingOperations,"13,738,000,000",income,0.7434410638860528,Operating Expenses,0.11986151210131277
+GrossProfit,"508,535,000,000",income,0.6136027758794179,comprehensive income,0.12076414836959996
+CostOfGoodsAndServicesSold,"989,128,000,000",income,0.6387977427361479,Operating Expenses,0.12181183726050072
+ContractWithCustomerLiabilityRevenueRecognized,"16,700,000,000",income,0.6739902656310687,Revenue,0.12188172609707013
+IncomeTaxExpenseBenefit,"33,533,000,000",income,0.7287159399080783,Operating Expenses,0.12204649031175592
+DefinedContributionPlanMaximumAnnualContributionsPerEmployeeAmount,"19,500",income,0.6217101376500905,comprehensive income,0.12257741366808009
+IncomeTaxReconciliationTaxCreditsResearch,"1,836,000,000",income,0.687234171011355,comprehensive income,0.12460976270474136
+UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities,"1,693,000,000",income,0.5911810049537574,operating activities,0.12477081330037944
+IncomeTaxesPaidNet,"35,181,000,000",income,0.6669157127794368,comprehensive income,0.12526032366793413
+UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions,"3,689,000,000",income,0.6000969196195484,comprehensive income,0.12568032699993606
+CurrentForeignTaxExpenseBenefit,"11,082,000,000",income,0.7157674344402235,Operating Expenses,0.1262972667812116
+UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions,"8,730,000,000",income,0.6101888130658214,comprehensive income,0.12792591622392205
+UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations,"148,000,000",income,0.6557380068537354,comprehensive income,0.128938294209956
+CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect,"19,500,000,000",cashflow,0.6317026030822241,operating activities,0.12942287997449956
+CurrentStateAndLocalTaxExpenseBenefit,"1,481,000,000",income,0.7061972012208414,Operating Expenses,0.13049855436229352
+CurrentFederalTaxExpenseBenefit,"54,115,000,000",income,0.7096022015778971,Operating Expenses,0.13099234907531582
+IncomeTaxReconciliationStateAndLocalIncomeTaxes,"694,000,000",income,0.6994613871088784,comprehensive income,0.13243573860238006
+EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate,0,income,0.7058660544117671,comprehensive income,0.1326334565093846
+IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign,"130,400,000,000",income,0.7375903932934019,comprehensive income,0.1327919423625986
+IncomeTaxReconciliationForeignIncomeTaxRateDifferential,"-10,765,000,000",income,0.7009123475816286,comprehensive income,0.13382287108105162
+ProceedsFromOtherShortTermDebt,"5,200,000,000",cashflow,0.5024515804494141,financing activities,0.13452162903554804
+PaymentsToAcquireAvailableForSaleSecuritiesDebt,"225,924,000,000",income,0.5623957004736192,comprehensive income,0.137153977012639
+ProceedsFromShortTermDebtMaturingInMoreThanThreeMonths,"34,614,000,000",cashflow,0.5051264926432437,financing activities,0.13785530576955893
+OperatingIncomeLoss,"735,980,000,000",income,0.7754542807566716,nonoperating expenses,0.13975614164012304
+EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017Amount,"933,000,000",income,0.6981551217681129,comprehensive income,0.13985759734883077
+ProceedsFromSaleOfAvailableForSaleSecuritiesDebt,"155,299,000,000",income,0.61336001578472,comprehensive income,0.14108406654715316
+ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities,"165,901,000,000",income,0.5737841810543199,comprehensive income,0.141567771239122
+UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense,"647,000,000",income,0.7477804025091072,Operating Expenses,0.14167810496605188
+Dividends,"41,951,000,000",income,0.5662840264464974,financing activities,0.14175225956487214
+UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions,"4,868,000,000",income,0.6364023728938334,comprehensive income,0.14369721711439434
+StandardProductWarrantyAccrualPayments,"10,928,000,000",cashflow,0.5128757984720653,financing activities,0.1441095485435302
+InterestCostsIncurred,"9,000,000,000",income,0.6957846286225291,nonoperating expenses,0.14661442609452555
+GainLossFromComponentsExcludedFromAssessmentOfFairValueHedgeEffectivenessNet,"1,242,000,000",income,0.6491360513526951,comprehensive income,0.14861571904986356
+StockIssuedDuringPeriodValueNewIssues,"2,330,000,000",income,0.535542450962074,financing activities,0.14959845972885957
+WeightedAverageNumberDilutedSharesOutstandingAdjustment,"479,335,000",income,0.7002608339997425,earnings per share,0.14996728401401357
+RepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths,"39,487,000,000",income,0.5297630396717894,financing activities,0.1509142958173725
+RepaymentsOfOtherShortTermDebt,"5,200,000,000",income,0.5250776873076927,financing activities,0.1578268755851524
+IncomeTaxReconciliationOtherAdjustments,"544,000,000",income,0.6447383005538334,comprehensive income,0.15794048143889639
+NetCashProvidedByUsedInInvestingActivities,"57,673,000,000",cashflow,0.622842376393286,investing activities,0.1604218746925804
+PaymentsToAcquireBusinessesNetOfCashAcquired,"2,869,000,000",cashflow,0.5706416789179493,operating activities,0.16430565695442642
+EarningsPerShareBasic,15,income,0.7245371580223358,earnings per share,0.16676022866264442
+NetIncomeLoss,"284,865,000,000",income,0.7745065551750374,net income,0.16692075216175264
+EarningsPerShareDiluted,15,income,0.720150030785493,earnings per share,0.17223880983531492
+WeightedAverageNumberOfSharesOutstandingBasic,"55,644,965,000",income,0.7251877915368636,earnings per share,0.17395196367549282
+ProceedsFromIssuanceOfLongTermDebt,"30,023,000,000",cashflow,0.523749153234965,financing activities,0.17551744771235525
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue,153,income,0.6290059177494067,Operating Expenses,0.17630879272382521
+WeightedAverageNumberOfDilutedSharesOutstanding,"56,124,300,000",income,0.7216990377063851,earnings per share,0.17642133716293817
+OciBeforeReclassificationsBeforeTaxAttributableToParent,"10,500,000,000",income,0.7342181023012351,comprehensive income,0.1768328808970632
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue,101,income,0.6283962925521074,Operating Expenses,0.17734855564899124
+RepaymentsOfLongTermDebt,"27,934,000,000",income,0.5172648689956127,financing activities,0.1777297896768516
+ProceedsFromRepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths,"-4,873,000,000",cashflow,0.5437492906954191,financing activities,0.1784471968376849
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeituresWeightedAverageGrantDateFairValue,120,income,0.6412745533400174,Operating Expenses,0.18031135195375106
+NetCashProvidedByUsedInOperatingActivities,"227,499,000,000",cashflow,0.5966546853286976,operating activities,0.18115850845984352
+ProceedsFromRepaymentsOfShortTermDebtMaturingInThreeMonthsOrLess,"-2,104,000,000",cashflow,0.5464301915964095,financing activities,0.18230521419620999
+PaymentsToAcquireOtherInvestments,"3,082,000,000",cashflow,0.6108197370422908,investing activities,0.18268360385720026
+OperatingLeasePayments,"1,500,000,000",income,0.658198701162852,comprehensive income,0.18527378383117374
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue,"27,000,000,000",income,0.6042738038462463,Operating Expenses,0.187963978041092
+OperatingExpenses,"104,071,000,000",income,0.7179115552427866,Operating Expenses,0.1891878560640059
+NetCashProvidedByUsedInFinancingActivities,"-265,672,000,000",cashflow,0.6071176009275548,financing activities,0.1896638628110091
+ProceedsFromIssuanceOfCommonStock,"2,330,000,000",income,0.5022677876175933,financing activities,0.19080095264539212
+InterestExpense,"9,689,000,000",income,0.7431364022514712,Operating Expenses,0.19107633129387044
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod,"60,151,000",income,0.6102266408160918,Operating Expenses,0.1917123064522532
+OtherNoncashIncomeExpense,"1,193,000,000",income,0.5724689377284962,operating activities,0.19217214527014384
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod,"485,611,000",income,0.6117802691908908,Operating Expenses,0.19306134664961172
+ProceedsFromPaymentsForOtherFinancingActivities,"-231,000,000",cashflow,0.6052881550976447,financing activities,0.19440432997568466
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod,"504,966,000",income,0.611003616285784,Operating Expenses,0.1945046176261326
+OperatingLeasesRentExpenseNet,"2,500,000,000",income,0.7249593324312941,Operating Expenses,0.20109445923188682
+EffectiveIncomeTaxRateReconciliationShareBasedCompensationExcessTaxBenefitAmount,"-2,244,000,000",income,0.7330995095372531,Operating Expenses,0.20202000163917194
+StockRepurchasedAndRetiredDuringPeriodShares,"5,042,287,000",cashflow,0.5193567715216291,financing activities,0.20404343040605114
+ProceedsFromRepaymentsOfCommercialPaper,"-6,977,000,000",cashflow,0.5653385647165867,financing activities,0.20738366348820997
+PaymentsForProceedsFromOtherInvestingActivities,"2,614,000,000",cashflow,0.6138369245197021,investing activities,0.21627792802058218
+StockRepurchasedAndRetiredDuringPeriodValue,"285,173,000,000",cashflow,0.5330193701690393,financing activities,0.21668414524191504
+AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue,"18,612,000,000",cashflow,0.517022252812193,disclosures,0.2227437258761299
+PaymentsToAcquirePropertyPlantAndEquipment,"31,117,000,000",cashflow,0.5671681297360459,operating activities,0.22458725915117592
+DepreciationDepletionAndAmortization,"34,506,000,000",income,0.6958733507987097,Operating Expenses,0.22756340042742335
+AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation,"9,611,000,000",income,0.683843490198855,Operating Expenses,0.2330932531531972
+PaymentsForRepurchaseOfCommonStock,"211,993,000,000",cashflow,0.5219655634329362,financing activities,0.23336988351954735
+PaymentsRelatedToTaxWithholdingForShareBasedCompensation,"18,578,000,000",income,0.6732000300626227,Operating Expenses,0.23853247866745864
+ReclassificationFromAociCurrentPeriodBeforeTaxAttributableToParent,"2,986,000,000",income,0.7171032588716547,comprehensive income,0.23974576549997803
+PaymentsOfDividends,"41,912,000,000",cashflow,0.5491277808908603,financing activities,0.24328224850171865
+SharesPaidForTaxWithholdingForShareBasedCompensation,"179,000,000",income,0.7079549174078987,Operating Expenses,0.24359018777455274
+Depreciation,"30,300,000,000",income,0.6984183559993676,Operating Expenses,0.2470102394418577
+SellingGeneralAndAdministrativeExpense,"54,866,000,000",income,0.7098460572515586,Operating Expenses,0.25783847998988696
+ResearchAndDevelopmentExpense,"49,205,000,000",income,0.7028751409579386,Operating Expenses,0.2588834394659908
+ProceedsFromSaleAndMaturityOfOtherInvestments,"2,079,000,000",cashflow,0.5995145946272965,investing activities,0.2640479063816323
+EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense,"6,336,000,000",income,0.7243027331865375,Operating Expenses,0.2767168517347109
+NonoperatingIncomeExpense,"4,471,000,000",income,0.7621341054811002,nonoperating expenses,0.2933321321716178
+OtherNonoperatingIncomeExpense,"-106,000,000",income,0.7521004403045564,nonoperating expenses,0.29439573106320327
+OperatingLeaseCost,"1,500,000,000",income,0.7352321013760983,Operating Expenses,0.3013211235451843
+ShareBasedCompensation,"18,237,000,000",income,0.7152338597422777,Operating Expenses,0.3154267800350759
+IncreaseDecreaseInContractWithCustomerLiability,"1,453,000,000",cashflow,0.5580411824371059,operating activities,0.3192640957773534
+VariableLeaseCost,"9,300,000,000",income,0.7138227474093009,Operating Expenses,0.32421805455988284
+AllocatedShareBasedCompensationExpense,"18,237,000,000",income,0.7296096583683842,Operating Expenses,0.32742104249434123
+IncreaseDecreaseInOtherOperatingLiabilities,"42,665,000,000",cashflow,0.6100847666908227,operating activities,0.3473903596976956
+OtherComprehensiveIncomeLossDerivativeExcludedComponentIncreaseDecreaseBeforeAdjustmentsAndTax,"-168,000,000",income,0.6519190572968211,comprehensive income,0.35200754785081184
+IncreaseDecreaseInOtherOperatingAssets,"9,138,000,000",cashflow,0.6066216450234392,operating activities,0.3532430548842059
+OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax,"-138,000,000",income,0.7636321351451519,comprehensive income,0.35909578206410553
+OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax,"1,597,000,000",income,0.7566840992984817,comprehensive income,0.3644753301286466
+IncreaseDecreaseInOtherReceivables,"3,526,000,000",cashflow,0.6298375916388417,operating activities,0.3672308914850494

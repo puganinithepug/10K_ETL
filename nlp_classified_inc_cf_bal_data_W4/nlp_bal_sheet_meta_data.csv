@@ -48,8 +48,8 @@ CommonStockSharesIssued,"5,095,000,000",equity,0.5472769034085101
 LiabilitiesAndStockholdersEquity,"505,677,000,000",equity,0.2085536395670679
 CommonStockSharesAuthorized,"9,141,000,000",equity,0.531821114427583
 GoodwillImpairedAccumulatedImpairmentLoss,0,noncurrent assets,0.35547920378432035
-FinanceLeaseWeightedAverageDiscountRatePercent,0,noncurrent assets,0.1882463164627771
 OperatingLeaseWeightedAverageDiscountRatePercent,0,noncurrent assets,0.16075921773122648
+FinanceLeaseWeightedAverageDiscountRatePercent,0,noncurrent assets,0.1882463164627771
 LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive,"1,000,000,000",noncurrent assets,0.2409980007919309
 LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour,"1,500,000,000",noncurrent assets,0.2342704696873237
 IntangibleAssetsNetExcludingGoodwill,"1,703,000,000",noncurrent assets,0.3350261374537838
@@ -121,9 +121,9 @@ FinanceLeaseLiabilityPaymentsDueAfterYearFive,"528,000,000",noncurrent liabiliti
 UnrecognizedTaxBenefits,"62,491,000,000",noncurrent liabilities,0.344804375853866
 FinanceLeaseLiabilityNoncurrent,"633,000,000",noncurrent liabilities,0.3979907367016522
 FinanceLeaseLiabilityPaymentsDueYearFive,"64,000,000",noncurrent liabilities,0.4414576706718578
-FinanceLeaseLiabilityPaymentsDueYearFour,"68,000,000",noncurrent liabilities,0.4673895058915506
-FinanceLeaseLiabilityPaymentsDueYearThree,"68,000,000",noncurrent liabilities,0.482175972591426
 FinanceLeaseLiabilityPaymentsDueYearTwo,"68,000,000",noncurrent liabilities,0.47596772625478967
+FinanceLeaseLiabilityPaymentsDueYearThree,"68,000,000",noncurrent liabilities,0.482175972591426
+FinanceLeaseLiabilityPaymentsDueYearFour,"68,000,000",noncurrent liabilities,0.4673895058915506
 DebtInstrumentCarryingAmount,"76,500,000,000",noncurrent liabilities,0.26339678087902124
 FinanceLeaseLiabilityUndiscountedExcessAmount,"183,000,000",subtotal liabilities,0.30719621623834653
 OperatingLeaseLiability,"20,234,000,000",subtotal liabilities,0.26117218266112907
