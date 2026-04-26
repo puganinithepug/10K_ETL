@@ -157,4 +157,4 @@ See ETL_Example_Run file to see an example of what to expect after running pytho
 **Next Steps for Improvement**
 - Allowing the NLP classifier to learn new terms by adding high confidence terms to the reference datasets used for training and validation
 - Dockerize the pipeline in order to improve usability
-- Convert balance sheet, income statement and cashflow statement csvs into standardized format (as it usually appears in formal financial documentation)
+- Convert balance sheet, income statement and cashflow statement csvs into standard tabular format (as it usually appears in formal financial documentation)
