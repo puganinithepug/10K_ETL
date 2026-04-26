@@ -129,9 +129,12 @@ eg. *nlp_bal_sheet_aapl_data.csv, nlp_cf_aapl.csv, nlp_inc_cf_aapl.csv, nlp_inc_
 
 **Run ETL**
 
-Clone repo:
+Clone the repo:
 
-
+```bash
+git clone git@github.com:puganinithepug/10K_ETL.git
+cd 10K_ETL
+```
 
 **Run ETL With Docker**
 
