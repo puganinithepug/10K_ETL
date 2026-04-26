@@ -1,4 +1,4 @@
-## ETL for Automated Extraction & Parsing of SEC EDGAR 10K Fillings with NLP-based Reconstruction of Key Financial Statements
+## Dockerized ETL for Automated Extraction & Parsing of SEC EDGAR 10K Fillings with NLP-based Reconstruction of Key Financial Statements
 
 **Overview of the ETL**
 
@@ -127,7 +127,31 @@ The datasets produced in this module are stored in the *nlp_classified_inc_cf_ba
 
 eg. *nlp_bal_sheet_aapl_data.csv, nlp_cf_aapl.csv, nlp_inc_cf_aapl.csv, nlp_inc_aapl.csv, uncertain_bal_sheet_aapl.csv, uncertain_inc_cf_aapl.csv*
 
-**Using the ETL**
+**Run Dockerized ETL**
+
+_Prerequisites_
+
+Before running this project with Docker, make sure you have:
+- **Docker installed** on your machine: https://docs.docker.com/engine/install/
+
+- **Docker daemon running**
+  - On macOS/Windows: Open Docker Desktop
+  - On Debian Linux: Run `sudo dockerd` or `sudo systemctl start docker`
+
+ 1.  _Build the image:_
+   ```bash
+   docker build -t my-etl-app .
+  ```
+
+ 2. _Run the container:_
+   ```bash
+   docker run -it my-etl-app
+  ```
+
+**Alternatively Run ETL Without Docker**
+
+_Prerequisites:_
+- Make sure you have all required modules installed (as specified in requirements.txt doc)
 
 1) Download all of the modules in the ETL to the same directory: *10K_ETL_main.py, Scrape_Parse_10K_W1.py, Merge_Filing_Data_W2.py, Sort_10K_by_Context_W3.py, NLP_Sort_10K_W4.py*
 2) In the same directory as the modules download the reference datasets *bal_sheet_example.csv* and *income_&_cashflow_example.csv*, these can be replaced with your own datasets as long as the format is consistent with the ones provided in this repo
@@ -150,11 +174,9 @@ eg. *nlp_bal_sheet_aapl_data.csv, nlp_cf_aapl.csv, nlp_inc_cf_aapl.csv, nlp_inc_
 7) Before the termination of the of the ETL, the files generated are moved into proper directories based on which module generated them and their purpose in the ETL.
    Note that the directories (xml_docs_W1, parsed_xbrl_data_W1, merged_data_W2, sorted_inc&cf_bal_data_W3, nlp_classified_inc_cf_bal_data_W4) are automatically created inside of the current working directory
 
-**ETL Run Example Run**
 
 See ETL_Example_Run file to see an example of what to expect after running python3 10K_ETL_main.py. Alternatively see 10K_ETL_main.ipynb for another example.
 
 **Next Steps for Improvement**
 - Allowing the NLP classifier to learn new terms by adding high confidence terms to the reference datasets used for training and validation
-- Dockerize the pipeline in order to improve usability
 - Convert balance sheet, income statement and cashflow statement csvs into standard tabular format (as it usually appears in formal financial documentation)
