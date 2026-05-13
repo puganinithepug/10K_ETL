@@ -46,25 +46,25 @@ importlib.reload(SortCxt)
 # bag-of-words
 # tf idf, confusion matrix to pick best classifier for csv annotation 
 
-# using NLP for:
+# using ML for:
 
-# task 1 - nlp
+# task 1 - ml
 # use bal_sheet_example.csv for training
-# copy bal_sheet_{ticker}_data.csv to nlp_bal_sheet_{ticker}_data.csv 
-# annotate nlp_bal_sheet_{ticker}_data.csv with category column based on training 
-# if there are labels in the nlp_bal_sheet_{ticker}_data.csv that are not present in the bal_sheet_example.csv, add (label, value, category) to the bal_sheet_example.csv where category is hypothesized
+# copy bal_sheet_{ticker}_data.csv to ml_bal_sheet_{ticker}_data.csv 
+# annotate ml_bal_sheet_{ticker}_data.csv with category column based on training 
+# if there are labels in the ml_bal_sheet_{ticker}_data.csv that are not present in the bal_sheet_example.csv, add (label, value, category) to the bal_sheet_example.csv where category is hypothesized
 
 # task 2
 # use income_&_cashflow_example.csv for training 
-# copy inc_cf_{ticker}.csv to nlp_inc_cf_{ticker}.csv 
-# annotate nlp_inc_cf_{ticker}.csv with statement column and category column based on training 
-# if there are labels in the nlp_inc_cf_{ticker}.csv that are not present in the income_&_cashflow_example.csv, add (label, value, category) to the income_&_cashflow_example.csv where category is hypothesized
+# copy inc_cf_{ticker}.csv to ml_inc_cf_{ticker}.csv 
+# annotate ml_inc_cf_{ticker}.csv with statement column and category column based on training 
+# if there are labels in the ml_inc_cf_{ticker}.csv that are not present in the income_&_cashflow_example.csv, add (label, value, category) to the income_&_cashflow_example.csv where category is hypothesized
 
-# task 3 - no nlp
-# separate nlp_inc_cf_{ticker}.csv into two csvs: nlp_inc_{ticker}.csv and nlp_cf_{ticker}.csv based on statement column (if "income" -> nlp_inc_{ticker}.csv, if "cashflow" -> nlp_cf_{ticker}.csv)
+# task 3 - no ml
+# separate ml_inc_cf_{ticker}.csv into two csvs: ml_inc_{ticker}.csv and ml_cf_{ticker}.csv based on statement column (if "income" -> ml_inc_{ticker}.csv, if "cashflow" -> ml_cf_{ticker}.csv)
 
-# task 4 - no nlp
-# reconstruct balance sheet from nlp_bal_sheet_{ticker}_data.csv, income statement from nlp_inc_{ticker}.csv, cashflow statement from nlp_cf_{ticker}.csv
+# task 4 - no ml
+# reconstruct balance sheet from ml_bal_sheet_{ticker}_data.csv, income statement from ml_inc_{ticker}.csv, cashflow statement from ml_cf_{ticker}.csv
 # by placing items with the same value in category column together, ordered by size of value (smaller value first -> biggest listed last)
 
 # parser
@@ -310,9 +310,9 @@ def flag_uncertain_predictions(original_train_df, annotated_test_df,
 
 def separate_income_cashflow(ticker):
 
-    # split nlp_inc_cf_{ticker}.csv into two files based on 'statement' column.
+    # split ml_inc_cf_{ticker}.csv into two files based on 'statement' column.
 
-    df = pd.read_csv(f'nlp_inc_cf_{ticker}.csv')
+    df = pd.read_csv(f'ml_inc_cf_{ticker}.csv')
 
     # Filter by statement type
     income_df = df[df['statement'].str.lower() == 'income'].copy()
@@ -362,7 +362,7 @@ def main():
     bal_sheet_test= bal_sheet_test.sort_values(by=['category', 'value']).reset_index(drop=True)
 
     # save annotated balance sheet file
-    bal_sheet_test.to_csv(f'nlp_bal_sheet_{ticker}_data.csv', index=False)
+    bal_sheet_test.to_csv(f'ml_bal_sheet_{ticker}_data.csv', index=False)
 
     # task 2
     # get training dataset for income and cashflow statement # label, value, statement, category
@@ -382,17 +382,17 @@ def main():
     income_cashflow_test['category_confidence'] = category_results['probabilities'].max(axis=1)
 
     # save annotated file
-    income_cashflow_test.to_csv(f'nlp_inc_cf_{ticker}.csv', index=False)
+    income_cashflow_test.to_csv(f'ml_inc_cf_{ticker}.csv', index=False)
 
     # get df's for income and cashflow
     income_df, cashflow_df = separate_income_cashflow(ticker)
 
     # write to separate csv's income and cashflow
-    income_df.to_csv(f'nlp_inc_{ticker}.csv', index=False)
-    print(f"Income statement: {len(income_df)} rows in nlp_inc_{ticker}.csv")
+    income_df.to_csv(f'ml_inc_{ticker}.csv', index=False)
+    print(f"Income statement: {len(income_df)} rows in ml_inc_{ticker}.csv")
 
-    cashflow_df.to_csv(f'nlp_cf_{ticker}.csv', index=False)
-    print(f"Cashflow statement: {len(cashflow_df)} rows in nlp_cf_{ticker}.csv")
+    cashflow_df.to_csv(f'ml_cf_{ticker}.csv', index=False)
+    print(f"Cashflow statement: {len(cashflow_df)} rows in ml_cf_{ticker}.csv")
 
     # Balance sheet uncertain predictions
     bal_sheet_uncertain = flag_uncertain_predictions(
