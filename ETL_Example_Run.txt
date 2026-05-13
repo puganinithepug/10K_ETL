@@ -1,46 +1,30 @@
-Company ticker: pltr
-Year: 2020
-Found CIK 0001321655 for ticker pltr
-https://data.sec.gov/submissions/CIK0001321655.json
-DEBUG: 10-K filings for 2020: 0
-DEBUG: Checking year 2020, found 0 filings
-No 10-K filings found for 2020, trying 2021...
-DEBUG: 10-K filings for 2021: 1
-  - 2021-02-26: 10-K
-DEBUG: Checking year 2021, found 1 filings
-https://www.sec.gov/Archives/edgar/data/1321655/000119312521060650/index.json
-No instance document found in 2021 filings, trying 2022...
+Company ticker:  msft
+Year:  2022
+Found CIK 0000789019 for ticker msft
+https://data.sec.gov/submissions/CIK0000789019.json
 DEBUG: 10-K filings for 2022: 1
-  - 2022-02-24: 10-K
+  - 2022-07-28: 10-K
 DEBUG: Checking year 2022, found 1 filings
-https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/index.json
-Found filing with required XMLs at: https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/index.json
-{'d273589d10k_htm.xml': 'https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/d273589d10k_htm.xml', 'pltr-20211231_cal.xml': 'https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/pltr-20211231_cal.xml', 'pltr-20211231_def.xml': 'https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/pltr-20211231_def.xml', 'pltr-20211231_lab.xml': 'https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/pltr-20211231_lab.xml', 'pltr-20211231_pre.xml': 'https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/pltr-20211231_pre.xml'}
-Downloaded: d273589d10k_htm.xml
-Downloaded: pltr-20211231_cal.xml
-Downloaded: pltr-20211231_def.xml
-Downloaded: pltr-20211231_lab.xml
-Downloaded: pltr-20211231_pre.xml
+https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/index.json
+Found filing with required XMLs at: https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/index.json
+{'msft-10k_20220630_htm.xml': 'https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630_htm.xml', 'msft-20220630_cal.xml': 'https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-20220630_cal.xml', 'msft-20220630_def.xml': 'https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-20220630_def.xml', 'msft-20220630_lab.xml': 'https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-20220630_lab.xml', 'msft-20220630_pre.xml': 'https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-20220630_pre.xml'}
+Downloaded: msft-10k_20220630_htm.xml
+Downloaded: msft-20220630_cal.xml
+Downloaded: msft-20220630_def.xml
+Downloaded: msft-20220630_lab.xml
+Downloaded: msft-20220630_pre.xml
 DEBUG: uri_to_prefix has 12 entries
-DEBUG: Found 290 contexts and 6 units
-DEBUG: Found 1194 facts
-Created: sec_xbrl_content_pltr.csv, sec_xbrl_values_pltr.csv, sec_xbrl_contexts_pltr.csv, sec_xbrl_facts_pltr.csv
-✓ Added to dict_csvs: sec_xbrl_content_pltr.csv
-✓ Added to dict_csvs: sec_xbrl_values_pltr.csv
-✓ Added to dict_csvs: sec_xbrl_contexts_pltr.csv
-✓ Added to dict_csvs: sec_xbrl_facts_pltr.csv
+DEBUG: Found 466 contexts and 5 units
+DEBUG: Found 1819 facts
+Created: sec_xbrl_content_msft.csv, sec_xbrl_values_msft.csv, sec_xbrl_contexts_msft.csv, sec_xbrl_facts_msft.csv
+✓ Added to dict_csvs: sec_xbrl_content_msft.csv
+✓ Added to dict_csvs: sec_xbrl_values_msft.csv
+✓ Added to dict_csvs: sec_xbrl_contexts_msft.csv
+✓ Added to dict_csvs: sec_xbrl_facts_msft.csv
 
-Total metrics in context: 131
+Total metrics in context: 146
 
-Total metrics in context: 0
-
-Total metrics in context: 88
-
-Total metrics in context: 2
-
-Total metrics in context: 1
-
-Total metrics in context: 1
+Total metrics in context: 116
 
 Total metrics in context: 0
 
@@ -48,19 +32,9 @@ Total metrics in context: 1
 
 Total metrics in context: 1
 
-Total metrics in context: 1
-
-Total metrics in context: 1
-
 Total metrics in context: 0
 
-Total metrics in context: 2
-
-Total metrics in context: 1
-
 Total metrics in context: 0
-
-Total metrics in context: 1
 
 Total metrics in context: 1
 
@@ -72,6 +46,24 @@ Total metrics in context: 1
 
 Total metrics in context: 1
 
+Total metrics in context: 1
+
+Total metrics in context: 1
+
+Total metrics in context: 1
+
+Total metrics in context: 1
+
+Total metrics in context: 1
+
+Total metrics in context: 1
+
+Total metrics in context: 1
+
+Total metrics in context: 1
+
+Total metrics in context: 1
+
 Total metrics in context: 0
 
 Total metrics in context: 1
@@ -79,286 +71,349 @@ Total metrics in context: 1
 Total metrics in context: 1
 
 Total metrics in context: 1
-✓ Created and exported to: inc_cf_pltr_data.csv
-✓ Created and exported to: bal_sheet_pltr_data.csv
-✓ Created and exported to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: bal_sheet_pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-✓ Appended to: pltr_data.csv
-Confidence threshold (0.0-1.0): 0.5
-/home/phlka_pug/anaconda3/lib/python3.13/site-packages/sklearn/feature_extraction/text.py:517: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
+
+Total metrics in context: 0
+
+Total metrics in context: 5
+
+Total metrics in context: 7
+
+Total metrics in context: 1
+✓ Created and exported to: bal_sheet_msft_data.csv
+✓ Created and exported to: inc_cf_msft_data.csv
+✓ Created and exported to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: inc_cf_msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+✓ Appended to: msft_data.csv
+Confidence threshold (0.0-1.0):  0.9
+/home/phlka_pug/anaconda3/envs/myenv/lib/python3.13/site-packages/sklearn/feature_extraction/text.py:526: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
   warnings.warn(
 LogisticRegression: train=0.8734, val=0.6000
 MultinomialNB: train=0.8481, val=0.4857
 DecisionTreeClassifier: train=0.7848, val=0.2857
-/home/phlka_pug/anaconda3/lib/python3.13/site-packages/sklearn/feature_extraction/text.py:517: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
+/home/phlka_pug/anaconda3/envs/myenv/lib/python3.13/site-packages/sklearn/feature_extraction/text.py:526: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
   warnings.warn(
 LogisticRegression: train=0.9848, val=0.8276
-/home/phlka_pug/anaconda3/lib/python3.13/site-packages/sklearn/feature_extraction/text.py:517: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
+/home/phlka_pug/anaconda3/envs/myenv/lib/python3.13/site-packages/sklearn/feature_extraction/text.py:526: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
   warnings.warn(
 LogisticRegression: train=0.8939, val=0.4483
 MultinomialNB: train=0.7576, val=0.4138
 DecisionTreeClassifier: train=0.6061, val=0.4483
-Income statement: 101 rows in nlp_inc_pltr.csv
-Cashflow statement: 30 rows in nlp_cf_pltr.csv
+Income statement: 90 rows in ml_inc_msft.csv
+Cashflow statement: 27 rows in ml_cf_msft.csv
 
-⚠ Found 81 uncertain predictions (threshold: 0.5):
+⚠ Found 146 uncertain predictions (threshold: 0.9):
   Require manual review and annotation.
 
-                                                                                                                               label           value               category  prediction_confidence
-                                                                                    OperatingLeaseWeightedAverageDiscountRatePercent               0      noncurrent assets               0.160759
-                                                                                                     MoneyMarketFundsAtCarryingValue   1,583,100,000      noncurrent assets               0.187666
-                                                                                                CertificatesOfDepositAtCarryingValue     125,989,000      noncurrent assets               0.188695
-                                                                                                         CommitmentsAndContingencies             NaN      noncurrent assets               0.193358
-                                                   ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber         885,719                 equity               0.197279
-                             ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice              13      noncurrent assets               0.197505
-                                                                                        LineOfCreditFacilityMaximumBorrowingCapacity     400,000,000      noncurrent assets               0.198744
-                                           ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingIntrinsicValue  12,978,930,000                 equity               0.199725
-                                                                                                    LettersOfCreditOutstandingAmount     193,000,000      noncurrent assets               0.203057
-                                                                                           DeferredTaxLiabilitiesLeasingArrangements     117,330,000    current liabilities               0.206223
-                                                                                                                          SharePrice              13      noncurrent assets               0.206905
-                                                                                                    LiabilitiesAndStockholdersEquity   5,937,954,000                 equity               0.208554
-                                                                                                            RestrictedCashNoncurrent     389,859,000      noncurrent assets               0.208957
-      ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageExercisePrice               5      noncurrent assets               0.215424
-                                                                                                               RestrictedCashCurrent     126,012,000         current assets               0.216147
-                            ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableNumber         169,563      noncurrent assets               0.220025
-                                                                                                             AdditionalPaidInCapital  14,265,942,000                 equity               0.220782
-                                                                                         DeferredTaxAssetsOperatingLossCarryforwards   2,351,635,000      noncurrent assets               0.221557
-           ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableAggregateIntrinsicValue   2,223,706,000      noncurrent assets               0.221789
-                                           EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized   1,811,000,000      noncurrent assets               0.226045
-                           ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedNumber     338,619,000      noncurrent assets               0.228907
-                                                                                      LineOfCreditFacilityRemainingBorrowingCapacity     400,000,000    current liabilities               0.237359
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValue              16      noncurrent assets               0.238134
-                                                DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsShareBasedCompensationCost     458,543,000      noncurrent assets               0.242887
-                                                                                                           DeferredRevenueNoncurrent      90,742,000      noncurrent assets               0.243085
-                                                                                             DeferredTaxAssetsTaxCreditCarryforwards     246,028,000      noncurrent assets               0.246944
-                                                                                                                              Assets   5,937,954,000      noncurrent assets               0.251614
-                                                                              DeferredTaxAssetsTaxDeferredExpenseReservesAndAccruals      99,033,000      noncurrent assets               0.256056
-                                                                                                         MarketableSecuritiesCurrent     234,153,000         current assets               0.257043
-                                                                                                              DeferredRevenueCurrent     417,336,000    current liabilities               0.259399
-                                                                                                             OperatingLeaseLiability     518,952,000   subtotal liabilities               0.261172
-                                                                                                                         Liabilities   2,124,374,000    current liabilities               0.263018
-                                                                                                        DebtInstrumentCarryingAmount               0 noncurrent liabilities               0.263397
-                                                                                                              DeferredTaxAssetsGross   3,336,715,000      noncurrent assets               0.265968
-                                                                                                 PrepaidExpenseAndOtherAssetsCurrent     162,761,000         current assets               0.271143
-                                                                                                DividendsPayableCurrentAndNoncurrent               0    current liabilities               0.271625
-                                                                                     AccumulatedOtherComprehensiveIncomeLossNetOfTax      -5,094,000                 equity               0.272258
-                                                                                                 DeferredTaxAssetsValuationAllowance   3,197,658,000      noncurrent assets               0.273296
-                                                                                                  RetainedEarningsAccumulatedDeficit -10,451,087,000                 equity               0.275606
-                                                                                                           AssetsFairValueDisclosure   3,886,484,000      noncurrent assets               0.276734
-                                                                                                            SaleOfStockPricePerShare               4                 equity               0.279996
-                                                                                                                  StockholdersEquity     188,070,000                 equity               0.288110
-                                                                                                                   SharesOutstanding   4,950,479,000                 equity               0.292308
-                                                                                       AllowanceForDoubtfulAccountsReceivableCurrent               0         current assets               0.292568
-                                                                                                                MarketableSecurities     234,153,000      noncurrent assets               0.295347
-                                                                                                                DeferredTaxAssetsNet      41,272,000      noncurrent assets               0.298192
-                                                                                                        AccountsReceivableNetCurrent     695,655,000         current assets               0.300898
-                                                                                                          OtherLiabilitiesNoncurrent       6,613,000 noncurrent liabilities               0.301514
-                                                                                                       OperatingLeaseRightOfUseAsset     433,973,000      noncurrent assets               0.309156
-                                                                                                      PropertyPlantAndEquipmentGross     438,348,000      noncurrent assets               0.309396
-                                                                                                        PropertyPlantAndEquipmentNet     121,690,000      noncurrent assets               0.313351
-                                                                                                                       AssetsCurrent   5,120,679,000         current assets               0.318939
-                                                                                               CashAndCashEquivalentsAtCarryingValue   5,381,151,000         current assets               0.326259
-                                                                                          DeferredTaxAssetsPropertyPlantAndEquipment      64,146,000      noncurrent assets               0.327756
-                                                                                            LesseeOperatingLeaseLiabilityPaymentsDue     323,062,000 noncurrent liabilities               0.337067
-                                                                                                            EquitySecuritiesFvNiCost     609,000,000         current assets               0.340560
-                                                                              UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate     172,400,000 noncurrent liabilities               0.344703
-                                                                                                             UnrecognizedTaxBenefits     200,141,000 noncurrent liabilities               0.344804
-                                                                                                       ContractWithCustomerLiability     995,200,000    current liabilities               0.347954
-                                                                               LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive      92,365,000 noncurrent liabilities               0.348041
-                                                                       CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents   7,163,857,000         current assets               0.348092
-                                                                                                              LongTermDebtNoncurrent     197,977,000 noncurrent liabilities               0.349611
-                                                                               LesseeOperatingLeaseLiabilityUndiscountedExcessAmount      62,989,000   subtotal liabilities               0.350280
-                                                                                     RevenueRemainingPerformanceObligationPercentage               0    current liabilities               0.351282
-                                                                                               RevenueRemainingPerformanceObligation   1,100,000,000    current liabilities               0.358491
-                                                                                                               OtherAssetsNoncurrent     203,307,000      noncurrent assets               0.364517
-                                                                                                              AccountsPayableCurrent      91,265,000    current liabilities               0.367095
-                                                                            LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths      53,258,000    current liabilities               0.383670
-                                                                                                                    CommonStockValue       3,819,000                 equity               0.395230
-                                                            AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment     158,329,000      noncurrent assets               0.409866
-                                                                                                      OperatingLeaseLiabilityCurrent      69,006,000    current liabilities               0.411222
-                                                                                                                 PreferredStockValue               0                 equity               0.421789
-                                                                                                   OperatingLeaseLiabilityNoncurrent     449,946,000 noncurrent liabilities               0.433979
-                                                                                                                 TreasuryStockShares      27,030,000                 equity               0.439920
-                                                                                                 CommonStockParOrStatedValuePerShare               0                 equity               0.453256
-                                                                                    LesseeOperatingLeaseLiabilityPaymentsDueYearFive      37,045,000 noncurrent liabilities               0.459016
-                                                                                                   EmployeeRelatedLiabilitiesCurrent     146,198,000    current liabilities               0.460852
-                                                                                              PreferredStockParOrStatedValuePerShare               0                 equity               0.474871
-                                                                                    LesseeOperatingLeaseLiabilityPaymentsDueYearFour      42,163,000 noncurrent liabilities               0.483692
-                                                                                     LesseeOperatingLeaseLiabilityPaymentsDueYearTwo      54,206,000 noncurrent liabilities               0.490156
-                                                                                   LesseeOperatingLeaseLiabilityPaymentsDueYearThree      44,025,000 noncurrent liabilities               0.496470
+                                                                                         label           value               category  prediction_confidence
+                                              OperatingLeaseWeightedAverageDiscountRatePercent               0      noncurrent assets               0.160759
+                                                                                          Cash  15,530,000,000         current assets               0.182184
+                                                FinanceLeaseWeightedAverageDiscountRatePercent               0      noncurrent assets               0.188246
+                                                                   CommitmentsAndContingencies             NaN      noncurrent assets               0.193358
+                                                        DerivativeCollateralRightToReclaimCash               0      noncurrent assets               0.201261
+BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCashAndEquivalents     766,000,000      noncurrent assets               0.201515
+                                                                                          Land   8,394,000,000      noncurrent assets               0.205404
+                                                     DeferredTaxLiabilitiesLeasingArrangements   8,125,000,000    current liabilities               0.206223
+                                                                    LeaseholdImprovementsGross  14,703,000,000      noncurrent assets               0.208104
+                                                              LiabilitiesAndStockholdersEquity 698,619,000,000                 equity               0.208554
+                                                    DerivativeCollateralObligationToReturnCash     117,000,000    current liabilities               0.212125
+       BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedIntangibles  19,066,000,000      noncurrent assets               0.215188
+                                                                 BuildingsAndImprovementsGross  98,942,000,000      noncurrent assets               0.215773
+                                                                  OtherReceivablesGrossCurrent   1,965,000,000    current liabilities               0.216511
+                                                 DebtInstrumentInterestRateEffectivePercentage               0      noncurrent assets               0.217242
+                                                               DeferredTaxAssetsLiabilitiesNet  20,268,000,000      noncurrent assets               0.217717
+                                                                   DeferredTaxLiabilitiesOther     247,000,000    current liabilities               0.218751
+                                                    DebtInstrumentInterestRateStatedPercentage               0      noncurrent assets               0.221463
+                                           LossContingencyRangeOfPossibleLossPortionNotAccrued     600,000,000    current liabilities               0.224051
+                                                                  DeferredIncomeTaxLiabilities  19,458,000,000      noncurrent assets               0.228487
+                                                               DeferredIncomeTaxLiabilitiesNet     428,000,000      noncurrent assets               0.229384
+                                        LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree   2,250,000,000      noncurrent assets               0.229915
+                                                                                  InventoryNet   6,378,000,000      noncurrent assets               0.232168
+                                                          DerivativeFairValueOfDerivativeAsset     738,000,000        subtotal assets               0.232750
+                                                           InventoryWorkInProcessNetOfReserves     161,000,000      noncurrent assets               0.233234
+                                          LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo   5,250,000,000      noncurrent assets               0.233998
+                                         LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour   3,000,000,000      noncurrent assets               0.234270
+               DerivativeAssetFairValueGrossAssetIncludingNotSubjectToMasterNettingArrangement   2,262,000,000        subtotal assets               0.235952
+                                                                     FurnitureAndFixturesGross  11,204,000,000      noncurrent assets               0.239785
+                                         LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive   8,000,000,000      noncurrent assets               0.240998
+                                                        DerivativeAssetFairValueGrossLiability     271,000,000        subtotal assets               0.241254
+                                                            InventoryRawMaterialsNetOfReserves   2,334,000,000      noncurrent assets               0.241759
+                                                               AccountsReceivableNetNoncurrent   7,200,000,000         current assets               0.242660
+          DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsShareBasedCompensationCost   1,103,000,000      noncurrent assets               0.242887
+                                      LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive  34,261,000,000      noncurrent assets               0.247597
+                                                              FiniteLivedIntangibleAssetsGross  87,104,000,000      noncurrent assets               0.251158
+                                                                                        Assets 698,619,000,000      noncurrent assets               0.251614
+                                FiniteLivedIntangibleAssetsAmortizationExpenseNextTwelveMonths   2,654,000,000      noncurrent assets               0.252229
+                                                                      DebtInstrumentFaceAmount  99,000,000,000      noncurrent assets               0.252969
+                                                                                  LongTermDebt 107,927,000,000 noncurrent liabilities               0.255835
+                                   DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsOther   5,834,000,000      noncurrent assets               0.258051
+                                                                       OperatingLeaseLiability  50,616,000,000   subtotal liabilities               0.261172
+                                                                                   Liabilities 390,089,000,000    current liabilities               0.263018
+                                                           InventoryFinishedGoodsNetOfReserves   3,883,000,000      noncurrent assets               0.263096
+                                 LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths   2,750,000,000    current liabilities               0.263335
+                                                                  DebtInstrumentCarryingAmount 214,915,000,000 noncurrent liabilities               0.263397
+       BusinessCombinationRecognizedIdentifiableAssetsAcquiredGoodwillAndLiabilitiesAssumedNet  26,882,000,000      noncurrent assets               0.264057
+                                                                        DeferredTaxAssetsGross  41,507,000,000      noncurrent assets               0.265968
+                                                                         FinanceLeaseLiability  54,886,000,000    current liabilities               0.267477
+                                                                        DeferredTaxAssetsOther     780,000,000      noncurrent assets               0.270513
+                                               AccumulatedOtherComprehensiveIncomeLossNetOfTax  -2,856,000,000                 equity               0.272258
+                                                           DeferredTaxAssetsValuationAllowance   1,781,000,000      noncurrent assets               0.273296
+                                                            RetainedEarningsAccumulatedDeficit 141,336,000,000                 equity               0.275606
+                                                               DeferredTaxAssetsDeferredIncome   5,535,000,000      noncurrent assets               0.278884
+                                                                          ShortTermInvestments 620,722,000,000      noncurrent assets               0.279426
+                                                                              DerivativeAssets     968,000,000        subtotal assets               0.282894
+                                                      DerivativeFairValueOfDerivativeLiability     885,000,000   subtotal liabilities               0.283079
+                                                                FiniteLivedIntangibleAssetsNet  38,196,000,000      noncurrent assets               0.283787
+                                                                  AccruedIncomeTaxesNoncurrent  53,259,000,000 noncurrent liabilities               0.284268
+                                   UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount  16,000,000,000    current liabilities               0.285035
+                                   UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestAccrued   8,300,000,000 noncurrent liabilities               0.286466
+                DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months 162,060,000,000      noncurrent assets               0.287292
+                                                                            StockholdersEquity 955,966,000,000                 equity               0.288110
+                                                                         LongTermDebtFairValue 120,900,000,000 noncurrent liabilities               0.288615
+                                       FiniteLivedIntangibleAssetsAmortizationExpenseYearThree   1,631,000,000      noncurrent assets               0.289299
+       DerivativeLiabilityFairValueGrossLiabilityIncludingNotSubjectToMasterNettingArrangement   1,772,000,000   subtotal liabilities               0.292094
+                                                 AllowanceForDoubtfulAccountsReceivableCurrent   1,384,000,000         current assets               0.292568
+                                        FiniteLivedIntangibleAssetsAmortizationExpenseYearFour   1,227,000,000      noncurrent assets               0.297236
+                                                                          DeferredTaxAssetsNet  39,726,000,000      noncurrent assets               0.298192
+                                         FiniteLivedIntangibleAssetsAmortizationExpenseYearTwo   2,385,000,000      noncurrent assets               0.299507
+                                                                  AccountsReceivableNetCurrent  82,304,000,000         current assets               0.300898
+                                                                    OtherLiabilitiesNoncurrent  28,953,000,000 noncurrent liabilities               0.301514
+ DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss   5,000,000,000      noncurrent assets               0.302863
+                                                                EquitySecuritiesFVNINoncurrent  29,970,000,000      noncurrent assets               0.304417
+                                                       ContractWithCustomerLiabilityNoncurrent   5,486,000,000 noncurrent liabilities               0.306019
+                                                                            OtherAssetsCurrent  30,317,000,000         current assets               0.306228
+                                                 FinanceLeaseLiabilityUndiscountedExcessAmount   2,766,000,000   subtotal liabilities               0.307196
+                                        FiniteLivedIntangibleAssetsAmortizationExpenseYearFive     809,000,000      noncurrent assets               0.308615
+                                                                 OperatingLeaseRightOfUseAsset  24,236,000,000      noncurrent assets               0.309156
+                                                                PropertyPlantAndEquipmentGross 276,619,000,000      noncurrent assets               0.309396
+                                                        DerivativeLiabilityFairValueGrossAsset     275,000,000   subtotal liabilities               0.309637
+                                                                  PropertyPlantAndEquipmentNet 160,017,000,000      noncurrent assets               0.313351
+                                                    CashCashEquivalentsAndShortTermInvestments 235,091,000,000         current assets               0.314559
+                                                              FinanceLeaseLiabilityPaymentsDue  17,668,000,000    current liabilities               0.316280
+                                                 FinanceLeaseLiabilityPaymentsDueAfterYearFive   9,931,000,000 noncurrent liabilities               0.317298
+                                                                           LongTermDebtCurrent  10,821,000,000    current liabilities               0.317735
+                                                                           LongTermInvestments  25,750,000,000      noncurrent assets               0.317897
+                                                                                 AssetsCurrent 354,090,000,000         current assets               0.318939
+                                   FiniteLivedIntangibleAssetsAmortizationExpenseAfterYearFive   2,592,000,000      noncurrent assets               0.319959
+                                                         CashAndCashEquivalentsAtCarryingValue  66,825,000,000         current assets               0.326259
+                                                  CommonStocksIncludingAdditionalPaidInCapital 170,050,000,000                 equity               0.328251
+                                                      AvailableForSaleSecuritiesDebtSecurities 434,730,000,000      noncurrent assets               0.328841
+                                                                         DerivativeLiabilities   1,456,000,000   subtotal liabilities               0.335565
+                                                      LesseeOperatingLeaseLiabilityPaymentsDue  15,004,000,000 noncurrent liabilities               0.337067
+                                                                    DeferredIncomeTaxAssetsNet  20,696,000,000      noncurrent assets               0.343490
+                                        UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate  37,900,000,000 noncurrent liabilities               0.344703
+                                                    LossContingencyAccrualCarryingValueCurrent     364,000,000    current liabilities               0.344717
+                                                                       UnrecognizedTaxBenefits 101,081,000,000 noncurrent liabilities               0.344804
+                                              AvailableForSaleDebtSecuritiesAmortizedCostBasis 432,168,000,000      noncurrent assets               0.345739
+                                                                     AccruedIncomeTaxesCurrent   6,241,000,000    current liabilities               0.346726
+                                                                 ContractWithCustomerLiability 185,098,000,000    current liabilities               0.347954
+                                         LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive   5,332,000,000 noncurrent liabilities               0.348041
+                                 CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents  53,087,000,000         current assets               0.348092
+                                          DebtSecuritiesAvailableForSaleUnrealizedLossPosition 168,590,000,000      noncurrent assets               0.349461
+                                                                        LongTermDebtNoncurrent  97,106,000,000 noncurrent liabilities               0.349611
+                                         LesseeOperatingLeaseLiabilityUndiscountedExcessAmount   1,287,000,000   subtotal liabilities               0.350280
+                         AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax   8,460,000,000      noncurrent assets               0.354276
+                                                     GoodwillImpairedAccumulatedImpairmentLoss  11,300,000,000      noncurrent assets               0.355479
+                                                                                      Goodwill 364,790,000,000      noncurrent assets               0.356499
+                               DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNet     982,000,000      noncurrent assets               0.357622
+                                                         RevenueRemainingPerformanceObligation 382,000,000,000    current liabilities               0.358491
+                         AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax   5,883,000,000      noncurrent assets               0.363953
+                                                                         OtherAssetsNoncurrent  36,972,000,000      noncurrent assets               0.364517
+                                                                        AccountsPayableCurrent  34,163,000,000    current liabilities               0.367095
+             AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis  26,480,000,000      noncurrent assets               0.371528
+                                                                              NoncurrentAssets 795,950,000,000      noncurrent assets               0.372126
+                      AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue  26,470,000,000      noncurrent assets               0.375251
+                                      LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths   2,456,000,000    current liabilities               0.383670
+                    AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue  50,748,000,000      noncurrent assets               0.390499
+                                            FiniteLivedIntangibleAssetsAccumulatedAmortization  48,908,000,000      noncurrent assets               0.392150
+                          AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenFairValue   1,259,000,000      noncurrent assets               0.397066
+                     AvailableForSaleSecuritiesDebtMaturitiesRollingYearSixThroughTenFairValue  16,880,000,000      noncurrent assets               0.399320
+           AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveAmortizedCostBasis  52,006,000,000      noncurrent assets               0.399514
+                DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger   6,530,000,000      noncurrent assets               0.400272
+                 AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenAmortizedCostBasis   1,358,000,000      noncurrent assets               0.400351
+                           DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss   5,898,000,000      noncurrent assets               0.401806
+            AvailableForSaleSecuritiesDebtMaturitiesRollingYearSixThroughTenAmortizedCostBasis  18,274,000,000      noncurrent assets               0.402486
+                      AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment 116,602,000,000      noncurrent assets               0.409866
+                                                                       OtherLiabilitiesCurrent  24,734,000,000    current liabilities               0.416254
+                                                             OperatingLeaseLiabilityNoncurrent  21,118,000,000 noncurrent liabilities               0.433979
+                                              FinanceLeaseLiabilityPaymentsDueNextTwelveMonths   1,477,000,000    current liabilities               0.437077
+ DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss     896,000,000      noncurrent assets               0.437460
+                                                      FinanceLeaseLiabilityPaymentsDueYearFive   1,489,000,000 noncurrent liabilities               0.441458
+                                              LesseeOperatingLeaseLiabilityPaymentsDueYearFive   1,328,000,000 noncurrent liabilities               0.459016
+                                                             EmployeeRelatedLiabilitiesCurrent  20,718,000,000    current liabilities               0.460852
+                                                      FinanceLeaseLiabilityPaymentsDueYearFour   1,483,000,000 noncurrent liabilities               0.467390
+                                                          ContractWithCustomerLiabilityCurrent  87,063,000,000    current liabilities               0.473124
+                                                       FinanceLeaseLiabilityPaymentsDueYearTwo   1,487,000,000 noncurrent liabilities               0.475968
+                                                     FinanceLeaseLiabilityPaymentsDueYearThree   1,801,000,000 noncurrent liabilities               0.482176
+                                              LesseeOperatingLeaseLiabilityPaymentsDueYearFour   1,625,000,000 noncurrent liabilities               0.483692
+                                               LesseeOperatingLeaseLiabilityPaymentsDueYearTwo   2,278,000,000 noncurrent liabilities               0.490156
+                                             LesseeOperatingLeaseLiabilityPaymentsDueYearThree   1,985,000,000 noncurrent liabilities               0.496470
+                                                                            LiabilitiesCurrent 183,739,000,000    current liabilities               0.515590
+                                                                  CommonStockSharesOutstanding  30,197,000,000                 equity               0.531352
+                                                                   CommonStockSharesAuthorized  24,000,000,000                 equity               0.531821
+                                     EquitySecuritiesWithoutReadilyDeterminableFairValueAmount   7,100,000,000      noncurrent assets               0.535822
 
-✓ Uncertain predictions saved to: uncertain_bal_sheet_pltr.csv
+✓ Uncertain predictions saved to: uncertain_bal_sheet_msft.csv
   Please review and manually annotate these predictions.
 
-⚠ Found 131 uncertain predictions (threshold: 0.5):
+⚠ Found 117 uncertain predictions (threshold: 0.9):
   Require manual review and annotation.
 
-                                                                                                                                    label          value statement  statement_confidence              category  category_confidence
-                                                      EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents     -4,886,000  cashflow              0.560888    Operating Expenses             0.105844
-                                                                                                   DeferredForeignIncomeTaxExpenseBenefit     15,843,000    income              0.725384    Operating Expenses             0.115866
-                                                                                                              TreasuryStockSharesAcquired              0    income              0.567622  operating activities             0.116027
-                                                                    AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount  5,514,007,000    income              0.704545  comprehensive income             0.116409
-                                              IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest -4,469,584,000    income              0.747258  comprehensive income             0.116522
-                                                                                                          DeferredIncomeTaxExpenseBenefit     15,732,000    income              0.727258    Operating Expenses             0.116738
-                                                                                      RevenueFromContractWithCustomerExcludingAssessedTax  6,754,234,000    income              0.674781  operating activities             0.116823
-                                                                                                                          InterestPaidNet     16,916,000    income              0.641987    Operating Expenses             0.117255
-                                                         SubsidiaryOrEquityMethodInvesteeCumulativeNumberOfSharesIssuedForAllTransactions        100,000    income              0.653352  comprehensive income             0.117356
-                                                            IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate   -469,307,000    income              0.732445  comprehensive income             0.117491
-                                                                                                           CurrentIncomeTaxExpenseBenefit     15,892,000    income              0.735811    Operating Expenses             0.117512
-                                                                                                                 InvestmentIncomeInterest     21,377,000    income              0.653497  comprehensive income             0.118738
-                                                                                                                            CostOfRevenue    934,324,000    income              0.722783    Operating Expenses             0.118742
-                                                                                                   DeferredFederalIncomeTaxExpenseBenefit       -111,000    income              0.725444    Operating Expenses             0.119255
-                                                                                             DeferredStateAndLocalIncomeTaxExpenseBenefit              0    income              0.722692    Operating Expenses             0.119564
-                                                                                                               TreasuryStockSharesRetired      7,201,000    income              0.609952  financing activities             0.119613
-                                                                                                                              GrossProfit  2,442,793,000    income              0.613603  comprehensive income             0.120764
-                                                                                           ContractWithCustomerLiabilityRevenueRecognized    856,100,000    income              0.673990               Revenue             0.121882
-                                                                                                                  IncomeTaxExpenseBenefit     56,224,000    income              0.728716    Operating Expenses             0.122046
-                                                                                                     TreasuryStockValueAcquiredCostMethod     14,979,000    income              0.563153    Operating Expenses             0.123112
-                                                                                                                       DilutiveSecurities     -5,483,000    income              0.671961  comprehensive income             0.124118
-                                                                                                IncomeTaxReconciliationTaxCreditsResearch    122,991,000    income              0.687234  comprehensive income             0.124610
-                                                            UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities        893,000    income              0.591181  operating activities             0.124771
-                                                                                                                       IncomeTaxesPaidNet     26,993,000    income              0.666916  comprehensive income             0.125260
-                                                                           DefinedContributionPlanEmployerDiscretionaryContributionAmount              0    income              0.619941  comprehensive income             0.125340
-                                                                                                                   AssetImpairmentCharges     24,081,000    income              0.609897    Operating Expenses             0.125425
-                                                                           StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities     48,413,000    income              0.580502  comprehensive income             0.125667
-                                                                     UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions     32,724,000    income              0.600097  comprehensive income             0.125680
-                                                                                                   MarketableSecuritiesUnrealizedGainLoss     72,800,000    income              0.678999   nonoperating income             0.125884
-                                                                        StockIssuedDuringPeriodSharesRestrictedStockAwardNetOfForfeitures    132,780,000    income              0.548472  financing activities             0.126204
-                                                                                                          CurrentForeignTaxExpenseBenefit     15,341,000    income              0.715767    Operating Expenses             0.126297
-                                                                     UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions      1,081,000    income              0.610189  comprehensive income             0.127926
-                                                                                                     TreasuryStockRetiredCostMethodAmount              0    income              0.600204    Operating Expenses             0.128795
-                                                      UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations              0    income              0.655738  comprehensive income             0.128938
-                           CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect  1,100,079,000  cashflow              0.631703  operating activities             0.129423
-                                                                                                    CurrentStateAndLocalTaxExpenseBenefit        551,000    income              0.706197    Operating Expenses             0.130499
-                                                                                         IncomeTaxReconciliationNondeductibleExpenseOther    504,775,000    income              0.714528    Operating Expenses             0.130851
-                                                                                                          CurrentFederalTaxExpenseBenefit              0    income              0.709602    Operating Expenses             0.130992
-                                                                            StockIssuedDuringPeriodValueConversionOfConvertibleSecurities  2,105,319,000    income              0.557242  financing activities             0.131230
-                                                                                                   StockIssuedDuringPeriodSharesNewIssues    207,690,000    income              0.560101  financing activities             0.131446
-                                                                                       StockIssuedDuringPeriodSharesStockOptionsExercised    317,490,849    income              0.566467  financing activities             0.132245
-                                                                                          IncomeTaxReconciliationStateAndLocalIncomeTaxes        551,000    income              0.699461  comprehensive income             0.132436
-                                                                       IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance  1,102,353,000    income              0.649422  comprehensive income             0.132557
-                                                                                  IncomeTaxReconciliationForeignIncomeTaxRateDifferential     22,169,000    income              0.700912  comprehensive income             0.133823
-                                                                                       StockIssuedDuringPeriodSharesTreasuryStockReissued              0    income              0.554681  financing activities             0.134795
-                                                                                                                      OperatingIncomeLoss -2,161,169,000    income              0.775454 nonoperating expenses             0.139756
-                                                                                                OtherOperatingActivitiesCashFlowStatement      9,100,000    income              0.543621  operating activities             0.140490
-                                                                                                                           SubleaseIncome     39,726,000    income              0.627935  operating activities             0.141294
-                                                                ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital     17,000,000  cashflow              0.540021  financing activities             0.141430
-                                                                         StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures              0    income              0.528701  financing activities             0.142420
-                                                                   UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions     69,794,000    income              0.636402  comprehensive income             0.143697
-                                                                                                    StockIssuedDuringPeriodValueNewIssues  1,893,505,000    income              0.535542  financing activities             0.149598
-                                                                                        StockIssuedDuringPeriodValueStockOptionsExercised  1,646,362,000    income              0.541178  financing activities             0.149664
-                                                                                        StockIssuedDuringPeriodValueTreasuryStockReissued    200,000,000    income              0.532603  financing activities             0.151706
-                                                 SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedInPeriodFairValue1    633,600,000    income              0.571416    Operating Expenses             0.152950
-                                                                                                        ProceedsFromStockOptionsExercised      7,500,000  cashflow              0.503682  financing activities             0.153014
-                                                                                                 PaymentsToAcquireEquityMethodInvestments     53,802,000  cashflow              0.601791  operating activities             0.156802
-                                                                                                  IncomeTaxReconciliationOtherAdjustments     12,712,000    income              0.644738  comprehensive income             0.157940
-                                                                                               NetCashProvidedByUsedInInvestingActivities   -434,796,000  cashflow              0.622842  investing activities             0.160422
-                                                                                                                    EarningsPerShareBasic             -2    income              0.724537    earnings per share             0.166760
-                                                                                                                            NetIncomeLoss -2,266,416,000    income              0.774507            net income             0.166921
-                                                                                                                  EarningsPerShareDiluted             -2    income              0.720150    earnings per share             0.172239
-                                                                                                       StockRepurchasedDuringPeriodShares      3,046,000    income              0.509514  financing activities             0.173015
-                                                                                            WeightedAverageNumberOfSharesOutstandingBasic  3,478,298,000    income              0.725188    earnings per share             0.173952
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue             24    income              0.629006    Operating Expenses             0.176309
-                                                                                          WeightedAverageNumberOfDilutedSharesOutstanding  3,479,906,000    income              0.721699    earnings per share             0.176421
-ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue              8    income              0.628396    Operating Expenses             0.177349
-   ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeituresWeightedAverageGrantDateFairValue              8    income              0.641275    Operating Expenses             0.180311
-                                                                                               NetCashProvidedByUsedInOperatingActivities   -127,972,000  cashflow              0.596655  operating activities             0.181159
-                                                                                                        PaymentsToAcquireOtherInvestments     23,009,000  cashflow              0.610820  investing activities             0.182684
-                                                                                         ProceedsFromSaleOfOtherAssetsInvestingActivities  1,042,529,000  cashflow              0.569009  investing activities             0.184398
-                                                                                                                       AdvertisingExpense     26,300,000    income              0.694513    Operating Expenses             0.184528
-                                                                                                                   OperatingLeasePayments    107,385,000    income              0.658199  comprehensive income             0.185274
-                   ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue    952,900,000    income              0.604274    Operating Expenses             0.187964
-                                                                                                        StockRepurchasedDuringPeriodValue      5,392,000  cashflow              0.507633  financing activities             0.188005
-                                                                                                                        OperatingExpenses  4,603,962,000    income              0.717912    Operating Expenses             0.189188
-                                                                                               NetCashProvidedByUsedInFinancingActivities  1,667,733,000  cashflow              0.607118  financing activities             0.189664
-                                                                                                        ProceedsFromIssuanceOfCommonStock    743,782,000    income              0.502268  financing activities             0.190801
-                                                                                                                          InterestExpense     20,840,000    income              0.743136    Operating Expenses             0.191076
-                          ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue              6    income              0.639881    Operating Expenses             0.191507
-                              ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod      8,868,000    income              0.610227    Operating Expenses             0.191712
-            ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriodWeightedAverageExercisePrice              5    income              0.649919    Operating Expenses             0.192753
-                                 ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod     31,997,000    income              0.611780    Operating Expenses             0.193061
-                                                                               PaymentsForRepurchaseOfRedeemableConvertiblePreferredStock    168,000,000  cashflow              0.505556  financing activities             0.194245
-                                                                                                                         RepaymentsOfDebt    750,000,000    income              0.501726  financing activities             0.194312
-                                                                                          ProceedsFromPaymentsForOtherFinancingActivities     -2,407,000  cashflow              0.605288  financing activities             0.194404
-                                 ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod     50,350,000    income              0.611004    Operating Expenses             0.194505
-                           ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsExercisesInPeriodWeightedAverageExercisePrice              2    income              0.634335    Operating Expenses             0.194972
-                                                                                                            OperatingLeasesRentExpenseNet     38,500,000    income              0.724959    Operating Expenses             0.201094
-                                             ShareBasedCompensationArrangementByShareBasedPaymentAwardPercentageOfOutstandingStockMaximum              0    income              0.636744    Operating Expenses             0.203111
-                                                                                               OperatingLeasesRentExpenseSubleaseRentals1     14,800,000    income              0.704689    Operating Expenses             0.205614
-                                                                                         PaymentsForRepurchaseOfConvertiblePreferredStock     13,873,000  cashflow              0.517081  financing activities             0.206238
-                                                                                                AdjustmentsToAdditionalPaidInCapitalOther     31,007,000  cashflow              0.542066           disclosures             0.206490
-                                     ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue  4,864,900,000    income              0.621288    Operating Expenses             0.207050
-                                        ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod      6,966,000    income              0.637916    Operating Expenses             0.209329
-                                                                                                    PaymentsToAcquireMarketableSecurities    308,315,000  cashflow              0.576073  operating activities             0.213337
-                                        ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate              0    income              0.621343    Operating Expenses             0.213584
-                                        ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRate              0    income              0.642857    Operating Expenses             0.215501
-                                      ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRate              1    income              0.632964    Operating Expenses             0.215540
-                                                                                          PaymentsForProceedsFromOtherInvestingActivities      2,770,000  cashflow              0.613837  investing activities             0.216278
-                                         AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue  2,285,664,000  cashflow              0.517022           disclosures             0.222744
-                                                                                               PaymentsToAcquirePropertyPlantAndEquipment     37,959,000  cashflow              0.567168  operating activities             0.224587
-                                                                                                       ProceedsFromDebtNetOfIssuanceCosts    823,181,000  cashflow              0.519667  financing activities             0.225638
-                                                                                                     DepreciationDepletionAndAmortization     41,023,000    income              0.695873    Operating Expenses             0.227563
-                                                                                                       PaymentsForRepurchaseOfCommonStock     14,979,000  cashflow              0.521966  financing activities             0.233370
-                                                                                                                             Depreciation     38,900,000    income              0.698418    Operating Expenses             0.247010
-                                                                              RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability     52,253,000  cashflow              0.532242           disclosures             0.253574
-                                                                                                          GeneralAndAdministrativeExpense  1,601,919,000    income              0.705693    Operating Expenses             0.255303
-                                                                                                               SellingAndMarketingExpense  1,748,333,000    income              0.695045    Operating Expenses             0.255504
-                                                                                                            ResearchAndDevelopmentExpense  1,253,710,000    income              0.702875    Operating Expenses             0.258883
-                                                                                        NetIncomeLossAvailableToCommonStockholdersDiluted -2,280,380,000    income              0.777210            net income             0.265585
-                                                                    IncomeTaxReconciliationNondeductibleExpenseShareBasedCompensationCost -1,018,638,000    income              0.751175    Operating Expenses             0.274999
-                                                                                          NetIncomeLossAvailableToCommonStockholdersBasic -2,274,897,000    income              0.783585            net income             0.280796
-                                                                                                           OtherNonoperatingIncomeExpense    -74,160,000    income              0.752100 nonoperating expenses             0.294396
-                                                                                                                       OperatingLeaseCost    104,906,000    income              0.735232    Operating Expenses             0.301321
-                                                                                                                   ShareBasedCompensation  3,230,887,000    income              0.715234    Operating Expenses             0.315427
-                                                                                                                       ShortTermLeaseCost     13,107,000    income              0.715196    Operating Expenses             0.319193
-                                                                                          IncreaseDecreaseInContractWithCustomerLiability    -56,591,000  cashflow              0.558041  operating activities             0.319264
-                                                                                   IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets     10,685,000  cashflow              0.592434  operating activities             0.321225
-                                                                                                                        VariableLeaseCost     16,951,000    income              0.713823    Operating Expenses             0.324218
-                                                                                                   AllocatedShareBasedCompensationExpense  5,351,274,000    income              0.729610    Operating Expenses             0.327421
-                                                                                                                                LeaseCost     95,238,000    income              0.716866    Operating Expenses             0.350986
-                                                                                                        IncreaseDecreaseInDeferredRevenue   -140,569,000  cashflow              0.599592  operating activities             0.359599
-                                                                                             IncreaseDecreaseInOtherNoncurrentLiabilities     -3,094,000  cashflow              0.632483  operating activities             0.361860
-                                                                                                  IncreaseDecreaseInOtherNoncurrentAssets     34,201,000  cashflow              0.625847  operating activities             0.364890
-                                                                                                     IncreaseDecreaseInAccruedLiabilities     57,483,000  cashflow              0.647173  operating activities             0.384986
-                                                                                                     IncreaseDecreaseInAccountsReceivable    167,618,000  cashflow              0.654219  operating activities             0.408992
-                                                                                                        IncreaseDecreaseInAccountsPayable     46,510,000  cashflow              0.668419  operating activities             0.423324
-                                                                                                              ComprehensiveIncomeNetOfTax -2,269,527,000    income              0.782557  comprehensive income             0.444979
-                                                                          OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent     -3,111,000    income              0.789647  comprehensive income             0.454621
-                                                   OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax     -3,111,000    income              0.790475  comprehensive income             0.471050
+                                                                                                                             label             value statement  statement_confidence              category  category_confidence
+EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations      -371,000,000  cashflow              0.549033    Operating Expenses             0.106356
+                                                                                                           StockholdersEquityOther      -189,000,000    income              0.647104    Operating Expenses             0.106605
+                                                                                              CommonStockDividendsPerShareDeclared                 7    income              0.682135  financing activities             0.115444
+                                                                                            DeferredForeignIncomeTaxExpenseBenefit       163,000,000    income              0.725384    Operating Expenses             0.115866
+                                                                                        EffectiveIncomeTaxRateContinuingOperations                 0    income              0.727446  comprehensive income             0.116128
+                                       IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest   207,854,000,000    income              0.747258  comprehensive income             0.116522
+                                                                                                   DeferredIncomeTaxExpenseBenefit    -5,841,000,000    income              0.727258    Operating Expenses             0.116738
+                                                                               RevenueFromContractWithCustomerExcludingAssessedTax 2,758,865,000,000    income              0.674781  operating activities             0.116823
+                                                                                                    CurrentIncomeTaxExpenseBenefit    35,405,000,000    income              0.735811    Operating Expenses             0.117512
+                                                                                              FinitelivedIntangibleAssetsAcquired1    16,080,000,000    income              0.537024  operating activities             0.117635
+                                                                                            DeferredFederalIncomeTaxExpenseBenefit    -4,732,000,000    income              0.725444    Operating Expenses             0.119255
+                                                                                      DeferredStateAndLocalIncomeTaxExpenseBenefit    -1,272,000,000    income              0.722692    Operating Expenses             0.119564
+                                                                                                                      InterestPaid     6,300,000,000    income              0.641566    Operating Expenses             0.119817
+                                                                                                                       GrossProfit   348,413,000,000    income              0.613603  comprehensive income             0.120764
+                                                                                                        CostOfGoodsAndServicesSold   321,920,000,000    income              0.638798    Operating Expenses             0.121812
+                                                                                                           IncomeTaxExpenseBenefit    25,644,000,000    income              0.728716    Operating Expenses             0.122046
+                                                     UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities     2,243,000,000    income              0.591181  operating activities             0.124771
+                                                                                                                IncomeTaxesPaidNet    41,900,000,000    income              0.666916  comprehensive income             0.125260
+                                                              UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions       874,000,000    income              0.600097  comprehensive income             0.125680
+                                                                                                   CurrentForeignTaxExpenseBenefit    16,583,000,000    income              0.715767    Operating Expenses             0.126297
+                                                                                             DefinedContributionPlanCostRecognized     3,600,000,000    income              0.656344    Operating Expenses             0.127409
+                                                              UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions       827,000,000    income              0.610189  comprehensive income             0.127926
+                                               UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations         6,000,000    income              0.655738  comprehensive income             0.128938
+                                                                       IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic   106,925,000,000    income              0.736059  comprehensive income             0.129416
+                    CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect     2,575,000,000  cashflow              0.631703  operating activities             0.129423
+                                                                                             CurrentStateAndLocalTaxExpenseBenefit     3,671,000,000    income              0.706197    Operating Expenses             0.130499
+                                                                            EffectiveIncomeTaxRateReconciliationTaxCreditsResearch                 0    income              0.703314  comprehensive income             0.130754
+                                                                                                   CurrentFederalTaxExpenseBenefit    15,151,000,000    income              0.709602    Operating Expenses             0.130992
+                                                                                                             GainLossOnInvestments     3,450,000,000    income              0.615541  comprehensive income             0.131386
+                                                                                            StockIssuedDuringPeriodSharesNewIssues       143,000,000    income              0.560101  financing activities             0.131446
+                                                               EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate                 0    income              0.705866  comprehensive income             0.132633
+                                                                        IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign   100,929,000,000    income              0.737590  comprehensive income             0.132792
+                                                              EffectiveIncomeTaxRateReconciliationForeignIncomeTaxRateDifferential                 0    income              0.705070  comprehensive income             0.134372
+                                                                                   EffectiveIncomeTaxRateReconciliationFdiiPercent                 0    income              0.699462  comprehensive income             0.135364
+                                                                      EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes                 0    income              0.709907  comprehensive income             0.135588
+                                                                           StockIssuedDuringPeriodSharesEmployeeStockPurchasePlans        24,000,000    income              0.536551  financing activities             0.138469
+                                                                                                               OperatingIncomeLoss   412,516,000,000    income              0.775454 nonoperating expenses             0.139756
+                                                             ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities   134,692,000,000    income              0.573784  comprehensive income             0.141568
+                                                                       UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense       889,000,000    income              0.747780    Operating Expenses             0.141678
+                                                                                                               InvestmentIncomeNet     6,905,000,000    income              0.641352  comprehensive income             0.141800
+                                                                                                          DividendsCommonStockCash   104,889,000,000    income              0.602505  financing activities             0.142318
+                                                            UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions     2,582,000,000    income              0.636402  comprehensive income             0.143697
+                                                                                      BusinessCombinationConsiderationTransferred1    26,900,000,000    income              0.679464  comprehensive income             0.144716
+                                                                                                      GoodwillAcquiredDuringPeriod    48,374,000,000  cashflow              0.540626  investing activities             0.149335
+                                                                                             StockIssuedDuringPeriodValueNewIssues     5,147,000,000    income              0.535542  financing activities             0.149598
+                                                                              EffectiveIncomeTaxRateReconciliationOtherAdjustments                 0    income              0.676754  comprehensive income             0.151387
+                                                                                                    AmortizationOfIntangibleAssets     3,600,000,000    income              0.639025    Operating Expenses             0.152451
+                                                                                        NetCashProvidedByUsedInInvestingActivities   -70,111,000,000  cashflow              0.622842  investing activities             0.160422
+                                                                                          GainLossOnDerivativeInstrumentsNetPretax       152,000,000    income              0.662852  comprehensive income             0.160855
+                                                                                                      PaymentsToAcquireInvestments   166,570,000,000  cashflow              0.613674  operating activities             0.162907
+                                                                                                             EarningsPerShareBasic                23    income              0.724537    earnings per share             0.166760
+                                                                                                                     NetIncomeLoss   178,290,000,000    income              0.774507            net income             0.166921
+                                                                                     RepaymentsOfDebtMaturingInMoreThanThreeMonths    18,291,000,000    income              0.508193  financing activities             0.171481
+                                                                                                           EarningsPerShareDiluted                23    income              0.720150    earnings per share             0.172239
+                                                                                                StockRepurchasedDuringPeriodShares       591,000,000    income              0.509514  financing activities             0.173015
+                                                                                     WeightedAverageNumberOfSharesOutstandingBasic    22,653,000,000    income              0.725188    earnings per share             0.173952
+                                                                                   WeightedAverageNumberOfDilutedSharesOutstanding    22,831,000,000    income              0.721699    earnings per share             0.176421
+                                                                IncrementalCommonSharesAttributableToShareBasedPaymentArrangements       178,000,000    income              0.524675           disclosures             0.180119
+                                                                                        NetCashProvidedByUsedInOperatingActivities   226,450,000,000  cashflow              0.596655  operating activities             0.181159
+                                                                                                  PaymentsOfDebtRestructuringCosts     5,171,000,000    income              0.502048  financing activities             0.184351
+                                                                                                                AdvertisingExpense     3,100,000,000    income              0.694513    Operating Expenses             0.184528
+                                                                                                            OperatingLeasePayments     6,249,000,000    income              0.658199  comprehensive income             0.185274
+                                                                                                 StockRepurchasedDuringPeriodValue   204,679,000,000  cashflow              0.507633  financing activities             0.188005
+                                                                                        NetCashProvidedByUsedInFinancingActivities  -153,393,000,000  cashflow              0.607118  financing activities             0.189664
+                                                                                                 ProceedsFromIssuanceOfCommonStock     4,877,000,000    income              0.502268  financing activities             0.190801
+                                                                                                                   InterestExpense     7,000,000,000    income              0.743136    Operating Expenses             0.191076
+                                                                                       ForeignCurrencyTransactionGainLossBeforeTax      -212,000,000    income              0.746385 nonoperating expenses             0.193975
+                                                                                   ProceedsFromPaymentsForOtherFinancingActivities    -1,966,000,000  cashflow              0.605288  financing activities             0.194404
+                                                                            OciBeforeReclassificationsNetOfTaxAttributableToParent    -3,695,000,000    income              0.744062  comprehensive income             0.196784
+                          ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMinimum                 0    income              0.640566    Operating Expenses             0.212865
+                          ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMaximum                 0    income              0.641169    Operating Expenses             0.213403
+                                                                                            FinanceLeaseInterestPaymentOnLiability     1,151,000,000    income              0.502157  financing activities             0.214262
+                                                                                   PaymentsForProceedsFromOtherInvestingActivities     4,988,000,000  cashflow              0.613837  investing activities             0.216278
+                                  AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue    18,909,000,000  cashflow              0.517022           disclosures             0.222744
+                                                                                        PaymentsToAcquirePropertyPlantAndEquipment    59,949,000,000  cashflow              0.567168  operating activities             0.224587
+                                                                                          ReclassificationFromAociCurrentPeriodTax       -14,000,000    income              0.696233  comprehensive income             0.228781
+                                                                                        DebtSecuritiesAvailableForSaleRealizedGain       317,000,000    income              0.767541 nonoperating expenses             0.229732
+                                                                                                PaymentsForRepurchaseOfCommonStock    83,049,000,000  cashflow              0.521966  financing activities             0.233370
+                                                                                                    PaymentsOfDividendsCommonStock    49,793,000,000  cashflow              0.511926  financing activities             0.234968
+                                                                                                     FinanceLeasePrincipalPayments     1,953,000,000  cashflow              0.529265  financing activities             0.236564
+                                                                          PaymentsRelatedToTaxWithholdingForShareBasedCompensation    12,400,000,000    income              0.673200    Operating Expenses             0.238532
+                                                                                        DebtSecuritiesAvailableForSaleRealizedLoss       215,000,000    income              0.760602 nonoperating expenses             0.242563
+                                                                                                                      Depreciation    32,600,000,000    income              0.698418    Operating Expenses             0.247010
+                                                                                           FinanceLeaseRightOfUseAssetAmortization     2,512,000,000    income              0.639213    Operating Expenses             0.251924
+                                                                       RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability    13,325,000,000  cashflow              0.532242           disclosures             0.253574
+                                                                                                   GeneralAndAdministrativeExpense    16,118,000,000    income              0.705693    Operating Expenses             0.255303
+                                                                                                        SellingAndMarketingExpense    61,540,000,000    income              0.695045    Operating Expenses             0.255504
+                                                                                                       FinanceLeaseInterestExpense     1,151,000,000    income              0.671567    Operating Expenses             0.256245
+                                                                         RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability    10,991,000,000  cashflow              0.569225           disclosures             0.257949
+                                                                                                     ResearchAndDevelopmentExpense    64,497,000,000    income              0.702875    Operating Expenses             0.258883
+                                                            EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense     3,296,000,000    income              0.724303    Operating Expenses             0.276717
+                                                                                                     GoodwillOtherIncreaseDecrease       -28,000,000  cashflow              0.636458  operating activities             0.281478
+                                                                 ReclassificationFromAociCurrentPeriodNetOfTaxAttributableToParent       -46,000,000    income              0.727523  comprehensive income             0.282150
+                                                                                                         NonoperatingIncomeExpense     1,596,000,000    income              0.762134 nonoperating expenses             0.293332
+                                                                                                    OtherNonoperatingIncomeExpense        26,000,000    income              0.752100 nonoperating expenses             0.294396
+                                                                                            EquitySecuritiesFvNiUnrealizedGainLoss     1,635,000,000    income              0.772219   nonoperating income             0.294599
+                                                                                                                OperatingLeaseCost     6,631,000,000    income              0.735232    Operating Expenses             0.301321
+                                                                                              EquitySecuritiesFvNiRealizedGainLoss       235,000,000    income              0.779770   nonoperating income             0.307117
+                                                                                                            ShareBasedCompensation    18,909,000,000    income              0.715234    Operating Expenses             0.315427
+                                                                                   IncreaseDecreaseInContractWithCustomerLiability    11,954,000,000  cashflow              0.558041  operating activities             0.319264
+                                                                                            AllocatedShareBasedCompensationExpense    18,909,000,000    income              0.729610    Operating Expenses             0.327421
+                                                                                         IncreaseDecreaseInOtherCurrentLiabilities     7,839,000,000  cashflow              0.626270  operating activities             0.350559
+                                                                                              IncreaseDecreaseInOtherCurrentAssets     3,971,000,000  cashflow              0.619412  operating activities             0.353453
+                                                                                      IncreaseDecreaseInOtherNoncurrentLiabilities     3,575,000,000  cashflow              0.632483  operating activities             0.361860
+                                                                                           IncreaseDecreaseInOtherNoncurrentAssets     7,301,000,000  cashflow              0.625847  operating activities             0.364890
+                                                                                       IncreaseDecreaseInAccruedIncomeTaxesPayable    -5,244,000,000  cashflow              0.595707  operating activities             0.367189
+                                                                                                     IncreaseDecreaseInInventories     1,692,000,000  cashflow              0.670333  operating activities             0.405014
+                                                                                              IncreaseDecreaseInAccountsReceivable    15,892,000,000  cashflow              0.654219  operating activities             0.408992
+                                                                                                 IncreaseDecreaseInAccountsPayable     8,759,000,000  cashflow              0.668419  operating activities             0.423324
+                                                                                                       ComprehensiveIncomeNetOfTax   173,942,000,000    income              0.782557  comprehensive income             0.444979
+                                                                   OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent    -8,696,000,000    income              0.789647  comprehensive income             0.454621
+                                                                       OtherComprehensiveIncomeLossTaxPortionAttributableToParent1      -983,000,000    income              0.791495  comprehensive income             0.455391
+                                            OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax      -699,000,000    income              0.790475  comprehensive income             0.471050
+                                                                            OtherComprehensiveIncomeLossBeforeReclassificationsTax      -988,000,000    income              0.826997  comprehensive income             0.479063
+                                                          OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax    -3,636,000,000    income              0.814543  comprehensive income             0.484454
+                                                   OtherComprehensiveIncomeLossCashFlowHedgeGainLossBeforeReclassificationAfterTax       -61,000,000    income              0.832979  comprehensive income             0.542417
+                                                      OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax       -13,000,000    income              0.826961  comprehensive income             0.574973
 
-✓ Uncertain predictions saved to: uncertain_inc_cf_pltr.csv
+✓ Uncertain predictions saved to: uncertain_inc_cf_msft.csv
   Please review and manually annotate these predictions.
-Moved: SEC_contextRefs_pltr.csv → parsed_xbrl_data_W1/SEC_contextRefs_pltr.csv
-Moved: sec_xbrl_content_pltr.csv → parsed_xbrl_data_W1/sec_xbrl_content_pltr.csv
-Moved: sec_xbrl_contexts_pltr.csv → parsed_xbrl_data_W1/sec_xbrl_contexts_pltr.csv
-Moved: sec_xbrl_facts_pltr.csv → parsed_xbrl_data_W1/sec_xbrl_facts_pltr.csv
-Moved: sec_xbrl_values_pltr.csv → parsed_xbrl_data_W1/sec_xbrl_values_pltr.csv
+Moved: SEC_contextRefs_msft.csv → parsed_xbrl_data_W1/SEC_contextRefs_msft.csv
+Moved: sec_xbrl_content_msft.csv → parsed_xbrl_data_W1/sec_xbrl_content_msft.csv
+Moved: sec_xbrl_contexts_msft.csv → parsed_xbrl_data_W1/sec_xbrl_contexts_msft.csv
+Moved: sec_xbrl_facts_msft.csv → parsed_xbrl_data_W1/sec_xbrl_facts_msft.csv
+Moved: sec_xbrl_values_msft.csv → parsed_xbrl_data_W1/sec_xbrl_values_msft.csv
 Done! Files moved to 'parsed_xbrl_data_W1'
-Moved: merged_sec_xbrl_pltr.csv → merged_data_W2/merged_sec_xbrl_pltr.csv
+Moved: merged_sec_xbrl_msft.csv → merged_data_W2/merged_sec_xbrl_msft.csv
 Done! Files moved to 'merged_data_W2'
-Moved: inc_cf_pltr_data.csv → sorted_inc&cf_bal_data_W3/inc_cf_pltr_data.csv
-Moved: bal_sheet_pltr_data.csv → sorted_inc&cf_bal_data_W3/bal_sheet_pltr_data.csv
-Moved: pltr_data.csv → sorted_inc&cf_bal_data_W3/pltr_data.csv
+Moved: inc_cf_msft_data.csv → sorted_inc&cf_bal_data_W3/inc_cf_msft_data.csv
+Moved: bal_sheet_msft_data.csv → sorted_inc&cf_bal_data_W3/bal_sheet_msft_data.csv
+Moved: msft_data.csv → sorted_inc&cf_bal_data_W3/msft_data.csv
 Done! Files moved to 'sorted_inc&cf_bal_data_W3'
-Moved: uncertain_bal_sheet_pltr.csv → nlp_classified_inc_cf_bal_data_W4/uncertain_bal_sheet_pltr.csv
-Moved: uncertain_inc_cf_pltr.csv → nlp_classified_inc_cf_bal_data_W4/uncertain_inc_cf_pltr.csv
-Moved: nlp_inc_cf_pltr.csv → nlp_classified_inc_cf_bal_data_W4/nlp_inc_cf_pltr.csv
-Moved: nlp_inc_pltr.csv → nlp_classified_inc_cf_bal_data_W4/nlp_inc_pltr.csv
-Moved: nlp_cf_pltr.csv → nlp_classified_inc_cf_bal_data_W4/nlp_cf_pltr.csv
-Moved: nlp_bal_sheet_pltr_data.csv → nlp_classified_inc_cf_bal_data_W4/nlp_bal_sheet_pltr_data.csv
-Done! Files moved to 'nlp_classified_inc_cf_bal_data_W4'
+Moved: uncertain_bal_sheet_msft.csv → ml_classified_inc_cf_bal_data_W4/uncertain_bal_sheet_msft.csv
+Moved: uncertain_inc_cf_msft.csv → ml_classified_inc_cf_bal_data_W4/uncertain_inc_cf_msft.csv
+Moved: ml_inc_cf_msft.csv → ml_classified_inc_cf_bal_data_W4/ml_inc_cf_msft.csv
+Moved: ml_inc_msft.csv → ml_classified_inc_cf_bal_data_W4/ml_inc_msft.csv
+Moved: ml_cf_msft.csv → ml_classified_inc_cf_bal_data_W4/ml_cf_msft.csv
+Moved: ml_bal_sheet_msft_data.csv → ml_classified_inc_cf_bal_data_W4/ml_bal_sheet_msft_data.csv
+Done! Files moved to 'ml_classified_inc_cf_bal_data_W4'
