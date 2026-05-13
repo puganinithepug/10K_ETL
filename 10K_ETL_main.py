@@ -39,10 +39,10 @@ import shutil
 import importlib
 
 # previous pipeline step
-import NLP_Sort_10K_W4 as NLP
+import ML_Sort_10K_W4 as ML
 
 # updated
-importlib.reload(NLP)
+importlib.reload(ML)
 
 # run pipeline, clean up
 
@@ -67,7 +67,7 @@ def organize_files_after_run(ticker, new_dir, files_to_move):
 
 def main():
 
-    ticker = NLP.main()
+    ticker = ML.main()
     
     new_dir_W1= "parsed_xbrl_data_W1"
     # SEC_contextRefs_{ticker}.csv
