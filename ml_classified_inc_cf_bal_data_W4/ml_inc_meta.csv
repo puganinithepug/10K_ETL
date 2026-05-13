@@ -1,0 +1,84 @@
+label,value,statement_confidence,category,category_confidence
+DeferredForeignIncomeTaxExpenseBenefit,"-140,000,000",0.7253836372731137,Operating Expenses,0.11586583839569
+DeferredStateAndLocalIncomeTaxExpenseBenefit,"-325,000,000",0.7226924306243439,Operating Expenses,0.1195642443232423
+StockholdersEquityOther,"-6,000,000",0.6471041631199166,Operating Expenses,0.1066047088822949
+DeferredFederalIncomeTaxExpenseBenefit,"-7,418,000,000",0.7254441182715959,Operating Expenses,0.1192554914445819
+DeferredIncomeTaxExpenseBenefit,"-7,883,000,000",0.7272584105466894,Operating Expenses,0.1167384240716169
+EffectiveIncomeTaxRateReconciliationNondeductibleExpenseShareBasedCompensationCost,0,0.7529256192915671,Operating Expenses,0.2258487030527161
+FinanceLeaseRightOfUseAssetAmortization,"1,116,000,000",0.6392132340752181,Operating Expenses,0.2519240869828139
+InterestExpenseDebt,"1,263,000,000",0.7255700204507225,Operating Expenses,0.1769277497963125
+VariableLeaseCost,"1,787,000,000",0.7138227474093007,Operating Expenses,0.3242180545598828
+ResearchAndDevelopmentExpense,"117,694,000,000",0.7028751409579383,Operating Expenses,0.2588834394659908
+CapitalExpendituresIncurredButNotYetPaid,"14,551,000,000",0.6175997316920573,Operating Expenses,0.1163613183724214
+NumberOfReportingUnits,2,0.6522760337362097,Operating Expenses,0.1171464338190136
+CurrentStateAndLocalTaxExpenseBenefit,"2,226,000,000",0.7061972012208413,Operating Expenses,0.1304985543622934
+CurrentFederalTaxExpenseBenefit,"20,597,000,000",0.709602201577897,Operating Expenses,0.1309923490753158
+IncomeTaxExpenseBenefit,"22,252,000,000",0.7287159399080781,Operating Expenses,0.1220464903117558
+LaborAndRelatedExpense,"230,916,000,000",0.6719891899706036,Operating Expenses,0.1665059950790717
+PaymentsRelatedToTaxWithholdingForShareBasedCompensation,"24,377,000,000",0.6732000300626226,Operating Expenses,0.2385324786674586
+LongTermPurchaseCommitmentAmount,"24,970,000,000",0.5915399388843802,Operating Expenses,0.1369763800158396
+CostsAndExpenses,"270,937,000,000",0.7166089895360951,Operating Expenses,0.1441761896421326
+TangibleAssetImpairmentCharges,"3,036,000,000",0.6027968211882835,Operating Expenses,0.1256137064982261
+CurrentIncomeTaxExpenseBenefit,"30,135,000,000",0.7358113061552617,Operating Expenses,0.1175115536578181
+OtherCostAndExpenseOperating,"310,958,000,000",0.7186658858559161,Operating Expenses,0.1564197607244445
+GeneralAndAdministrativeExpense,"32,964,000,000",0.7056925976849386,Operating Expenses,0.2553025809403223
+DepreciationDepletionAndAmortization,"35,362,000,000",0.6958733507987096,Operating Expenses,0.2275634004274233
+SellingAndMarketingExpense,"38,910,000,000",0.6950445180840228,Operating Expenses,0.2555037090410694
+ShareBasedCompensation,"42,709,000,000",0.7152338597422776,Operating Expenses,0.3154267800350758
+AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation,"48,754,000,000",0.6838434901988549,Operating Expenses,0.2330932531531971
+AmortizationOfIntangibleAssets,"557,000,000",0.6390254275540389,Operating Expenses,0.1524512426804761
+Depreciation,"58,760,000,000",0.6984183559993675,Operating Expenses,0.2470102394418577
+FinanceLeaseInterestExpense,"59,000,000",0.6715667503517021,Operating Expenses,0.2562446303495362
+OperatingLeaseCost,"6,307,000,000",0.7352321013760982,Operating Expenses,0.3013211235451842
+AdvertisingExpense,"6,730,000,000",0.6945125271785104,Operating Expenses,0.1845276169576575
+CurrentForeignTaxExpenseBenefit,"7,312,000,000",0.7157674344402234,Operating Expenses,0.1262972667812116
+SharesPaidForTaxWithholdingForShareBasedCompensation,"73,000,000",0.7079549174078987,Operating Expenses,0.2435901877745527
+CostOfRevenue,"81,369,000,000",0.722783391598252,Operating Expenses,0.1187420648257395
+AllocatedShareBasedCompensationExpense,"85,418,000,000",0.7296096583683842,Operating Expenses,0.3274210424943412
+LeaseCost,"9,269,000,000",0.7168663387097559,Operating Expenses,0.3509857614204221
+InterestPaidNet,"934,000,000",0.641986738555953,Operating Expenses,0.1172553392789317
+OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax,"-1,979,000,000",0.7904752939499337,comprehensive income,0.4710499113589094
+OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent,"-2,404,000,000",0.7896469084901163,comprehensive income,0.4546213469687601
+OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax,"-425,000,000",0.7566840992984817,comprehensive income,0.3644753301286465
+DeferredIncomeTaxesAndTaxCredits,"-7,893,000,000",0.7014894701856983,comprehensive income,0.1079239529115431
+EffectiveIncomeTaxRateReconciliationFdiiPercent,0,0.6994618345915035,comprehensive income,0.1353643418705179
+EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes,0,0.7099066371160699,comprehensive income,0.1355881832125196
+EffectiveIncomeTaxRateReconciliationOtherAdjustments,0,0.6767537491221438,comprehensive income,0.1513865108106699
+EffectiveIncomeTaxRateReconciliationForeignIncomeTaxRateDifferential,0,0.7050704864815349,comprehensive income,0.1343721357149529
+EffectiveIncomeTaxRateReconciliationTaxCreditsResearch,0,0.703314034185555,comprehensive income,0.1307544925964684
+EffectiveIncomeTaxRateContinuingOperations,0,0.7274458841479489,comprehensive income,0.1161276869461497
+EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate,0,0.705866054411767,comprehensive income,0.1326334565093845
+UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions,"1,063,000,000",0.6101888130658213,comprehensive income,0.1279259162239219
+IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign,"12,044,000,000",0.7375903932934016,comprehensive income,0.1327919423625984
+ComprehensiveIncomeNetOfTax,"122,254,000,000",0.7825567714443384,comprehensive income,0.4449785003471281
+NetIncomeLossAttributableToParentDiluted,"124,658,000,000",0.7385411552443835,comprehensive income,0.1762250625027151
+IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic,"134,866,000,000",0.7360585890449478,comprehensive income,0.1294159270900439
+IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest,"146,910,000,000",0.7472576358269772,comprehensive income,0.1165224912605211
+NumberOfReportableSegments,2,0.6258044345831725,comprehensive income,0.1168810888734638
+IncomeTaxesPaidNet,"23,568,000,000",0.6669157127794366,comprehensive income,0.125260323667934
+InvestmentIncomeInterest,"4,617,000,000",0.6534969345844569,comprehensive income,0.1187380790913555
+UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions,"441,000,000",0.6000969196195484,comprehensive income,0.1256803269999359
+UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions,"5,252,000,000",0.6364023728938334,comprehensive income,0.1436972171143942
+OperatingLeasePayments,"6,717,000,000",0.658198701162852,comprehensive income,0.1852737838311735
+UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations,"88,000,000",0.6557380068537353,comprehensive income,0.1289382942099558
+ImpairmentOfLongLivedAssetsHeldForUse,"9,683,000,000",0.5961134414515535,comprehensive income,0.1353426384548451
+UndistributedEarnings,"119,586,000,000",0.5654263169849773,disclosures,0.1684239982938302
+IncrementalCommonSharesAttributableToShareBasedPaymentArrangements,"150,000,000",0.5246752184755903,disclosures,0.1801185864111265
+WeightedAverageNumberOfSharesOutstandingBasic,"15,590,000,000",0.7251877915368635,earnings per share,0.1739519636754925
+EarningsPerShareDiluted,47,0.720150030785493,earnings per share,0.1722388098353146
+EarningsPerShareBasic,48,0.7245371580223356,earnings per share,0.1667602286626441
+WeightedAverageNumberOfDilutedSharesOutstanding,"7,945,000,000",0.721699037706385,earnings per share,0.1764213371629379
+StockIssuedDuringPeriodSharesNewIssues,"119,000,000",0.5601006335635307,financing activities,0.1314455575125522
+CommonStockDividendsPerShareDeclared,2,0.6821352822182374,financing activities,0.1154442288840767
+DividendsCommonStock,"5,121,000,000",0.6093023946672179,financing activities,0.1443878710982029
+FinanceLeaseInterestPaymentOnLiability,"59,000,000",0.5021573678934675,financing activities,0.2142623887458361
+NetIncomeLoss,"124,658,000,000",0.7745065551750372,net income,0.1669207521617526
+ForeignCurrencyTransactionGainLossBeforeTax,"-1,137,000,000",0.7463845464940921,nonoperating expenses,0.1939749367875555
+OtherNonoperatingIncomeExpense,"-299,000,000",0.7521004403045564,nonoperating expenses,0.2943957310632031
+InterestExpenseNonoperating,"1,346,000,000",0.7544409550515395,nonoperating expenses,0.2388118779638369
+NonoperatingIncomeExpense,"1,835,000,000",0.7621341054811,nonoperating expenses,0.2933321321716177
+OperatingIncomeLoss,"290,150,000,000",0.7754542807566718,nonoperating expenses,0.1397561416401228
+InterestCostsCapitalized,"667,000,000",0.7058857257503074,nonoperating expenses,0.2022531149181456
+OtherNoncashIncomeExpense,"-1,363,000,000",0.572468937728496,operating activities,0.1921721452701437
+RevenueFromContractWithCustomerExcludingAssessedTax,"1,853,997,000,000",0.6747810846791529,operating activities,0.1168232198554058
+UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities,"462,000,000",0.5911810049537574,operating activities,0.1247708133003794

@@ -1,0 +1,26 @@
+label,value,statement_confidence,category,category_confidence
+EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents,"-7,700,000",0.5608883741915046,Operating Expenses,0.1058444105546246
+AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue,"1,734,158,000",0.5170222528121933,disclosures,0.22274372587613
+RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability,"86,432,000",0.5322423082673493,disclosures,0.2535743039305822
+ProceedsFromStockOptionsExercised,"1,049,723,000",0.5036821418956929,financing activities,0.1530135756125536
+StockRepurchasedDuringPeriodValue,"128,392,000",0.5076331948318646,financing activities,0.1880050425325179
+StockRepurchasedAndRetiredDuringPeriodShares,"2,100,000",0.5193567715216292,financing activities,0.2040434304060511
+PaymentsForRepurchaseOfCommonStock,"64,196,000",0.5219655634329362,financing activities,0.2333698835195473
+StockRepurchasedAndRetiredDuringPeriodValue,"64,200,000",0.5330193701690396,financing activities,0.216684145241915
+NetCashProvidedByUsedInFinancingActivities,"768,199,000",0.607117600927555,financing activities,0.1896638628110091
+ProceedsFromPaymentsForOtherFinancingActivities,"952,000",0.6052881550976448,financing activities,0.1944043299756846
+PaymentsForProceedsFromOtherInvestingActivities,"-112,238,000",0.6138369245197022,investing activities,0.216277928020582
+NetCashProvidedByUsedInInvestingActivities,"-3,097,262,000",0.6228423763932861,investing activities,0.1604218746925803
+ProceedsFromSaleAndMaturityOfMarketableSecurities,"8,015,094,000",0.5692593243091367,investing activities,0.2003717235875233
+IncreaseDecreaseInOtherNoncurrentAssets,"-13,956,000",0.6258469837491518,operating activities,0.3648898836329077
+CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect,"-246,978,000",0.6317026030822244,operating activities,0.1294228799744995
+IncreaseDecreaseInAccountsPayable,"-80,532,000",0.668419353605868,operating activities,0.4233243782493898
+PaymentsToAcquireMarketableSecurities,"11,156,819,000",0.5760730754903598,operating activities,0.2133371936653275
+IncreaseDecreaseInAccruedLiabilities,"174,056,000",0.6471728930637833,operating activities,0.3849859284297767
+NetCashProvidedByUsedInOperatingActivities,"2,089,785,000",0.5966546853286977,operating activities,0.1811585084598435
+IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets,"23,806,000",0.592433723224141,operating activities,0.3212252007015755
+IncreaseDecreaseInAccountsReceivable,"390,135,000",0.6542191649216067,operating activities,0.4089919364442411
+IncreaseDecreaseInOtherNoncurrentLiabilities,"4,539,000",0.6324828598466379,operating activities,0.3618600434969138
+IncreaseDecreaseInDeferredRevenue,"40,714,000",0.5995920252515359,operating activities,0.3595989934998879
+PaymentsToAcquirePropertyPlantAndEquipment,"67,775,000",0.567168129736046,operating activities,0.2245872591511757
+IncreaseDecreaseInContractWithCustomerLiability,"69,316,000",0.5580411824371059,operating activities,0.3192640957773533
