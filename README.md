@@ -1,4 +1,4 @@
-## Dockerized ETL for Automated Extraction & Parsing of SEC EDGAR 10K Fillings with NLP-based Reconstruction of Key Financial Statements
+## Dockerized ETL for Automated Extraction & Parsing of SEC EDGAR 10K Fillings with ML-based Reconstruction of Key Financial Statements
 
 **Overview of the ETL**
 
@@ -70,12 +70,12 @@ The new merged dataset: (contextRef_1- contextRef_2, [(label_11, value_11), (lab
 
 - Note that the values are converted to integers, this allows the data to be properly consolidated. Specifically, in each dataset if there are entries with the same label, the values are summed
 
-Generating Reference Data for Sorting and NLP-based Classification:
+Generating Reference Data for Sorting and ML-based Classification:
 - The first sets of data generated from this module was manually evaluated, to verify whether the approach taken yielded any meaningful results
 - For each set keyed with a context reference label (contextRef_i-...-contextRef_j for some values i and j) only the sets with more than 10 (label, value) pairs were considered, considering the size of the key financial statements
 - Through a rigorous process of open coding, relying on credible resources such as Deloitte's DART (https://dart.deloitte.com), FASB (https://asc.fasb.org) and PwC's Viewpoint (https://viewpoint.pwc.com), the datasets were evaluated and manually annotated to produce two primary reference data sets
 - After manual annotation it was found that the method used in this module effectively categorized the data into two main sets: a set of data for the balance sheet and a set of data containing data for both the income statement and the cashflow statement
-- The original manually annotated datasets became references for training and validation sets for NLP-based annotation in the next module in the pipeline
+- The original manually annotated datasets became references for training and validation sets for ML-based annotation in the next module in the pipeline
 
 The reference data for the balance sheet: *bal_sheet_example.csv*
 - This csv contains the label and value columns, and the category column - which was manually annotated
@@ -99,9 +99,9 @@ eg. *meta_data.csv*
 
 **The fourth module of the pipeline is the NLP_Sort_10K_W4.py:**
 
-- In this module NLP was used to annotate the datasets produced by the last module, using the the reference datasets for training and validation:
+- In this module ML models were used to annotate the datasets produced by the last module, using the the reference datasets for training and validation:
 
-Annotating the balance sheet data with NLP-based classifiers:
+Annotating the balance sheet data with ML-based classifiers:
 - *bal_sheet_example.csv* is the reference dataset used for training to annotate *bal_sheet_{ticker}_data.csv*, to produce *nlp_bal_sheet_{ticker}_data.csv*
 - *bal_sheet_{ticker}_data.csv* contains label and value columns
 - *nlp_bal_sheet_{ticker}_data.csv* has the category column, which is annotated based on the reference dataset
@@ -182,5 +182,5 @@ Before running this project with Docker, make sure you have:
 See ETL_Example_Run file to see an example of what to expect after running python3 10K_ETL_main.py. Alternatively see 10K_ETL_main.ipynb for another example.
 
 **Next Steps for Improvement**
-- Allowing the NLP classifier to learn new terms by adding high confidence terms to the reference datasets used for training and validation
+- Allowing the ML classifiers to learn new terms by adding high confidence terms to the reference datasets used for training and validation
 - Convert balance sheet, income statement and cashflow statement csvs into standard tabular format (as it usually appears in formal financial documentation)
