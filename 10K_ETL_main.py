@@ -87,14 +87,14 @@ def main():
     #{ticker}_data.csv
     files_W3 = [f"inc_cf_{ticker}_data.csv", f"bal_sheet_{ticker}_data.csv", f"{ticker}_data.csv"]
     
-    new_dir_W4 = "nlp_classified_inc_cf_bal_data_W4"
+    new_dir_W4 = "ml_classified_inc_cf_bal_data_W4"
     #uncertain_bal_sheet_{ticker}.csv
     #uncertain_inc_cf_{ticker}.csv
-    #nlp_inc_cf_{ticker}.csv
-    #nlp_inc_{ticker}.csv
-    #nlp_cf_{ticker}.csv
-    #nlp_bal_sheet_{ticker}_data.csv
-    files_W4 = [f"uncertain_bal_sheet_{ticker}.csv", f"uncertain_inc_cf_{ticker}.csv", f"nlp_inc_cf_{ticker}.csv", f"nlp_inc_{ticker}.csv", f"nlp_cf_{ticker}.csv", f"nlp_bal_sheet_{ticker}_data.csv"]
+    #ml_inc_cf_{ticker}.csv
+    #ml_inc_{ticker}.csv
+    #ml_cf_{ticker}.csv
+    #ml_bal_sheet_{ticker}_data.csv
+    files_W4 = [f"uncertain_bal_sheet_{ticker}.csv", f"uncertain_inc_cf_{ticker}.csv", f"ml_inc_cf_{ticker}.csv", f"ml_inc_{ticker}.csv", f"ml_cf_{ticker}.csv", f"ml_bal_sheet_{ticker}_data.csv"]
 
     organize = [(new_dir_W1, files_W1), (new_dir_W2, files_W2), (new_dir_W3, files_W3), (new_dir_W4, files_W4)]
 
