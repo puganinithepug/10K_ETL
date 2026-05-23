@@ -1,0 +1,4 @@
+label,value,category,prediction_confidence
+OperatingLeaseWeightedAverageDiscountRatePercent,0,noncurrent assets,0.16075921773122648
+FinanceLeaseWeightedAverageDiscountRatePercent,0,noncurrent assets,0.1882463164627771
+CommitmentsAndContingencies,,noncurrent assets,0.19335822999255792

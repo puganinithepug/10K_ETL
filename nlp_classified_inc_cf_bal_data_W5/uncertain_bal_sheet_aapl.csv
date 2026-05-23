@@ -1,0 +1,91 @@
+label,value,category,prediction_confidence
+DerivativeFairValueOfDerivativeNet,"-719,000,000",subtotal liabilities,0.1742331040115492
+CommitmentsAndContingencies,,noncurrent assets,0.19335822999255792
+ShortTermDebtWeightedAverageInterestRate,0,noncurrent assets,0.19445713514164764
+DeferredTaxLiabilitiesOtherComprehensiveIncome,"712,000,000",equity,0.20593496261985897
+DeferredTaxLiabilitiesLeasingArrangements,"1,862,000,000",current liabilities,0.2062234986098175
+LiabilitiesAndStockholdersEquity,"662,404,000,000",equity,0.2085536395670679
+StockRepurchaseProgramAuthorizedAmount1,"225,000,000,000",equity,0.21195845885125195
+StandardProductWarrantyAccrual,"14,450,000,000",noncurrent assets,0.2127112919950918
+DebtInstrumentInterestRateEffectivePercentage,0,noncurrent assets,0.21724175794670803
+DeferredTaxAssetsLiabilitiesNet,"16,202,000,000",noncurrent assets,0.21771740279879429
+DeferredTaxLiabilitiesOther,"1,305,000,000",current liabilities,0.21875054620019438
+DebtInstrumentInterestRateStatedPercentage,0,noncurrent assets,0.22146303403408563
+EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized,"12,200,000,000",noncurrent assets,0.22604497395189785
+DeferredIncomeTaxLiabilities,"21,733,000,000",noncurrent assets,0.2284871448425961
+LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree,"11,389,000,000",noncurrent assets,0.22991487195320032
+InventoryNet,"8,167,000,000",noncurrent assets,0.2321675763991018
+DerivativeFairValueOfDerivativeAsset,"8,588,000,000",subtotal assets,0.2327498294257802
+LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo,"9,569,000,000",noncurrent assets,0.233997581090658
+LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour,"10,115,000,000",noncurrent assets,0.2342704696873237
+LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive,"10,914,000,000",noncurrent assets,0.2409980007919309
+LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive,"55,341,000,000",noncurrent assets,0.24759741313292158
+Assets,"662,404,000,000",noncurrent assets,0.2516138023162774
+NontradeReceivablesCurrent,"44,203,000,000",current liabilities,0.2539494355236751
+DeferredTaxAssetsTaxDeferredExpenseReservesAndAccruals,"10,130,000,000",noncurrent assets,0.2560555652710057
+MarketableSecuritiesCurrent,"209,280,000,000",current assets,0.25704297451642055
+UnrecordedUnconditionalPurchaseObligationDueAfterFiveYears,"130,000,000",current liabilities,0.26112491015188927
+OperatingLeaseLiability,"9,181,000,000",subtotal liabilities,0.26117218266112907
+Liabilities,"506,577,000,000",current liabilities,0.2630180750770318
+LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths,"8,750,000,000",current liabilities,0.2633346637845105
+DebtInstrumentCarryingAmount,"521,614,000,000",noncurrent liabilities,0.26339678087902124
+DeferredTaxAssetsGross,"39,723,000,000",noncurrent assets,0.26596791326394525
+FinanceLeaseLiability,"661,000,000",current liabilities,0.2674770845998172
+OtherAccruedLiabilitiesNoncurrent,"47,278,000,000",current liabilities,0.27027539811003315
+DeferredTaxAssetsOther,"4,583,000,000",noncurrent assets,0.27051294187881797
+AccumulatedOtherComprehensiveIncomeLossNetOfTax,"-990,000,000",equity,0.272257582398104
+DeferredTaxAssetsValuationAllowance,"1,788,000,000",noncurrent assets,0.27329575822615665
+RetainedEarningsAccumulatedDeficit,"60,864,000,000",equity,0.27560619568769934
+LiabilitiesNoncurrent,"295,467,000,000",noncurrent liabilities,0.2781486194706237
+DeferredTaxAssetsDeferredIncome,"3,010,000,000",noncurrent assets,0.27888430851638707
+RestrictedInvestments,"37,500,000,000",noncurrent assets,0.28025292749547503
+DerivativeFairValueOfDerivativeLiability,"7,199,000,000",subtotal liabilities,0.28307941987873375
+AccruedIncomeTaxesNoncurrent,"57,715,000,000",noncurrent liabilities,0.2842675489968577
+UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount,"8,652,000,000",current liabilities,0.2850350274563473
+UnrecordedUnconditionalPurchaseObligationBalanceOnSecondAnniversary,"2,885,000,000",current liabilities,0.2862045708650613
+UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestAccrued,"2,700,000,000",noncurrent liabilities,0.2864655636451277
+StockholdersEquity,"792,188,000,000",equity,0.2881096999224523
+LongTermDebtFairValue,"224,600,000,000",noncurrent liabilities,0.2886147553762195
+UnrecordedUnconditionalPurchaseObligationBalanceOnFourthAnniversary,"357,000,000",current liabilities,0.29021319204753965
+UnrecordedUnconditionalPurchaseObligationBalanceOnFirstAnniversary,"3,476,000,000",current liabilities,0.2928531118799449
+UnrecordedUnconditionalPurchaseObligationBalanceOnThirdAnniversary,"1,700,000,000",current liabilities,0.2930805999443888
+UnrecordedUnconditionalPurchaseObligationBalanceOnFifthAnniversary,"104,000,000",current liabilities,0.29455608191202065
+RestrictedCashAndCashEquivalentsNoncurrent,"3,094,000,000",current assets,0.2959738515176386
+DeferredTaxAssetsNet,"37,935,000,000",noncurrent assets,0.298191621500364
+AccountsReceivableNetCurrent,"39,046,000,000",current assets,0.30089772546510163
+OtherLiabilitiesNoncurrent,"104,993,000,000",noncurrent liabilities,0.3015143014457912
+OtherAssetsCurrent,"23,616,000,000",current assets,0.30622838760663945
+FinanceLeaseLiabilityUndiscountedExcessAmount,"429,000,000",subtotal liabilities,0.30719621623834653
+OperatingLeaseRightOfUseAsset,"8,570,000,000",noncurrent assets,0.30915585230584325
+PropertyPlantAndEquipmentGross,"398,966,000,000",noncurrent assets,0.3093959966710663
+PropertyPlantAndEquipmentNet,"74,144,000,000",noncurrent assets,0.31335115883055686
+DecreaseInUnrecognizedTaxBenefitsIsReasonablyPossible,"3,900,000,000",noncurrent liabilities,0.31535160969198794
+FinanceLeaseLiabilityPaymentsDue,"1,090,000,000",current liabilities,0.3162797705371618
+FinanceLeaseLiabilityPaymentsDueAfterYearFive,"895,000,000",noncurrent liabilities,0.3172977523741579
+LongTermDebtCurrent,"19,033,000,000",current liabilities,0.31773451383863927
+AssetsCurrent,"306,532,000,000",current assets,0.3189388544561074
+CashAndCashEquivalentsAtCarryingValue,"212,535,000,000",current assets,0.3262587691663189
+CommonStocksIncludingAdditionalPaidInCapital,"95,953,000,000",equity,0.3282508133394455
+AvailableForSaleSecuritiesDebtSecurities,"1,145,139,000,000",noncurrent assets,0.3288407787464749
+AssetsNoncurrent,"355,872,000,000",noncurrent assets,0.329461288323334
+CommercialPaper,"21,976,000,000",current liabilities,0.33488846017730256
+RestrictedCashAndCashEquivalentsAtCarryingValue,"59,000,000",current assets,0.33683475299273935
+LesseeOperatingLeaseLiabilityPaymentsDue,"10,144,000,000",noncurrent liabilities,0.33706707489197074
+UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate,"17,400,000,000",noncurrent liabilities,0.34470265964972696
+UnrecognizedTaxBenefits,"82,295,000,000",noncurrent liabilities,0.344804375853866
+AvailableForSaleDebtSecuritiesAmortizedCostBasis,"1,135,179,000,000",noncurrent assets,0.34573943132109625
+ContractWithCustomerLiability,"18,300,000,000",current liabilities,0.3479539291919434
+LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive,"3,845,000,000",noncurrent liabilities,0.3480407751507087
+CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents,"136,215,000,000",current assets,0.3480917848568861
+MarketableSecuritiesNoncurrent,"412,456,000,000",noncurrent assets,0.3493814620248986
+LongTermDebtNoncurrent,"190,474,000,000",noncurrent liabilities,0.3496109078552291
+LesseeOperatingLeaseLiabilityUndiscountedExcessAmount,"963,000,000",subtotal liabilities,0.35028040384492865
+DeferredTaxAssetsGoodwillAndIntangibleAssets,"19,962,000,000",noncurrent assets,0.351800698276884
+AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax,"7,964,000,000",noncurrent assets,0.3542762910209819
+DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNet,"538,000,000",noncurrent assets,0.357622338058615
+AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax,"1,332,000,000",noncurrent assets,0.3639531422604745
+OtherAssetsNoncurrent,"75,500,000,000",noncurrent assets,0.3645166375256922
+AccountsPayableCurrent,"88,532,000,000",current liabilities,0.3670953295654334
+NoncurrentAssets,"148,288,000,000",noncurrent assets,0.37212575275641774
+LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths,"1,493,000,000",current liabilities,0.38367035285414236
+FinanceLeaseLiabilityNoncurrent,"637,000,000",noncurrent liabilities,0.3979907367016522
