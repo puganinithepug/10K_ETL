@@ -1,4 +1,4 @@
-## Dockerized ETL for Automated Extraction & Parsing of SEC EDGAR 10K Fillings with ML-based Reconstruction of Key Financial Statements
+## Dockerized ETL for Automated Extraction & Parsing of SEC EDGAR 10K Fillings with ML-based and NLP-based Reconstruction of Key Financial Statements
 
 **Overview of the ETL**
 
@@ -97,33 +97,72 @@ eg. *bal_sheet_aapl_data.csv, inc_cf_aapl_data.csv*
 
 eg. *meta_data.csv*
 
-**The fourth module of the pipeline is the NLP_Sort_10K_W4.py:**
+**The fourth module of the pipeline is the ML_Sort_10K_W4.py:**
 
 - In this module ML models were used to annotate the datasets produced by the last module, using the the reference datasets for training and validation:
 
 Annotating the balance sheet data with ML-based classifiers:
-- *bal_sheet_example.csv* is the reference dataset used for training to annotate *bal_sheet_{ticker}_data.csv*, to produce *nlp_bal_sheet_{ticker}_data.csv*
+- *bal_sheet_example.csv* is the reference dataset used for training to annotate *bal_sheet_{ticker}_data.csv*, to produce *ml_bal_sheet_{ticker}_data.csv*
 - *bal_sheet_{ticker}_data.csv* contains label and value columns
-- *nlp_bal_sheet_{ticker}_data.csv* has the category column, which is annotated based on the reference dataset
+- *ml_bal_sheet_{ticker}_data.csv* has the category column, which is annotated based on the reference dataset
 
 Categorizing data into income statement vs cashflow statement data and annotating the categories for each statement dataset:
-- *income_&_cashflow_example.csv* is the reference dataset used for training to annotate *inc_cf_{ticker}.csv*, to produce *nlp_inc_cf_{ticker}.csv*
+- *income_&_cashflow_example.csv* is the reference dataset used for training to annotate *inc_cf_{ticker}.csv*, to produce *ml_inc_cf_{ticker}.csv*
 - *inc_cf_{ticker}.csv* contains label and value columns
-- *nlp_inc_cf_{ticker}.csv* has the statement and category columns, which are annotated based on the reference dataset
-- *nlp_inc_cf_{ticker}.csv* data was separated into two csvs based on the statement column annotation: if "income" -> _nlp_inc_{ticker}.csv_, if "cashflow" -> _nlp_cf_{ticker}.csv_
+- *_inc_cf_{ticker}.csv* has the statement and category columns, which are annotated based on the reference dataset
+- *ml_inc_cf_{ticker}.csv* data was separated into two csvs based on the statement column annotation: if "income" -> _ml_inc_{ticker}.csv_, if "cashflow" -> _ml_cf_{ticker}.csv_
 
-NLP-based Classification:
-- LogisticRegression classifier was used for binary categorization for the statement type in the *nlp_inc_cf_{ticker}.csv*
-- For annotating the category columns in both the *nlp_bal_sheet_{ticker}_data.csv* and *inc_cf_{ticker}.csv* datasets, the same training, validation and testing framework was used, leveraging multiple classifiers: LogisticRegression, MultinomialNB, and the DecisionTreeClassifier
+ML-based Classification:
+- LogisticRegression classifier was used for binary categorization for the statement type in the *ml_inc_cf_{ticker}.csv*
+- For annotating the category columns in both the *ml_bal_sheet_{ticker}_data.csv* and *inc_cf_{ticker}.csv* datasets, the same training, validation and testing framework was used, leveraging multiple classifiers: LogisticRegression, MultinomialNB, and the DecisionTreeClassifier
 - The classifiers were first trained and validated in a 70% and 30% split on the reference datasets, then the best classifier was chosen based on the validation results, trained on the full dataset and used to categorize the actual data
 
-Inside of the *nlp_bal_sheet_{ticker}_data.csv nlp_inc_{ticker}.csv, and nlp_cf_{ticker}.csv*, the proper organization of entries within the financial statements is imitated by placing items of the same category together and ordering by size of value 
+Inside of the *ml_bal_sheet_{ticker}_data.csv ml_inc_{ticker}.csv, and ml_cf_{ticker}.csv*, the proper organization of entries within the financial statements is imitated by placing items of the same category together and ordering by size of value 
 
 Prior to initiating the workflow of this module, the user is prompted to enter the minimum confidence threshold score, a decimal value between 0 and 1.
 - In the process of classifying data when the confidence of the classification for an entry falls below the confidence threshold assigned by the user, this entry is flagged
 - Low confidence entries are printed in the console and stored in separate csv files for manual review: *uncertain_bal_sheet_{ticker}.csv, uncertain_inc_cf_{ticker}.csv*
 
-The datasets produced in this module are stored in the *nlp_classified_inc_cf_bal_data_W4* directory:
+The datasets produced in this module are stored in the *ml_classified_inc_cf_bal_data_W4* directory:
+
+eg. *ml_bal_sheet_aapl_data.csv, ml_cf_aapl.csv, ml_inc_cf_aapl.csv, ml_inc_aapl.csv, uncertain_bal_sheet_aapl.csv, uncertain_inc_cf_aapl.csv*
+
+**The fifth module of the pipeline is the NLP_Classifier_W5.py:**
+
+- In this module NLP - a Sentence Transformer model 'all-MiniLM-L6-v2', is used to create semantically meaningful embeddings based on the training datasets produced by the last module
+- The actual classification, is executed using KMeans clustering - this technique is based on grouping labels together based on the embeddings
+- Mix of contextualized vectroization via NLP and clustering classification enables better discovery of previously unseen labels
+- Useful if it is not possible to guarantee that the training dataset of possible financial tags is inexhaustive
+
+Original datasets:
+original_train_bal = 'bal_sheet_example.csv'
+original_train_inc_cf = 'income_&_cashflow_example.csv'
+
+Datasets enriched with maximum confidence predictions:
+learned_bal = "learned_trainset_bal.csv"
+learned_inc_cf = "learned_trainset_inc_cf.csv"
+
+Annotating the balance sheet data with NLP-based classifiers:
+- *bal_sheet_example.csv* is the reference dataset used for training to annotate *bal_sheet_{ticker}_data.csv*, to produce *nlp_bal_sheet_{ticker}_data.csv*
+- *bal_sheet_{ticker}_data.csv* contains label and value columns
+- *nlp_bal_sheet_{ticker}_data.csv* has the category column, which is annotated based on the reference dataset
+
+Categorizing data into income statement vs cashflow statement data and annotating the categories for each statement dataset:
+- *income_&_cashflow_example.csv* is the reference dataset used for training to annotate *inc_cf_{ticker}.csv*, to produce *ml_inc_cf_{ticker}.csv*
+- *inc_cf_{ticker}.csv* contains label and value columns
+- *_inc_cf_{ticker}.csv* has the statement and category columns, which are annotated based on the reference dataset
+- *nlp_inc_cf_{ticker}.csv* data was separated into two csvs based on the statement column annotation: if "income" -> _nlp_inc_{ticker}.csv_, if "cashflow" -> _nlp_cf_{ticker}.csv_
+
+Clustering-based Classification:
+- Simple clustering using KMeans of tags into groupings relying on accuracy of embeddings produced by Sentence Transformers
+
+Prior to initiating the workflow of this module, the user is prompted to enter the minimum confidence threshold score - a decimal value between 0 and 1, and a maximum confidence threshold - a decimal value between 1 and minimum confidence threshold
+- In the process of classifying data when the confidence of the classification for an entry falls below the confidence threshold assigned by the user, this entry is flagged
+- Low confidence entries are printed in the console and stored in separate csv files for manual review: *uncertain_bal_sheet_{ticker}.csv, uncertain_inc_cf_{ticker}.csv*
+- In the process of classifying data when the confidence of the classification for an entry falls below the confidence threshold assigned by the user, this entry is flagged
+- High confidence entries are appended to the _learned_trainset_bal.csv_ and _learned_trainset_inc_cf.csv_ - the model uses its own high confidence predictions data that it generated to retrain itself for better future predictons. Essentially, this allows the model to learn. This fine-tunes the model on the data.
+
+The datasets produced in this module are stored in the *nlp_classified_inc_cf_bal_data_W5* directory:
 
 eg. *nlp_bal_sheet_aapl_data.csv, nlp_cf_aapl.csv, nlp_inc_cf_aapl.csv, nlp_inc_aapl.csv, uncertain_bal_sheet_aapl.csv, uncertain_inc_cf_aapl.csv*
 
