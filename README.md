@@ -112,7 +112,8 @@ Categorizing data into income statement vs cashflow statement data and annotatin
 - *_inc_cf_{ticker}.csv* has the statement and category columns, which are annotated based on the reference dataset
 - *ml_inc_cf_{ticker}.csv* data was separated into two csvs based on the statement column annotation: if "income" -> _ml_inc_{ticker}.csv_, if "cashflow" -> _ml_cf_{ticker}.csv_
 
-ML-based Classification:
+ML Feature Engineering (Simple) & Classifiers:
+- TF-IDF is used fo simple and efficient vectorization of labels - for feature engineering
 - LogisticRegression classifier was used for binary categorization for the statement type in the *ml_inc_cf_{ticker}.csv*
 - For annotating the category columns in both the *ml_bal_sheet_{ticker}_data.csv* and *inc_cf_{ticker}.csv* datasets, the same training, validation and testing framework was used, leveraging multiple classifiers: LogisticRegression, MultinomialNB, and the DecisionTreeClassifier
 - The classifiers were first trained and validated in a 70% and 30% split on the reference datasets, then the best classifier was chosen based on the validation results, trained on the full dataset and used to categorize the actual data
@@ -129,9 +130,14 @@ eg. *ml_bal_sheet_aapl_data.csv, ml_cf_aapl.csv, ml_inc_cf_aapl.csv, ml_inc_aapl
 
 **The fifth module of the pipeline is the NLP_Classifier_W5.py:**
 
-- In this module NLP - a Sentence Transformer model 'all-MiniLM-L6-v2', is used to create semantically meaningful embeddings based on the training datasets produced by the last module
-- The actual classification, is executed using KMeans clustering - this technique is based on grouping labels together based on the embeddings
-- Mix of contextualized vectroization via NLP and clustering classification enables better discovery of previously unseen labels
+ML Feature Engineering (complex) & CLustering:
+- Sentence Transformers embeddings - for feature engineering
+- KMeans Clustering - for discovery of groupings based on the embeddings
+
+- We refer to the ML methods used in this module as NLP-based because the main strength of the workflow comes from the use of Sentence Transformer embeddings, an ML method commonly associated with NLP domain
+- In this module Sentence Transformer model 'all-MiniLM-L6-v2', is used to create semantically meaningful embeddings based on the training datasets produced by the last module
+- Instead if classification, KMeans clustering is used to naturally discover categories - this technique is based on grouping labels together based on the embeddings
+- Using this approach (unsupervised learning), was hypothesized to be better approach given that the training dataset is incomplete
 - Useful if it is not possible to guarantee that the training dataset of possible financial tags is inexhaustive
 
 Original datasets:
