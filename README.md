@@ -1,4 +1,4 @@
-## Dockerized ETL for Automated Extraction & Parsing of SEC EDGAR 10K Fillings with an ML-based Classifier and NLP-based Classifier Reconstruction of Key Financial Statements
+## Dockerized ETL for Extraction, Parsing & Reconstruction from SEC EDGAR 10K Filings
 
 **Overview of the ETL**
 
