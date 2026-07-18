@@ -258,7 +258,19 @@ Before running this project with Docker, make sure you have:
 
 See ETL_Example_Run file to see an example of what to expect after running python3 10K_ETL_main.py. Alternatively see 10K_ETL_main.ipynb for another example.
 
-**Next Steps for Improvement**
+**What Needs to Be Improved:**
+- **The issue:** confidence levels are consistently under 50% for many labels. Low confidence suggests the pre-trained embeddings aren't capturing your financial domain well enough.
+- Siamese netwrks for fine-tuning si one way to address the issue
+- However, it is important to consider multiple causes to the symptom, and therefore examine multiple solution options besides Siamese network-based fine-tuning
+
+| **Issue** | **Underlying Cause** | **Solution** |
+|-----------|-------------------|------------|
+| **Pre-trained embeddings don't fit financial semantics** | `all-MiniLM-L6-v2` trained on generic web text, not domain-specific financial language | Fine-tune Siamese network on financial label pairs (50–200+ pairs of similar/dissimilar labels) |
+| **KMeans hyperparameter K is off** | More financial categories exist in production data than in training dataset; fixed K doesn't adapt | Use elbow method or silhouette score to find optimal K; consider **hierarchical clustering** for variable cluster counts; or implement **dynamic K** based on unseen label density |
+| **Label ambiguity during manual coding** | Financial labels are inherently overlapping; it was hard to categorize the labels manually during open-coding | Accept ambiguity in embedding space; use soft clustering (Gaussian Mixture Model) instead of hard KMeans; lower confidence thresholds to capture borderline cases in `uncertain_*.csv`; retrain on high-confidence pseudo-labels |
+
+
+**Other Minor Improvement**
 - Add high confidence predicted categorized labels to the training datasets
 - Fine-tune sentence tranformer model using the training dataset for better embeddings
 - Convert balance sheet, income statement and cashflow statement csvs into standard tabular format (as it usually appears in formal financial documentation)
