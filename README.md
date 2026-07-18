@@ -267,7 +267,7 @@ See ETL_Example_Run file to see an example of what to expect after running pytho
 |-----------|-------------------|------------|
 | **Pre-trained embeddings don't fit financial semantics** | `all-MiniLM-L6-v2` trained on generic web text, not domain-specific financial language | Fine-tune Siamese network on financial label pairs (50–200+ pairs of similar/dissimilar labels) |
 | **KMeans hyperparameter K is off** | More financial categories exist in production data than in training dataset; fixed K doesn't adapt | Use elbow method or silhouette score to find optimal K; consider **hierarchical clustering** for variable cluster counts; or implement hierarchical clustering instead of KMeans for variable cluter counts |
-| **Label ambiguity during manual coding** | Financial labels are inherently overlapping; it was hard to categorize the labels manually during open-coding | Accept ambiguity in embedding space; use soft clustering (Gaussian Mixture Model) instead of hard KMeans; lower confidence thresholds to capture borderline cases in `uncertain_*.csv`; retrain on high-confidence pseudo-labels |
+| **Label ambiguity during manual coding** | Financial labels are inherently overlapping; it was hard to categorize the labels manually during open-coding | Accept ambiguity in embedding space; use soft clustering (Gaussian Mixture Model) instead of hard KMeans |
 
 
 **Other Minor Improvement**
