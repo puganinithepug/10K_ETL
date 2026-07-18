@@ -161,6 +161,7 @@ ML Feature Engineering (complex) & CLustering:
 | **Interpretability** | ⚠️ Low | ⚠️ Low | ✅ High | ✅ High (semantic clusters) |
 
 - If a reasonale guarantee could have been made that the training data categry labels set is complete then SVM would be a better choice
+
 | Criterion | Scenario: Incomplete Labels | Scenario: Fixed, Complete Labels |
 |-----------|----------------------------|----------------------------------|
 | **Best algorithm** | ✅ KMeans | ✅ SVM (or Random Forest) |
