@@ -131,14 +131,45 @@ eg. *ml_bal_sheet_aapl_data.csv, ml_cf_aapl.csv, ml_inc_cf_aapl.csv, ml_inc_aapl
 **The fifth module of the pipeline is the NLP_Classifier_W5.py:**
 
 ML Feature Engineering (complex) & CLustering:
-- Sentence Transformers embeddings - for feature engineering
+- BERT-based Sentence Transformers embeddings - for feature engineering
 - KMeans Clustering - for discovery of groupings based on the embeddings
 
 - We refer to the ML methods used in this module as NLP-based because the main strength of the workflow comes from the use of Sentence Transformer embeddings, an ML method commonly associated with NLP domain
+  
 - In this module Sentence Transformer model 'all-MiniLM-L6-v2', is used to create semantically meaningful embeddings based on the training datasets produced by the last module
+- In this case the model has not been fine-tuned using the dataset available
+- An improvement to the quality of embeddings would be to fine-tune the embedding model using the trianing data set
+ 
 - Instead if classification, KMeans clustering is used to naturally discover categories - this technique is based on grouping labels together based on the embeddings
 - Using this approach (unsupervised learning), was hypothesized to be better approach given that the training dataset is incomplete
-- Useful if it is not possible to guarantee that the training dataset of possible financial tags is inexhaustive
+- Useful if it is not possible to guarantee that the training dataset of possible financial labels is inexhaustive
+- The assumption made with choosing clustering is that the data set has incomplete labels and incomplete categories
+- Generally, KMeans clustering approach was chosen over classification methods because there is a possibility that not only are there labels that are not covered in the training data, but there is possibility that there are categories that are not covered by the training data
+- The training data is randomly sampled and aggregated finacial labels of SEC 10-K filings of several companies, across the past 20 years
+- The labels were seprataed into balance sheet vs income statement and cashflow statement (aggregated in same file) files. For each file the entries (labels) were then annotated with statement type and category, manually via research-assisted open-coding process
+
+**Why use KMeans over K-NN,	SVM, or	Random Forest?**
+
+| Criterion | K-NN | SVM | Random Forest | KMeans |
+|-----------|------|-----|---------------|--------|
+| **Handles unseen labels?** | ❌ No | ❌ No | ❌ No | ✅ Yes |
+| **Leverages embedding geometry?** | ⚠️ Partial (distance-based) | ❌ No (hyperplane splits) | ❌ No (tree splits) | ✅ Yes (centroid distance) |
+| **Requires complete label set?** | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
+| **Confidence scoring?** | ⚠️ K-vote only | ❌ No | ❌ No | ✅ Yes (distance to centroid) |
+| **Self-learning (pseudo-labeling)?** | ❌ Expensive retraining | ❌ Expensive retraining | ❌ Expensive retraining | ✅ Incremental updates |
+| **Scalable to many labels?** | ⚠️ O(n) lookup | ❌ O(n) support vectors | ❌ Retraining required | ✅ O(k) where k = clusters |
+| **Interpretability** | ⚠️ Low | ⚠️ Low | ✅ High | ✅ High (semantic clusters) |
+
+- If a reasonale guarantee could have been made that the training data categry labels set is complete then SVM would be a better choice
+| Criterion | Scenario: Incomplete Labels | Scenario: Fixed, Complete Labels |
+|-----------|----------------------------|----------------------------------|
+| **Best algorithm** | ✅ KMeans | ✅ SVM (or Random Forest) |
+| **Reasoning** | No category ground truth; need to discover structure | Clear categories; need to learn boundaries |
+| **Unseen label handling** | Maps to nearest cluster (semantic discovery) | Maps to most confident class (discriminative decision) |
+| **Self-learning** | Incremental cluster refinement | Requires full retraining |
+| **Assumption** | "Data naturally clusters" | "Categories are linearly separable (with kernel)" |
+
+**Data Processed in this Module:**
 
 Original datasets:
 original_train_bal = 'bal_sheet_example.csv'
@@ -227,5 +258,6 @@ Before running this project with Docker, make sure you have:
 See ETL_Example_Run file to see an example of what to expect after running python3 10K_ETL_main.py. Alternatively see 10K_ETL_main.ipynb for another example.
 
 **Next Steps for Improvement**
-- Allowing the ML classifiers to learn new terms by adding high confidence terms to the reference datasets used for training and validation
+- Add high confidence predicted categorized labels to the training datasets
+- Fine-tune sentence tranformer model using the training dataset for better embeddings
 - Convert balance sheet, income statement and cashflow statement csvs into standard tabular format (as it usually appears in formal financial documentation)
