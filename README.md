@@ -2,9 +2,8 @@
 
 **Overview of the ETL**
 
-The ETL was inspired by my internship experience as an Accounting Assistant at Cadillac (Automotive Distribution Center). 
-As an Accounting Assistant I supported ERP-based financial reporting, compliance controls, and structured enterprise data workflows with local ERP software (1C), building and reviewing audit trails, SOC1 internal reporting style process.
-I also analyzed balance sheets, income statements, and cash flow statements monthly and quarterly fluxes. 
+I built a scalable, Dockerized SEC 10-K Extract-Transform-Load agent for automated searching, parsing and extraction of XML filings into key financial statements. An essential aspect of this project was analyzing meta-relationships in the data and pre-sorting entries by the context-reference feature. Grouping entries by context reference revealed membership to the same statement, and aggregating groups with entries that share common labels revealed two large sets representing balance sheet data vs income and cashflow statement data. I deployed the agent to separate cashflow versus income statement entries, and to separate entries into categories within each statement type. I used open coding to annotate sample 10-K entries by statement and category. The agent combines TF-IDF and semantic clustering pipelines. Unsupervised learning addressed the possibility of the data being incomplete. Training data is enriched with high-confidence classifications to improve accuracy over time. It reduces manual effort by 92%—from 2 hours to 10 minutes. 
+
 
 This project began as an initiative to deepen my understanding of financial reporting processes and controls by leveraging my technical skills to build an ETL for financial data processing and analysis. 
 
